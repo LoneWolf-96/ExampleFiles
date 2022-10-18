@@ -1,0 +1,202 @@
+2022-09-17T16:29:01.718891Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Target handler state: enabled [incarnation 2]
+2022-09-17T16:29:01.719319Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] [Enable] current handler state is: notinstalled
+2022-09-17T16:29:01.719811Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Downloading extension package: https://umsawm5dzzxm3plcv2v4.blob.core.windows.net/68216624-9f0f-fb7d-0436-37bcbd666b7a/68216624-9f0f-fb7d-0436-37bcbd666b7a_1.14.19.zip
+2022-09-17T16:29:03.151005Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Unzipping extension package: /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux__1.14.19.zip
+2022-09-17T16:29:03.640807Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Initializing extension Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19
+2022-09-17T16:29:03.646225Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Update settings file: 0.settings
+2022-09-17T16:29:03.646569Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Install extension [omsagent_shim.sh -install]
+2022-09-17T16:29:03.646925Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Executing command: /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/omsagent_shim.sh -install with environment variables: {"AZURE_GUEST_AGENT_UNINSTALL_CMD_EXIT_CODE": "NOT_RUN", "AZURE_GUEST_AGENT_EXTENSION_PATH": "/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19", "AZURE_GUEST_AGENT_EXTENSION_VERSION": "1.14.19", "AZURE_GUEST_AGENT_WIRE_PROTOCOL_ADDRESS": "168.63.129.16", "ConfigSequenceNumber": "0", "AZURE_GUEST_AGENT_EXTENSION_SUPPORTED_FEATURES": "[{\"Key\": \"ExtensionTelemetryPipeline\", \"Value\": \"1.0\"}]"}
+2022-09-17T16:29:32.683511Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Command: omsagent_shim.sh -install
+[stdout]
+2022/09/17 16:Info: Falling back to /etc/os-release distribution parsing
+x-1.14.19] Install,success,0,Install succeeded
+[stderr]
+ mean "!="?
+  if exit_code is not 0:
+./omsagent.py:314: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if exit_code is 1 and operation == 'Install':
+./omsagent.py:319: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 127 and operation == 'Install':
+./omsagent.py:330: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif exit_code is not 0:
+./omsagent.py:656: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if exit_code is 0:
+./omsagent.py:1015: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if exit_code is not 0:
+./omsagent.py:1031: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if check_exit_code is not 0:
+./omsagent.py:1035: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if exit_code is not 0:
+./omsagent.py:1204: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if cert_exit_code is 0:
+./omsagent.py:1239: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if exit_code is 0:
+./omsagent.py:1243: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 1:
+./omsagent.py:1260: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if exit_code is 0:
+./omsagent.py:1264: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 1:
+./omsagent.py:1313: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if exit_code is 17:
+./omsagent.py:1334: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 19:
+./omsagent.py:1347: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 33:
+./omsagent.py:1355: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 18:
+./omsagent.py:1360: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 5:
+./omsagent.py:1367: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 8:
+./omsagent.py:1375: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if exit_code is not 0 and exit_code is not 52:
+./omsagent.py:1375: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if exit_code is not 0 and exit_code is not 52:
+./omsagent.py:1480: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if exit_code is not 0:
+./omsagent.py:1522: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif (not curl_found and apt_get_exit_code is 0 and
+./omsagent.py:1529: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif not curl_found and apt_get_exit_code is 0:
+./omsagent.py:2004: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if (oms_response_http_code is 202 or oms_response_http_code is 204
+./omsagent.py:2004: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if (oms_response_http_code is 202 or oms_response_http_code is 204
+./omsagent.py:2005: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  or oms_response_http_code is 404):
+./omsagent.py:2076: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if exit_code is 0:
+/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLin
+2022-09-17T16:29:32.685372Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Requested extension state: enabled
+2022-09-17T16:29:32.685767Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Enable extension: [omsagent_shim.sh -enable]
+2022-09-17T16:29:32.686163Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Executing command: /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/omsagent_shim.sh -enable with environment variables: {"AZURE_GUEST_AGENT_UNINSTALL_CMD_EXIT_CODE": "NOT_RUN", "AZURE_GUEST_AGENT_EXTENSION_PATH": "/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19", "AZURE_GUEST_AGENT_EXTENSION_VERSION": "1.14.19", "AZURE_GUEST_AGENT_WIRE_PROTOCOL_ADDRESS": "168.63.129.16", "ConfigSequenceNumber": "0", "AZURE_GUEST_AGENT_EXTENSION_SUPPORTED_FEATURES": "[{\"Key\": \"ExtensionTelemetryPipeline\", \"Value\": \"1.0\"}]"}
+2022-09-17T16:29:44.703472Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Command: omsagent_shim.sh -enable
+[stdout]
+2022/09/17 16:Info: Falling back to /etc/os-release distribution parsing
+x-1.14.19] Enable,success,0,Enable succeeded
+[stderr]
+ope
+./omsagent.py:286: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if exit_code is not 0:
+./omsagent.py:314: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if exit_code is 1 and operation == 'Install':
+./omsagent.py:319: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 127 and operation == 'Install':
+./omsagent.py:330: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif exit_code is not 0:
+./omsagent.py:656: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if exit_code is 0:
+./omsagent.py:1015: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if exit_code is not 0:
+./omsagent.py:1031: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if check_exit_code is not 0:
+./omsagent.py:1035: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if exit_code is not 0:
+./omsagent.py:1204: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if cert_exit_code is 0:
+./omsagent.py:1239: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if exit_code is 0:
+./omsagent.py:1243: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 1:
+./omsagent.py:1260: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if exit_code is 0:
+./omsagent.py:1264: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 1:
+./omsagent.py:1313: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if exit_code is 17:
+./omsagent.py:1334: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 19:
+./omsagent.py:1347: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 33:
+./omsagent.py:1355: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 18:
+./omsagent.py:1360: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 5:
+./omsagent.py:1367: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 8:
+./omsagent.py:1375: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if exit_code is not 0 and exit_code is not 52:
+./omsagent.py:1375: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if exit_code is not 0 and exit_code is not 52:
+./omsagent.py:1480: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if exit_code is not 0:
+./omsagent.py:1522: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif (not curl_found and apt_get_exit_code is 0 and
+./omsagent.py:1529: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif not curl_found and apt_get_exit_code is 0:
+./omsagent.py:2004: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if (oms_response_http_code is 202 or oms_response_http_code is 204
+./omsagent.py:2004: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if (oms_response_http_code is 202 or oms_response_http_code is 204
+./omsagent.py:2005: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  or oms_response_http_code is 404):
+./omsagent.py:2076: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if exit_code is 0:
+2022-09-20T16:06:51.700536Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Target handler state: enabled [incarnation_2]
+2022-09-20T16:06:51.701242Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] [Enable] current handler state is: enabled
+2022-09-20T16:06:51.701403Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Update settings file: 0.settings
+2022-09-20T16:06:51.701725Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Requested extension state: enabled
+2022-09-20T16:06:51.702179Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Enable extension: [omsagent_shim.sh -enable]
+2022-09-20T16:06:51.702528Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Executing command: /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/omsagent_shim.sh -enable with environment variables: {"AZURE_GUEST_AGENT_UNINSTALL_CMD_EXIT_CODE": "NOT_RUN", "AZURE_GUEST_AGENT_EXTENSION_PATH": "/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19", "AZURE_GUEST_AGENT_EXTENSION_VERSION": "1.14.19", "AZURE_GUEST_AGENT_WIRE_PROTOCOL_ADDRESS": "168.63.129.16", "ConfigSequenceNumber": "0", "AZURE_GUEST_AGENT_EXTENSION_SUPPORTED_FEATURES": "[{\"Key\": \"ExtensionTelemetryPipeline\", \"Value\": \"1.0\"}]"}
+2022-09-20T16:06:59.736318Z INFO ExtHandler [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Command: omsagent_shim.sh -enable
+[stdout]
+2022/09/20 16:Info: Falling back to /etc/os-release distribution parsing
+x-1.14.19] Enable,success,0,Enable succeeded
+[stderr]
+./omsagent.py:286: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if exit_code is not 0:
+./omsagent.py:314: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if exit_code is 1 and operation == 'Install':
+./omsagent.py:319: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 127 and operation == 'Install':
+./omsagent.py:330: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  elif exit_code is not 0:
+./omsagent.py:656: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if exit_code is 0:
+./omsagent.py:1015: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if exit_code is not 0:
+./omsagent.py:1031: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if check_exit_code is not 0:
+./omsagent.py:1035: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if exit_code is not 0:
+./omsagent.py:1204: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if cert_exit_code is 0:
+./omsagent.py:1239: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if exit_code is 0:
+./omsagent.py:1243: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 1:
+./omsagent.py:1260: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if exit_code is 0:
+./omsagent.py:1264: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 1:
+./omsagent.py:1313: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if exit_code is 17:
+./omsagent.py:1334: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 19:
+./omsagent.py:1347: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 33:
+./omsagent.py:1355: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 18:
+./omsagent.py:1360: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 5:
+./omsagent.py:1367: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif exit_code is 8:
+./omsagent.py:1375: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if exit_code is not 0 and exit_code is not 52:
+./omsagent.py:1375: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if exit_code is not 0 and exit_code is not 52:
+./omsagent.py:1480: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if exit_code is not 0:
+./omsagent.py:1522: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif (not curl_found and apt_get_exit_code is 0 and
+./omsagent.py:1529: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif not curl_found and apt_get_exit_code is 0:
+./omsagent.py:2004: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if (oms_response_http_code is 202 or oms_response_http_code is 204
+./omsagent.py:2004: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if (oms_response_http_code is 202 or oms_response_http_code is 204
+./omsagent.py:2005: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  or oms_response_http_code is 404):
+./omsagent.py:2076: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if exit_code is 0:

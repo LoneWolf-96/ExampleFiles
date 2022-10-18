@@ -1,0 +1,1 @@
+Oct 11 06:15:10 linux-example kernel: [2038117.138655] hv_storvsc f8b3781a-1e82-4818-a1c3-63d806ec15bb: tag#6 cmd 0x43 status: scsi 0x2 srb 0x84 hv 0xc0000001

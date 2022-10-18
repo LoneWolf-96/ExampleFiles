@@ -1,0 +1,322 @@
+2022/09/17 16:29:03 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] sequence number is 0
+2022/09/17 16:29:03 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] setting file path is/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/config/0.settings
+2022/09/17 16:29:03 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] JSON config: {"runtimeSettings": [{"handlerSettings": {"publicSettings": {"workspaceId": "d29aaf1b-f995-460b-b44b-bc8ee6c981e2"}, "protectedSettings": "MIICtAYJKoZIhvcNAQcDoIICpTCCAqECAQAxggFpMIIBZQIBADBNMDkxNzA1BgoJkiaJk/IsZAEZFidXaW5kb3dzIEF6dXJlIENSUCBDZXJ0aWZpY2F0ZSBHZW5lcmF0b3ICEF5E+XA/7PSeROEsGgK3rUEwDQYJKoZIhvcNAQEBBQAEggEARUlYJ+LzsJ0+x8y69XPXQDm4+uRorEzWTEs5HJyfw5mSN73wq4ZOpea9mPJTAI3M4Nw5ASWN4hLUcjT17WV+BO2e8hlQnmrVNYV2E7hDoi2xYQKrMOYpw6NVJJr6QGv32niR3Zo4OoGDnG7SyYLE3OArtkgpx6ds8OwpeBU63SuJzJ3tz7naNww/2/MWco4xPZM1BpC2yc43DD/85gATTiWJRU/HLbnvSYuIleMV5uGxxyWVorhtCkV7gnbdWFq7y40CWv6VGvEcOqtkjyW2kVI3+p0SYkVuGZzYkEzoQFnnXoNs1bl1327Zs/OyGvkH/vchRbSYwHu5+bZQRv+2FzCCAS0GCSqGSIb3DQEHATAUBggqhkiG9w0DBwQImm8WtN2LJQqAggEIfQWGBOItftJbQojN6PnbcTxNu1NdtWcUp9S+ti7fG3kMFB8fl2qNSyvfG9j3BlIKh+qADRsPPw7D9I8uaThUXJs/cfMXGmNAa84NldZyFdRBzYy4NeBuoYPxSMRCpdnpgek0Ro8zLCp3QLPLwQ6c7cBg5R/jUHxbOAOkJ6+0lyvIO5PAQkFB+rKPpVMRBeMEos7DRVnsCQwbo2MeIri40GsZv7omzpf74fVyzDs47aSWox+v1poZvcDGjDoyGHhMwqqH5t15gHoV0t76BaKw6yh8e643B1DkV3sxtL58GNBCwAjQFMM5o6zwD+f1L+T13Fr0eJn3YEk4IlDfowcLFFB1tYtIfNNE", "protectedSettingsCertThumbprint": "*** REDACTED ***"}}]}
+2022/09/17 16:29:03 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Config decoded correctly.
+2022/09/17 16:29:03 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Start signing verification
+2022/09/17 16:29:10 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Output of command "sh ImportGPGkey.sh /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/keys/dscgpgkey.asc": 
+2022/09/17 16:29:10 gpg: keybox '/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/keys/keyring.gpg' created
+2022/09/17 16:29:10 gpg: directory '/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/keys/.gnupg' created
+2022/09/17 16:29:10 gpg: /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/keys/.gnupg/trustdb.gpg: trustdb created
+2022/09/17 16:29:10 gpg: key 20541A3DDE321294: public key "Microsoft (Release Signing) <dscgpgkey@microsoft.com>" imported
+2022/09/17 16:29:10 gpg: can't connect to the agent: IPC connect call failed
+2022/09/17 16:29:10 gpg: Total number processed: 1
+2022/09/17 16:29:10 gpg:               imported: 1
+2022/09/17 16:29:11 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Output of command "HOME=keys gpg --no-default-keyring --keyring /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/keys/keyring.gpg --verify /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/packages/omsagent-1.14.19-0.universal.x64.asc /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/packages/omsagent-1.14.19-0.universal.x64.sha256sums": 
+2022/09/17 16:29:11 gpg: Signature made Sat Jul 23 07:22:48 2022 UTC
+2022/09/17 16:29:11 gpg:                using RSA key 20541A3DDE321294
+2022/09/17 16:29:11 gpg: Good signature from "Microsoft (Release Signing) <dscgpgkey@microsoft.com>" [unknown]
+2022/09/17 16:29:11 gpg: WARNING: This key is not certified with a trusted signature!
+2022/09/17 16:29:11 gpg:          There is no indication that the signature belongs to the owner.
+2022/09/17 16:29:11 Primary key fingerprint: FD11 17B0 1035 ABDB 743F  FDF1 2054 1A3D DE32 1294
+2022/09/17 16:29:11 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Perform SHA256 sums to verify shell bundle
+2022/09/17 16:29:11 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Output of command "cd /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/packages; sha256sum -c /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/packages/omsagent-1.14.19-0.universal.x64.sha256sums": 
+2022/09/17 16:29:11 omsagent-1.14.19-0.universal.x64.sh: OK
+2022/09/17 16:29:11 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] ShellBundle signing verification succeeded
+2022/09/17 16:29:11 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Falling back to /etc/os-release distribution parsing
+2022/09/17 16:29:11 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Running command "/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/packages/omsagent-1.14.19-0.universal.x64.sh --upgrade "
+2022/09/17 16:29:30 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Output of command "/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/packages/omsagent-1.14.19-0.universal.x64.sh --upgrade": 
+2022/09/17 16:29:30 Extracting OMS agent install bundle...
+2022/09/17 16:29:30 ----- Upgrading package omi to version (omi-1.6.9-1.ulinux.x64) -----
+2022/09/17 16:29:30 Selecting previously unselected package omi.
+2022/09/17 16:29:30 (Reading database ... 59260 files and directories currently installed.)
+2022/09/17 16:29:30 Preparing to unpack 110/omi-1.6.9-1.ulinux.x64.deb ...
+2022/09/17 16:29:30 Creating omiusers group ...
+2022/09/17 16:29:30 Creating omi group ...
+2022/09/17 16:29:30 Creating omi service account ...
+2022/09/17 16:29:30 Unpacking omi (1.6.9.1) ...
+2022/09/17 16:29:30 Setting up omi (1.6.9.1) ...
+2022/09/17 16:29:30 Generating a RSA private key
+2022/09/17 16:29:30 ..................+++++
+2022/09/17 16:29:30 ..................................................................+++++
+2022/09/17 16:29:30 writing new private key to '/etc/opt/omi/ssl/omikey.pem'
+2022/09/17 16:29:30 -----
+2022/09/17 16:29:30 problems making Certificate Request
+2022/09/17 16:29:30 140681758598464:error:0D07A097:asn1 encoding routines:ASN1_mbstring_ncopy:string too long:../crypto/asn1/a_mbstr.c:107:maxsize=64
+2022/09/17 16:29:30 Error generating ssl keys. Now trying fallback FQDN : localhost.local
+2022/09/17 16:29:30 Generating a RSA private key
+2022/09/17 16:29:30 ..+++++
+2022/09/17 16:29:30 .........................................................................................................................................................................................+++++
+2022/09/17 16:29:30 writing new private key to '/etc/opt/omi/ssl/omikey.pem'
+2022/09/17 16:29:30 -----
+2022/09/17 16:29:30 2022-09-17 16:29:20 : Crontab not configured to update omi keytab automatically. Skip unconfigure
+2022/09/17 16:29:30 ktutil not found
+2022/09/17 16:29:30 Checking if cron is installed...
+2022/09/17 16:29:30 Checking if cron/crond service is started...
+2022/09/17 16:29:30 Set up a cron job to OMI logrotate every 15 minutes
+2022/09/17 16:29:30 Configuring OMI service ...
+2022/09/17 16:29:30 Created symlink /etc/systemd/system/multi-user.target.wants/omid.service  /lib/systemd/system/omid.service.
+2022/09/17 16:29:30 Trying to start omi with systemctl
+2022/09/17 16:29:30 omi is started.
+2022/09/17 16:29:30 Processing triggers for systemd (245.4-4ubuntu3.17) ...
+2022/09/17 16:29:30 Trying to stop omi with systemctl
+2022/09/17 16:29:30 omi is stopped.
+2022/09/17 16:29:30 Trying to start omi with systemctl
+2022/09/17 16:29:30 omi is started.
+2022/09/17 16:29:30 ----- Upgrading package scx to version (scx-1.6.9-2.universal.x64) -----
+2022/09/17 16:29:30 Selecting previously unselected package scx.
+2022/09/17 16:29:30 (Reading database ... 59323 files and directories currently installed.)
+2022/09/17 16:29:30 Preparing to unpack .../scx-1.6.9-2.universal.x64.deb ...
+2022/09/17 16:29:30 Unpacking scx (1.6.9.2) ...
+2022/09/17 16:29:30 Setting up scx (1.6.9.2) ...
+2022/09/17 16:29:30 Generating certificate with hostname="linux-example", domainname="wmhz2weq1wqengnwhzwajco3kd.zx.internal.cloudapp.net"
+2022/09/17 16:29:30 Error generating SSL certificate.  Use scxsslconfig to generate a new certificate, specifying host and domain names if necessary.  The error was: 'Unable to add the domain name to the subject.'
+2022/09/17 16:29:30 Hostname or domain likely not RFC compliant, trying fallback: "localhost.local"
+2022/09/17 16:29:30 Generating certificate with hostname="localhost", domainname="local"
+2022/09/17 16:29:30 Trying to stop omi with systemctl
+2022/09/17 16:29:30 omi is stopped.
+2022/09/17 16:29:30 Trying to start omi with systemctl
+2022/09/17 16:29:30 omi is started.
+2022/09/17 16:29:30 ----- Upgrading package omsagent to version (omsagent-1.14.19-0.universal.x64) -----
+2022/09/17 16:29:30 Selecting previously unselected package omsagent.
+2022/09/17 16:29:30 (Reading database ... 59368 files and directories currently installed.)
+2022/09/17 16:29:30 Preparing to unpack .../omsagent-1.14.19-0.universal.x64.deb ...
+2022/09/17 16:29:30 Creating omsagent group ...
+2022/09/17 16:29:30 Creating omsagent service account ...
+2022/09/17 16:29:30 Creating nxautomation group ...
+2022/09/17 16:29:30 Creating nxautomation service account ...
+2022/09/17 16:29:30 Unpacking omsagent (1.14.19.0) ...
+2022/09/17 16:29:30 Setting up omsagent (1.14.19.0) ...
+2022/09/17 16:29:30 Trying to stop omi with systemctl
+2022/09/17 16:29:30 omi is stopped.
+2022/09/17 16:29:30 Trying to start omi with systemctl
+2022/09/17 16:29:30 omi is started.
+2022/09/17 16:29:30 Processing triggers for systemd (245.4-4ubuntu3.17) ...
+2022/09/17 16:29:30 Applying Syslog conf hotfix...
+2022/09/17 16:29:30 Syslog conf (/etc/opt/microsoft/omsagent/conf/omsagent.d/syslog.conf) not found, hotfix skipped.
+2022/09/17 16:29:30 Removing omsconfig package as part of upgrade
+2022/09/17 16:29:30 ----- Removing package: omsconfig -----
+2022/09/17 16:29:30 dpkg: warning: ignoring request to remove omsconfig which isn't installed
+2022/09/17 16:29:30 ----- Upgrading package omsconfig to version (omsconfig-1.1.1-936.x64) -----
+2022/09/17 16:29:30 Selecting previously unselected package omsconfig.
+2022/09/17 16:29:30 (Reading database ... 69048 files and directories currently installed.)
+2022/09/17 16:29:30 Preparing to unpack .../omsconfig-1.1.1-936.x64.deb ...
+2022/09/17 16:29:30 Using python3
+2022/09/17 16:29:30 Cleanning up existing dsc_hosts...
+2022/09/17 16:29:30 chmod: cannot access '/opt/dsc': No such file or directory
+2022/09/17 16:29:30 Deployment operation type : install
+2022/09/17 16:29:30 Cleanning directory /opt/dsc...
+2022/09/17 16:29:30 Cleaned up existing dsc_hosts...
+2022/09/17 16:29:30 Unpacking omsconfig (1.1.1.936) ...
+2022/09/17 16:29:30 Setting up omsconfig (1.1.1.936) ...
+2022/09/17 16:29:30 Using python3
+2022/09/17 16:29:30 Running python3, python version is , python3
+2022/09/17 16:29:30 su: warning: cannot change directory to /var/opt/microsoft/omsagent/run: No such file or directory
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Extracting module zip file from /opt/microsoft/omsconfig/module_packages/nx_1.2.zip to /opt/microsoft/omsconfig/modules
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Installing resource MSFT_nxGroupResource
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/omi/lib/libMSFT_nxGroupResource_root-oms.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/dsc/lib/MSFT_nxGroupResource/libMSFT_nxGroupResource.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /etc/opt/omi/conf/omiregister/root-oms/MSFT_nxGroupResource.reg to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Installing resource MSFT_nxUserResource
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/omi/lib/libMSFT_nxUserResource_root-oms.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/dsc/lib/MSFT_nxUserResource/libMSFT_nxUserResource.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /etc/opt/omi/conf/omiregister/root-oms/MSFT_nxUserResource.reg to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Installing resource MSFT_nxServiceResource
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/omi/lib/libMSFT_nxServiceResource_root-oms.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/dsc/lib/MSFT_nxServiceResource/libMSFT_nxServiceResource.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /etc/opt/omi/conf/omiregister/root-oms/MSFT_nxServiceResource.reg to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Installing resource MSFT_nxAvailableUpdatesResource
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/omi/lib/libMSFT_nxAvailableUpdatesResource_root-oms.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/dsc/lib/MSFT_nxAvailableUpdatesResource/libMSFT_nxAvailableUpdatesResource.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /etc/opt/omi/conf/omiregister/root-oms/MSFT_nxAvailableUpdatesResource.reg to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Installing resource MSFT_nxPackageResource
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/omi/lib/libMSFT_nxPackageResource_root-oms.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/dsc/lib/MSFT_nxPackageResource/libMSFT_nxPackageResource.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /etc/opt/omi/conf/omiregister/root-oms/MSFT_nxPackageResource.reg to 0o644
+2022/09/17 16:29:30 The result code is 0
+2022/09/17 16:29:30 su: warning: cannot change directory to /var/opt/microsoft/omsagent/run: No such file or directory
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Extracting module zip file from /opt/microsoft/omsconfig/module_packages/nxOMSPerfCounter_2.3.zip to /opt/microsoft/omsconfig/modules
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Installing resource MSFT_nxOMSPerfCounterResource
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/omi/lib/libMSFT_nxOMSPerfCounterResource_root-oms.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/dsc/lib/MSFT_nxOMSPerfCounterResource/libMSFT_nxOMSPerfCounterResource.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /etc/opt/omi/conf/omiregister/root-oms/MSFT_nxOMSPerfCounterResource.reg to 0o644
+2022/09/17 16:29:30 The result code is 0
+2022/09/17 16:29:30 su: warning: cannot change directory to /var/opt/microsoft/omsagent/run: No such file or directory
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Extracting module zip file from /opt/microsoft/omsconfig/module_packages/nxOMSSyslog_2.5.zip to /opt/microsoft/omsconfig/modules
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Installing resource MSFT_nxOMSSyslogResource
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/omi/lib/libMSFT_nxOMSSyslogResource_root-oms.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/dsc/lib/MSFT_nxOMSSyslogResource/libMSFT_nxOMSSyslogResource.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /etc/opt/omi/conf/omiregister/root-oms/MSFT_nxOMSSyslogResource.reg to 0o644
+2022/09/17 16:29:30 The result code is 0
+2022/09/17 16:29:30 su: warning: cannot change directory to /var/opt/microsoft/omsagent/run: No such file or directory
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Extracting module zip file from /opt/microsoft/omsconfig/module_packages/nxOMSSudoCustomLog_2.8.zip to /opt/microsoft/omsconfig/modules
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Installing resource MSFT_nxOMSSudoCustomLogResource
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/omi/lib/libMSFT_nxOMSSudoCustomLogResource_root-oms.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/dsc/lib/MSFT_nxOMSSudoCustomLogResource/libMSFT_nxOMSSudoCustomLogResource.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /etc/opt/omi/conf/omiregister/root-oms/MSFT_nxOMSSudoCustomLogResource.reg to 0o644
+2022/09/17 16:29:30 The result code is 0
+2022/09/17 16:29:30 su: warning: cannot change directory to /var/opt/microsoft/omsagent/run: No such file or directory
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Extracting module zip file from /opt/microsoft/omsconfig/module_packages/nxOMSKeyMgmt_1.0.zip to /opt/microsoft/omsconfig/modules
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Installing resource MSFT_nxOMSKeyMgmtResource
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/omi/lib/libMSFT_nxOMSKeyMgmtResource_root-oms.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/dsc/lib/MSFT_nxOMSKeyMgmtResource/libMSFT_nxOMSKeyMgmtResource.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /etc/opt/omi/conf/omiregister/root-oms/MSFT_nxOMSKeyMgmtResource.reg to 0o644
+2022/09/17 16:29:30 The result code is 0
+2022/09/17 16:29:30 su: warning: cannot change directory to /var/opt/microsoft/omsagent/run: No such file or directory
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Extracting module zip file from /opt/microsoft/omsconfig/module_packages/nxFileInventory_1.4.zip to /opt/microsoft/omsconfig/modules
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Installing resource MSFT_nxFileInventoryResource
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/omi/lib/libMSFT_nxFileInventoryResource_root-oms.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/dsc/lib/MSFT_nxFileInventoryResource/libMSFT_nxFileInventoryResource.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /etc/opt/omi/conf/omiregister/root-oms/MSFT_nxFileInventoryResource.reg to 0o644
+2022/09/17 16:29:30 The result code is 0
+2022/09/17 16:29:30 su: warning: cannot change directory to /var/opt/microsoft/omsagent/run: No such file or directory
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Extracting module zip file from /opt/microsoft/omsconfig/module_packages/nxOMSGenerateInventoryMof_1.5.zip to /opt/microsoft/omsconfig/modules
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Installing resource MSFT_nxOMSGenerateInventoryMofResource
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/omi/lib/libMSFT_nxOMSGenerateInventoryMofResource_root-oms.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /opt/dsc/lib/MSFT_nxOMSGenerateInventoryMofResource/libMSFT_nxOMSGenerateInventoryMofResource.so to 0o644
+2022/09/17 16:29:30 VERBOSE from InstallModule.py: Updated permissions of file: /etc/opt/omi/conf/omiregister/root-oms/MSFT_nxOMSGenerateInventoryMofResource.reg to 0o644
+2022/09/17 16:29:30 The result code is 0
+2022/09/17 16:29:30 su: warning: cannot change directory to /var/opt/microsoft/omsagent/run: No such file or directory
+2022/09/17 16:29:30 gpg: keybox '/etc/opt/omi/conf/omsconfig/keymgmtring.gpg' created
+2022/09/17 16:29:30 gpg: directory '/etc/opt/omi/conf/omsconfig/.gnupg' created
+2022/09/17 16:29:30 gpg: /etc/opt/omi/conf/omsconfig/.gnupg/trustdb.gpg: trustdb created
+2022/09/17 16:29:30 gpg: key C4EC49E544BC4178: public key "Microsoft (Release Signing) <msgpgkey@microsoft.com>" imported
+2022/09/17 16:29:30 gpg: Total number processed: 1
+2022/09/17 16:29:30 gpg:               imported: 1
+2022/09/17 16:29:30 su: warning: cannot change directory to /var/opt/microsoft/omsagent/run: No such file or directory
+2022/09/17 16:29:30 gpg: keybox '/etc/opt/omi/conf/omsconfig/keyring.gpg' created
+2022/09/17 16:29:30 gpg: key 20541A3DDE321294: public key "Microsoft (Release Signing) <dscgpgkey@microsoft.com>" imported
+2022/09/17 16:29:30 gpg: Total number processed: 1
+2022/09/17 16:29:30 gpg:               imported: 1
+2022/09/17 16:29:30 Reset ownership of files defined in /etc/sudoers.d/omsagent
+2022/09/17 16:29:30 Trying to stop omi with systemctl
+2022/09/17 16:29:30 omi is stopped.
+2022/09/17 16:29:30 Trying to start omi with systemctl
+2022/09/17 16:29:30 omi is started.
+2022/09/17 16:29:30 Using python3
+2022/09/17 16:29:30 Applying DSC nxOMSSyslog hotfix...
+2022/09/17 16:29:30 Trying to stop omi with systemctl
+2022/09/17 16:29:30 omi is stopped.
+2022/09/17 16:29:30 Trying to start omi with systemctl
+2022/09/17 16:29:30 omi is started.
+2022/09/17 16:29:30 ----- Updating bundled provider packages -----
+2022/09/17 16:29:30 Checking if Apache is installed ...
+2022/09/17 16:29:30   Apache found, Apache agent will be installed
+2022/09/17 16:29:30 Extracting...
+2022/09/17 16:29:30 Updating Apache agent ...
+2022/09/17 16:29:30 ----- Updating package: apache-cimprov (apache-cimprov-1.0.1-10.universal.1.x86_64) -----
+2022/09/17 16:29:30 Detected Apache v2.4 ...
+2022/09/17 16:29:30 Selecting previously unselected package apache-cimprov.
+2022/09/17 16:29:30 (Reading database ... 69153 files and directories currently installed.)
+2022/09/17 16:29:30 Preparing to unpack .../apache-cimprov-1.0.1-10.universal.1.x86_64.deb ...
+2022/09/17 16:29:30 Unpacking apache-cimprov (1.0.1.10) ...
+2022/09/17 16:29:30 Setting up apache-cimprov (1.0.1.10) ...
+2022/09/17 16:29:30 Trying to stop omi with systemctl
+2022/09/17 16:29:30 omi is stopped.
+2022/09/17 16:29:30 Trying to start omi with systemctl
+2022/09/17 16:29:30 omi is started.
+2022/09/17 16:29:30 Checking if Docker is installed...
+2022/09/17 16:29:30   Docker not found. Docker agent will not be installed.
+2022/09/17 16:29:30 Checking if MySQL is installed ...
+2022/09/17 16:29:30   MySQL not found, will not install
+2022/09/17 16:29:30 Extracting...
+2022/09/17 16:29:30 Updating auoms ...
+2022/09/17 16:29:30 ----- Updating package: auoms (auoms-2.5.2-52.universal.x64) -----
+2022/09/17 16:29:30 Selecting previously unselected package auoms.
+2022/09/17 16:29:30 (Reading database ... 69169 files and directories currently installed.)
+2022/09/17 16:29:30 Preparing to unpack auoms-2.5.2-52.universal.x64.deb ...
+2022/09/17 16:29:30 Unpacking auoms (2.5.2.52) ...
+2022/09/17 16:29:30 Setting up auoms (2.5.2.52) ...
+2022/09/17 16:29:30 Processing triggers for systemd (245.4-4ubuntu3.17) ...
+2022/09/17 16:29:30 OMS Troubleshooter is installed.
+2022/09/17 16:29:30 You can run the Troubleshooter with the following command:
+2022/09/17 16:29:30 
+2022/09/17 16:29:30   $ sudo /opt/microsoft/omsagent/bin/troubleshooter
+2022/09/17 16:29:30 
+2022/09/17 16:29:30 OMS agent shell bundle exiting with status code 0
+2022/09/17 16:29:30 [0;31mThe Log Analytics agent is on a deprecation path and won't be supported after August 31, 2024. If you use the Log Analytics agent to ingest data to Azure Monitor, make sure to migrate to the new Azure Monitor agent (https://docs.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-migration) prior to that date.[0m
+2022/09/17 16:29:30 Install succeeded
+2022/09/17 16:29:30 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Install succeeded
+2022/09/17 16:29:30 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Install,success,0,Install succeeded
+2022/09/17 16:29:32 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] sequence number is 0
+2022/09/17 16:29:32 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] setting file path is/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/config/0.settings
+2022/09/17 16:29:32 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] JSON config: {"runtimeSettings": [{"handlerSettings": {"publicSettings": {"workspaceId": "d29aaf1b-f995-460b-b44b-bc8ee6c981e2"}, "protectedSettings": "MIICtAYJKoZIhvcNAQcDoIICpTCCAqECAQAxggFpMIIBZQIBADBNMDkxNzA1BgoJkiaJk/IsZAEZFidXaW5kb3dzIEF6dXJlIENSUCBDZXJ0aWZpY2F0ZSBHZW5lcmF0b3ICEF5E+XA/7PSeROEsGgK3rUEwDQYJKoZIhvcNAQEBBQAEggEARUlYJ+LzsJ0+x8y69XPXQDm4+uRorEzWTEs5HJyfw5mSN73wq4ZOpea9mPJTAI3M4Nw5ASWN4hLUcjT17WV+BO2e8hlQnmrVNYV2E7hDoi2xYQKrMOYpw6NVJJr6QGv32niR3Zo4OoGDnG7SyYLE3OArtkgpx6ds8OwpeBU63SuJzJ3tz7naNww/2/MWco4xPZM1BpC2yc43DD/85gATTiWJRU/HLbnvSYuIleMV5uGxxyWVorhtCkV7gnbdWFq7y40CWv6VGvEcOqtkjyW2kVI3+p0SYkVuGZzYkEzoQFnnXoNs1bl1327Zs/OyGvkH/vchRbSYwHu5+bZQRv+2FzCCAS0GCSqGSIb3DQEHATAUBggqhkiG9w0DBwQImm8WtN2LJQqAggEIfQWGBOItftJbQojN6PnbcTxNu1NdtWcUp9S+ti7fG3kMFB8fl2qNSyvfG9j3BlIKh+qADRsPPw7D9I8uaThUXJs/cfMXGmNAa84NldZyFdRBzYy4NeBuoYPxSMRCpdnpgek0Ro8zLCp3QLPLwQ6c7cBg5R/jUHxbOAOkJ6+0lyvIO5PAQkFB+rKPpVMRBeMEos7DRVnsCQwbo2MeIri40GsZv7omzpf74fVyzDs47aSWox+v1poZvcDGjDoyGHhMwqqH5t15gHoV0t76BaKw6yh8e643B1DkV3sxtL58GNBCwAjQFMM5o6zwD+f1L+T13Fr0eJn3YEk4IlDfowcLFFB1tYtIfNNE", "protectedSettingsCertThumbprint": "*** REDACTED ***"}}]}
+2022/09/17 16:29:32 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Config decoded correctly.
+2022/09/17 16:29:32 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Start signing verification
+2022/09/17 16:29:32 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Output of command "sh ImportGPGkey.sh /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/keys/dscgpgkey.asc": 
+2022/09/17 16:29:32 gpg: key 20541A3DDE321294: "Microsoft (Release Signing) <dscgpgkey@microsoft.com>" not changed
+2022/09/17 16:29:32 gpg: Total number processed: 1
+2022/09/17 16:29:32 gpg:              unchanged: 1
+2022/09/17 16:29:32 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Output of command "HOME=keys gpg --no-default-keyring --keyring /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/keys/keyring.gpg --verify /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/packages/omsagent-1.14.19-0.universal.x64.asc /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/packages/omsagent-1.14.19-0.universal.x64.sha256sums": 
+2022/09/17 16:29:32 gpg: Signature made Sat Jul 23 07:22:48 2022 UTC
+2022/09/17 16:29:32 gpg:                using RSA key 20541A3DDE321294
+2022/09/17 16:29:32 gpg: Good signature from "Microsoft (Release Signing) <dscgpgkey@microsoft.com>" [unknown]
+2022/09/17 16:29:32 gpg: WARNING: This key is not certified with a trusted signature!
+2022/09/17 16:29:32 gpg:          There is no indication that the signature belongs to the owner.
+2022/09/17 16:29:32 Primary key fingerprint: FD11 17B0 1035 ABDB 743F  FDF1 2054 1A3D DE32 1294
+2022/09/17 16:29:32 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Perform SHA256 sums to verify shell bundle
+2022/09/17 16:29:33 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Output of command "cd /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/packages; sha256sum -c /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/packages/omsagent-1.14.19-0.universal.x64.sha256sums": 
+2022/09/17 16:29:33 omsagent-1.14.19-0.universal.x64.sh: OK
+2022/09/17 16:29:33 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] ShellBundle signing verification succeeded
+2022/09/17 16:29:33 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Falling back to /etc/os-release distribution parsing
+2022/09/17 16:29:33 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Using IMDS endpoint "http://169.254.169.254/metadata/instance?api-version=2018-10-01"
+2022/09/17 16:29:33 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Detected cloud environment "AzurePublicCloud" via IMDS. The domain "opinsights.azure.com" will be used.
+2022/09/17 16:29:33 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Handler initiating onboarding.
+2022/09/17 16:29:36 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Output: 
+2022/09/17 16:29:36 sed: can't read /etc/opt/microsoft/omsagent/conf/omsadmin.conf: No such file or directory
+2022/09/17 16:29:36 Azure Resource ID updated.
+2022/09/17 16:29:36 Workspace d29aaf1b-f995-460b-b44b-bc8ee6c981e2 already onboarded and agent is running.
+2022/09/17 16:29:36 Symbolic links have not been created; re-onboarding to create them
+2022/09/17 16:29:36 info	Generating certificate ...
+2022/09/17 16:29:36 -e info	Agent GUID is f4ddfa8b-91c0-40e6-b5e9-71a806924e25
+2022/09/17 16:29:36 -e info	Onboarding success
+2022/09/17 16:29:36 Configure syslog...
+2022/09/17 16:29:36 -e info	netstat tool is not available. Default port defined in omsadmin.sh will be used.
+2022/09/17 16:29:36 Configuring rsyslog for OMS logging
+2022/09/17 16:29:36 Restarting service: rsyslog
+2022/09/17 16:29:36 Configure heartbeat monitoring agent...
+2022/09/17 16:29:36 -e info	netstat tool is not available. Default port defined in omsadmin.sh will be used.
+2022/09/17 16:29:36 Configure log rotate for workspace d29aaf1b-f995-460b-b44b-bc8ee6c981e2...
+2022/09/17 16:29:36 INFO:  Configuring OMS agent service d29aaf1b-f995-460b-b44b-bc8ee6c981e2 ...
+2022/09/17 16:29:36 -e info	omsconfig is configured successfuly
+2022/09/17 16:29:36 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Created extension marker file /etc/opt/microsoft/omsagent/d29aaf1b-f995-460b-b44b-bc8ee6c981e2/conf/.azure_extension_marker
+2022/09/17 16:29:41 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Restart omsagent service via service_control script.
+2022/09/17 16:29:43 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Output of command "/opt/microsoft/omsagent/bin/service_control restart": 
+2022/09/17 16:29:43 
+2022/09/17 16:29:43 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] start watcher process ['python3', '/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/omsagent.py', '-telemetry']
+2022/09/17 16:29:43 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] set most recent sequence number to 0
+2022/09/17 16:29:43 Enable succeeded
+2022/09/17 16:29:43 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Enable succeeded
+2022/09/17 16:29:43 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Enable,success,0,Enable succeeded
+2022/09/20 16:06:51 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] sequence number is 0
+2022/09/20 16:06:51 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] setting file path is/var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/config/0.settings
+2022/09/20 16:06:51 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] JSON config: {"runtimeSettings": [{"handlerSettings": {"publicSettings": {"workspaceId": "d29aaf1b-f995-460b-b44b-bc8ee6c981e2"}, "protectedSettings": "MIICtAYJKoZIhvcNAQcDoIICpTCCAqECAQAxggFpMIIBZQIBADBNMDkxNzA1BgoJkiaJk/IsZAEZFidXaW5kb3dzIEF6dXJlIENSUCBDZXJ0aWZpY2F0ZSBHZW5lcmF0b3ICEF5E+XA/7PSeROEsGgK3rUEwDQYJKoZIhvcNAQEBBQAEggEARUlYJ+LzsJ0+x8y69XPXQDm4+uRorEzWTEs5HJyfw5mSN73wq4ZOpea9mPJTAI3M4Nw5ASWN4hLUcjT17WV+BO2e8hlQnmrVNYV2E7hDoi2xYQKrMOYpw6NVJJr6QGv32niR3Zo4OoGDnG7SyYLE3OArtkgpx6ds8OwpeBU63SuJzJ3tz7naNww/2/MWco4xPZM1BpC2yc43DD/85gATTiWJRU/HLbnvSYuIleMV5uGxxyWVorhtCkV7gnbdWFq7y40CWv6VGvEcOqtkjyW2kVI3+p0SYkVuGZzYkEzoQFnnXoNs1bl1327Zs/OyGvkH/vchRbSYwHu5+bZQRv+2FzCCAS0GCSqGSIb3DQEHATAUBggqhkiG9w0DBwQImm8WtN2LJQqAggEIfQWGBOItftJbQojN6PnbcTxNu1NdtWcUp9S+ti7fG3kMFB8fl2qNSyvfG9j3BlIKh+qADRsPPw7D9I8uaThUXJs/cfMXGmNAa84NldZyFdRBzYy4NeBuoYPxSMRCpdnpgek0Ro8zLCp3QLPLwQ6c7cBg5R/jUHxbOAOkJ6+0lyvIO5PAQkFB+rKPpVMRBeMEos7DRVnsCQwbo2MeIri40GsZv7omzpf74fVyzDs47aSWox+v1poZvcDGjDoyGHhMwqqH5t15gHoV0t76BaKw6yh8e643B1DkV3sxtL58GNBCwAjQFMM5o6zwD+f1L+T13Fr0eJn3YEk4IlDfowcLFFB1tYtIfNNE", "protectedSettingsCertThumbprint": "*** REDACTED ***"}}]}
+2022/09/20 16:06:51 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Config decoded correctly.
+2022/09/20 16:06:51 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Start signing verification
+2022/09/20 16:06:51 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Output of command "sh ImportGPGkey.sh /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/keys/dscgpgkey.asc": 
+2022/09/20 16:06:51 gpg: key 20541A3DDE321294: "Microsoft (Release Signing) <dscgpgkey@microsoft.com>" not changed
+2022/09/20 16:06:51 gpg: Total number processed: 1
+2022/09/20 16:06:51 gpg:              unchanged: 1
+2022/09/20 16:06:51 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Output of command "HOME=keys gpg --no-default-keyring --keyring /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/keys/keyring.gpg --verify /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/packages/omsagent-1.14.19-0.universal.x64.asc /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/packages/omsagent-1.14.19-0.universal.x64.sha256sums": 
+2022/09/20 16:06:51 gpg: Signature made Sat Jul 23 07:22:48 2022 UTC
+2022/09/20 16:06:51 gpg:                using RSA key 20541A3DDE321294
+2022/09/20 16:06:51 gpg: Good signature from "Microsoft (Release Signing) <dscgpgkey@microsoft.com>" [unknown]
+2022/09/20 16:06:51 gpg: WARNING: This key is not certified with a trusted signature!
+2022/09/20 16:06:51 gpg:          There is no indication that the signature belongs to the owner.
+2022/09/20 16:06:51 Primary key fingerprint: FD11 17B0 1035 ABDB 743F  FDF1 2054 1A3D DE32 1294
+2022/09/20 16:06:51 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Perform SHA256 sums to verify shell bundle
+2022/09/20 16:06:53 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Output of command "cd /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/packages; sha256sum -c /var/lib/waagent/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19/packages/omsagent-1.14.19-0.universal.x64.sha256sums": 
+2022/09/20 16:06:53 omsagent-1.14.19-0.universal.x64.sh: OK
+2022/09/20 16:06:53 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] ShellBundle signing verification succeeded
+2022/09/20 16:06:53 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Falling back to /etc/os-release distribution parsing
+2022/09/20 16:06:53 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Using IMDS endpoint "http://169.254.169.254/metadata/instance?api-version=2018-10-01"
+2022/09/20 16:06:53 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Detected cloud environment "AzurePublicCloud" via IMDS. The domain "opinsights.azure.com" will be used.
+2022/09/20 16:06:53 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Handler initiating onboarding.
+2022/09/20 16:06:53 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Output: 
+2022/09/20 16:06:53 Azure Resource ID updated.
+2022/09/20 16:06:53 Workspace d29aaf1b-f995-460b-b44b-bc8ee6c981e2 already onboarded and agent is running.
+2022/09/20 16:06:53 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Extension marker file /etc/opt/microsoft/omsagent/d29aaf1b-f995-460b-b44b-bc8ee6c981e2/conf/.azure_extension_marker already created
+2022/09/20 16:06:58 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Current sequence number 0 is smaller than or egual to the sequence number of the most recent executed configuration, skipping omsagent process restart.
+2022/09/20 16:06:58 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] set most recent sequence number to 0
+2022/09/20 16:06:58 Enable succeeded
+2022/09/20 16:06:58 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Enable succeeded
+2022/09/20 16:06:58 [Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux-1.14.19] Enable,success,0,Enable succeeded

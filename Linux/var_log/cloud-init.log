@@ -1,0 +1,1272 @@
+2022-09-17 16:06:22,304 - util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+2022-09-17 16:06:22,304 - util.py[DEBUG]: Read 12 bytes from /proc/uptime
+2022-09-17 16:06:22,304 - util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+2022-09-17 16:06:22,304 - util.py[DEBUG]: Read 12 bytes from /proc/uptime
+2022-09-17 16:06:22,304 - util.py[DEBUG]: Cloud-init v. 22.2-0ubuntu1~20.04.3 running 'init-local' at Sat, 17 Sep 2022 16:06:22 +0000. Up 16.55 seconds.
+2022-09-17 16:06:22,304 - main.py[DEBUG]: No kernel command line url found.
+2022-09-17 16:06:22,304 - main.py[DEBUG]: Closing stdin.
+2022-09-17 16:06:22,307 - util.py[DEBUG]: Writing to /var/log/cloud-init.log - ab: [644] 0 bytes
+2022-09-17 16:06:22,307 - util.py[DEBUG]: Changing the ownership of /var/log/cloud-init.log to 104:4
+2022-09-17 16:06:22,307 - util.py[DEBUG]: Writing to /var/lib/cloud/data/python-version - wb: [644] 3 bytes
+2022-09-17 16:06:22,308 - util.py[DEBUG]: Attempting to remove /var/lib/cloud/instance/boot-finished
+2022-09-17 16:06:22,308 - handlers.py[DEBUG]: start: init-local/check-cache: attempting to read from cache [check]
+2022-09-17 16:06:22,308 - util.py[DEBUG]: Reading from /var/lib/cloud/instance/obj.pkl (quiet=False)
+2022-09-17 16:06:22,308 - stages.py[DEBUG]: no cache found
+2022-09-17 16:06:22,308 - handlers.py[DEBUG]: finish: init-local/check-cache: SUCCESS: no cache found
+2022-09-17 16:06:22,308 - util.py[DEBUG]: Attempting to remove /var/lib/cloud/instance
+2022-09-17 16:06:22,312 - stages.py[DEBUG]: Using distro class <class 'cloudinit.distros.ubuntu.Distro'>
+2022-09-17 16:06:22,312 - __init__.py[DEBUG]: Looking for data source in: ['Azure', 'None'], via packages ['', 'cloudinit.sources'] that matches dependencies ['FILESYSTEM']
+2022-09-17 16:06:22,486 - __init__.py[DEBUG]: Searching for local data source in: ['DataSourceAzure']
+2022-09-17 16:06:22,486 - handlers.py[DEBUG]: start: init-local/search-Azure: searching for local data from DataSourceAzure
+2022-09-17 16:06:22,486 - __init__.py[DEBUG]: Seeing if we can get any data from <class 'cloudinit.sources.DataSourceAzure.DataSourceAzure'>
+2022-09-17 16:06:22,487 - __init__.py[DEBUG]: Update datasource metadata and network config due to events: boot-new-instance
+2022-09-17 16:06:22,487 - handlers.py[DEBUG]: start: azure-ds/_get_data: _get_data
+2022-09-17 16:06:22,487 - handlers.py[DEBUG]: start: azure-ds/check-platform-viability: found azure asset tag
+2022-09-17 16:06:22,487 - dmi.py[DEBUG]: querying dmi data /sys/class/dmi/id/chassis_asset_tag
+2022-09-17 16:06:22,487 - handlers.py[DEBUG]: finish: azure-ds/check-platform-viability: SUCCESS: found azure asset tag
+2022-09-17 16:06:22,487 - handlers.py[DEBUG]: start: azure-ds/get_boot_telemetry: get_boot_telemetry
+2022-09-17 16:06:22,487 - azure.py[DEBUG]: Collecting boot telemetry
+2022-09-17 16:06:22,488 - util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+2022-09-17 16:06:22,488 - util.py[DEBUG]: Read 12 bytes from /proc/uptime
+2022-09-17 16:06:22,488 - subp.py[DEBUG]: Running command ['systemctl', 'show', '-p', 'UserspaceTimestampMonotonic'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:22,607 - subp.py[DEBUG]: Running command ['systemctl', 'show', 'cloud-init-local', '-p', 'InactiveExitTimestampMonotonic'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:22,618 - handlers.py[DEBUG]: boot-telemetry: boot-telemetry: kernel_start=2022-09-17T16:06:05.728034Z user_start=2022-09-17T16:06:08.233091Z cloudinit_activation=2022-09-17T16:06:15.948044Z
+2022-09-17 16:06:22,618 - handlers.py[DEBUG]: finish: azure-ds/get_boot_telemetry: SUCCESS: get_boot_telemetry
+2022-09-17 16:06:22,618 - handlers.py[DEBUG]: start: azure-ds/get_system_info: get_system_info
+2022-09-17 16:06:22,618 - handlers.py[DEBUG]: system-info: system information: cloudinit_version=22.2-0ubuntu1~20.04.3, kernel_version=5.15.0-1019-azure, variant=ubuntu, distro_name=ubuntu, distro_version=20.04, flavor=focal, python_version=3.8.10
+2022-09-17 16:06:22,618 - handlers.py[DEBUG]: finish: azure-ds/get_system_info: SUCCESS: get_system_info
+2022-09-17 16:06:22,619 - handlers.py[DEBUG]: start: azure-ds/crawl_metadata: crawl_metadata
+2022-09-17 16:06:22,619 - handlers.py[DEBUG]: start: azure-ds/list_possible_azure_ds: list_possible_azure_ds
+2022-09-17 16:06:22,619 - handlers.py[DEBUG]: finish: azure-ds/list_possible_azure_ds: SUCCESS: list_possible_azure_ds
+2022-09-17 16:06:22,619 - handlers.py[DEBUG]: start: azure-ds/load_azure_ds_dir: load_azure_ds_dir
+2022-09-17 16:06:22,619 - handlers.py[DEBUG]: finish: azure-ds/load_azure_ds_dir: FAIL: load_azure_ds_dir
+2022-09-17 16:06:22,619 - azure.py[DEBUG]: Did not find Azure data source in /var/lib/cloud/seed/azure
+2022-09-17 16:06:22,619 - util.py[DEBUG]: Reading from /proc/mounts (quiet=False)
+2022-09-17 16:06:22,620 - util.py[DEBUG]: Read 2923 bytes from /proc/mounts
+2022-09-17 16:06:22,620 - util.py[DEBUG]: Fetched {'/dev/root': {'fstype': 'ext4', 'mountpoint': '/', 'opts': 'rw,relatime,discard'}, 'devtmpfs': {'fstype': 'devtmpfs', 'mountpoint': '/dev', 'opts': 'rw,relatime,size=4066576k,nr_inodes=1016644,mode=755,inode64'}, 'sysfs': {'fstype': 'sysfs', 'mountpoint': '/sys', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'proc': {'fstype': 'proc', 'mountpoint': '/proc', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'securityfs': {'fstype': 'securityfs', 'mountpoint': '/sys/kernel/security', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'tmpfs': {'fstype': 'tmpfs', 'mountpoint': '/sys/fs/cgroup', 'opts': 'ro,nosuid,nodev,noexec,mode=755,inode64'}, 'devpts': {'fstype': 'devpts', 'mountpoint': '/dev/pts', 'opts': 'rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000'}, 'cgroup2': {'fstype': 'cgroup2', 'mountpoint': '/sys/fs/cgroup/unified', 'opts': 'rw,nosuid,nodev,noexec,relatime,nsdelegate'}, 'cgroup': {'fstype': 'cgroup', 'mountpoint': '/sys/fs/cgroup/memory', 'opts': 'rw,nosuid,nodev,noexec,relatime,memory'}, 'pstore': {'fstype': 'pstore', 'mountpoint': '/sys/fs/pstore', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'efivarfs': {'fstype': 'efivarfs', 'mountpoint': '/sys/firmware/efi/efivars', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'bpf': {'fstype': 'bpf', 'mountpoint': '/sys/fs/bpf', 'opts': 'rw,nosuid,nodev,noexec,relatime,mode=700'}, 'systemd-1': {'fstype': 'autofs', 'mountpoint': '/proc/sys/fs/binfmt_misc', 'opts': 'rw,relatime,fd=28,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=13560'}, 'hugetlbfs': {'fstype': 'hugetlbfs', 'mountpoint': '/dev/hugepages', 'opts': 'rw,relatime,pagesize=2M'}, 'mqueue': {'fstype': 'mqueue', 'mountpoint': '/dev/mqueue', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'debugfs': {'fstype': 'debugfs', 'mountpoint': '/sys/kernel/debug', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'tracefs': {'fstype': 'tracefs', 'mountpoint': '/sys/kernel/tracing', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'configfs': {'fstype': 'configfs', 'mountpoint': '/sys/kernel/config', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'fusectl': {'fstype': 'fusectl', 'mountpoint': '/sys/fs/fuse/connections', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, '/dev/loop0': {'fstype': 'squashfs', 'mountpoint': '/snap/snapd/16292', 'opts': 'ro,nodev,relatime,errors=continue'}, '/dev/sda15': {'fstype': 'vfat', 'mountpoint': '/boot/efi', 'opts': 'rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro'}, '/dev/loop1': {'fstype': 'squashfs', 'mountpoint': '/snap/core20/1611', 'opts': 'ro,nodev,relatime,errors=continue'}, '/dev/loop2': {'fstype': 'squashfs', 'mountpoint': '/snap/lxd/22753', 'opts': 'ro,nodev,relatime,errors=continue'}} mounts from proc
+2022-09-17 16:06:22,621 - subp.py[DEBUG]: Running command ['mount', '-o', 'ro', '-t', 'auto', '/dev/sr0', '/run/cloud-init/tmp/tmpp13t86k_'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:22,678 - handlers.py[DEBUG]: start: azure-ds/load_azure_ds_dir: load_azure_ds_dir
+2022-09-17 16:06:22,680 - handlers.py[DEBUG]: start: azure-ds/read_azure_ovf: read_azure_ovf
+2022-09-17 16:06:22,687 - handlers.py[DEBUG]: start: azure-ds/_get_preprovisioning_cfgs: _get_preprovisioning_cfgs
+2022-09-17 16:06:22,687 - handlers.py[DEBUG]: start: azure-ds/_get_preprovisionedvm_cfg_value: _get_preprovisionedvm_cfg_value
+2022-09-17 16:06:22,687 - azure.py[INFO]: PreprovisionedVm: False
+2022-09-17 16:06:22,687 - handlers.py[DEBUG]: finish: azure-ds/_get_preprovisionedvm_cfg_value: SUCCESS: _get_preprovisionedvm_cfg_value
+2022-09-17 16:06:22,688 - handlers.py[DEBUG]: start: azure-ds/_get_preprovisionedvmtype_cfg_value: _get_preprovisionedvmtype_cfg_value
+2022-09-17 16:06:22,688 - DataSourceAzure.py[DEBUG]: PreprovisionedVMType not found
+2022-09-17 16:06:22,688 - handlers.py[DEBUG]: finish: azure-ds/_get_preprovisionedvmtype_cfg_value: SUCCESS: _get_preprovisionedvmtype_cfg_value
+2022-09-17 16:06:22,688 - handlers.py[DEBUG]: finish: azure-ds/_get_preprovisioning_cfgs: SUCCESS: _get_preprovisioning_cfgs
+2022-09-17 16:06:22,688 - handlers.py[DEBUG]: finish: azure-ds/read_azure_ovf: SUCCESS: read_azure_ovf
+2022-09-17 16:06:22,688 - handlers.py[DEBUG]: finish: azure-ds/load_azure_ds_dir: SUCCESS: load_azure_ds_dir
+2022-09-17 16:06:22,688 - subp.py[DEBUG]: Running command ['umount', '/run/cloud-init/tmp/tmpp13t86k_'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:22,694 - azure.py[DEBUG]: Found provisioning metadata in /dev/sr0
+2022-09-17 16:06:22,695 - handlers.py[DEBUG]: start: azure-ds/_setup_ephemeral_networking: _setup_ephemeral_networking
+2022-09-17 16:06:22,695 - DataSourceAzure.py[DEBUG]: Requested ephemeral networking (iface=None)
+2022-09-17 16:06:22,695 - handlers.py[DEBUG]: start: azure-ds/obtain-dhcp-lease: obtain dhcp lease
+2022-09-17 16:06:22,695 - util.py[DEBUG]: Reading from /sys/class/net/eth0/name_assign_type (quiet=False)
+2022-09-17 16:06:22,696 - util.py[DEBUG]: Reading from /sys/class/net/enP52403s1/name_assign_type (quiet=False)
+2022-09-17 16:06:22,696 - util.py[DEBUG]: Read 2 bytes from /sys/class/net/enP52403s1/name_assign_type
+2022-09-17 16:06:22,696 - __init__.py[DEBUG]: Found unstable nic names: ['eth0']; calling udevadm settle
+2022-09-17 16:06:22,696 - subp.py[DEBUG]: Running command ['udevadm', 'settle'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:22,708 - util.py[DEBUG]: Waiting for udev events to settle took 0.012 seconds
+2022-09-17 16:06:22,708 - util.py[DEBUG]: Reading from /sys/class/net/eth0/address (quiet=False)
+2022-09-17 16:06:22,708 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/eth0/address
+2022-09-17 16:06:22,708 - util.py[DEBUG]: Reading from /sys/class/net/eth0/carrier (quiet=False)
+2022-09-17 16:06:22,708 - __init__.py[DEBUG]: Interface has no carrier: eth0
+2022-09-17 16:06:22,709 - util.py[DEBUG]: Reading from /sys/class/net/eth0/dormant (quiet=False)
+2022-09-17 16:06:22,709 - util.py[DEBUG]: Reading from /sys/class/net/eth0/operstate (quiet=False)
+2022-09-17 16:06:22,709 - util.py[DEBUG]: Read 5 bytes from /sys/class/net/eth0/operstate
+2022-09-17 16:06:22,709 - util.py[DEBUG]: Reading from /sys/class/net/enP52403s1/address (quiet=False)
+2022-09-17 16:06:22,709 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/enP52403s1/address
+2022-09-17 16:06:22,709 - util.py[DEBUG]: Reading from /sys/class/net/enP52403s1/carrier (quiet=False)
+2022-09-17 16:06:22,709 - __init__.py[DEBUG]: Interface has no carrier: enP52403s1
+2022-09-17 16:06:22,709 - util.py[DEBUG]: Reading from /sys/class/net/enP52403s1/dormant (quiet=False)
+2022-09-17 16:06:22,709 - util.py[DEBUG]: Reading from /sys/class/net/enP52403s1/operstate (quiet=False)
+2022-09-17 16:06:22,709 - util.py[DEBUG]: Read 5 bytes from /sys/class/net/enP52403s1/operstate
+2022-09-17 16:06:22,710 - dhcp.py[DEBUG]: Performing a dhcp discovery on eth0
+2022-09-17 16:06:22,710 - util.py[DEBUG]: Copying /usr/sbin/dhclient to /var/tmp/cloud-init/cloud-init-dhcp-vxdktgla/dhclient
+2022-09-17 16:06:22,748 - subp.py[DEBUG]: Running command ['ip', 'link', 'set', 'dev', 'eth0', 'up'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:22,963 - subp.py[DEBUG]: Running command ['/var/tmp/cloud-init/cloud-init-dhcp-vxdktgla/dhclient', '-1', '-v', '-lf', '/var/tmp/cloud-init/cloud-init-dhcp-vxdktgla/dhcp.leases', '-pf', '/var/tmp/cloud-init/cloud-init-dhcp-vxdktgla/dhclient.pid', 'eth0', '-sf', '/bin/true'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:23,150 - util.py[DEBUG]: All files appeared after 0 seconds: ['/var/tmp/cloud-init/cloud-init-dhcp-vxdktgla/dhclient.pid', '/var/tmp/cloud-init/cloud-init-dhcp-vxdktgla/dhcp.leases']
+2022-09-17 16:06:23,151 - util.py[DEBUG]: Reading from /var/tmp/cloud-init/cloud-init-dhcp-vxdktgla/dhclient.pid (quiet=False)
+2022-09-17 16:06:23,151 - util.py[DEBUG]: Read 4 bytes from /var/tmp/cloud-init/cloud-init-dhcp-vxdktgla/dhclient.pid
+2022-09-17 16:06:23,151 - util.py[DEBUG]: Reading from /proc/539/stat (quiet=True)
+2022-09-17 16:06:23,151 - util.py[DEBUG]: Read 306 bytes from /proc/539/stat
+2022-09-17 16:06:23,151 - dhcp.py[DEBUG]: killing dhclient with pid=539
+2022-09-17 16:06:23,151 - azure.py[DEBUG]: dhclient output stream: 
+2022-09-17 16:06:23,152 - azure.py[DEBUG]: dhclient error stream: Internet Systems Consortium DHCP Client 4.4.1
+Copyright 2004-2018 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/60:45:bd:0f:5c:c5
+Sending on   LPF/eth0/60:45:bd:0f:5c:c5
+Sending on   Socket/fallback
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x6bfb526c)
+DHCPOFFER of 10.7.0.6 from 168.63.129.16
+DHCPREQUEST for 10.7.0.6 on eth0 to 255.255.255.255 port 67 (xid=0x6c52fb6b)
+DHCPACK of 10.7.0.6 from 168.63.129.16 (xid=0x6bfb526c)
+Timeout too large reducing to: 2147483646 (TIME_MAX - 1)
+bound to 10.7.0.6 -- renewal in 4294967295 seconds.
+
+2022-09-17 16:06:23,152 - util.py[DEBUG]: Reading from /var/tmp/cloud-init/cloud-init-dhcp-vxdktgla/dhcp.leases (quiet=False)
+2022-09-17 16:06:23,153 - util.py[DEBUG]: Read 702 bytes from /var/tmp/cloud-init/cloud-init-dhcp-vxdktgla/dhcp.leases
+2022-09-17 16:06:23,153 - dhcp.py[DEBUG]: Received dhcp lease on eth0 for 10.7.0.6/255.255.255.0
+2022-09-17 16:06:23,153 - __init__.py[DEBUG]: Attempting setup of ephemeral network on eth0 with 10.7.0.6/24 brd 10.7.0.255
+2022-09-17 16:06:23,154 - subp.py[DEBUG]: Running command ['ip', '-family', 'inet', 'addr', 'add', '10.7.0.6/24', 'broadcast', '10.7.0.255', 'dev', 'eth0'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:23,157 - subp.py[DEBUG]: Running command ['ip', '-family', 'inet', 'link', 'set', 'dev', 'eth0', 'up'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:23,160 - subp.py[DEBUG]: Running command ['ip', '-4', 'route', 'append', '0.0.0.0/0', 'via', '10.7.0.1', 'dev', 'eth0'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:23,163 - subp.py[DEBUG]: Running command ['ip', '-4', 'route', 'append', '168.63.129.16/32', 'via', '10.7.0.1', 'dev', 'eth0'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:23,165 - subp.py[DEBUG]: Running command ['ip', '-4', 'route', 'append', '169.254.169.254/32', 'via', '10.7.0.1', 'dev', 'eth0'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:23,168 - handlers.py[DEBUG]: finish: azure-ds/obtain-dhcp-lease: SUCCESS: obtain dhcp lease
+2022-09-17 16:06:23,169 - handlers.py[DEBUG]: finish: azure-ds/_setup_ephemeral_networking: SUCCESS: _setup_ephemeral_networking
+2022-09-17 16:06:23,169 - handlers.py[DEBUG]: start: azure-ds/get_imds_data_with_api_fallback: get_imds_data_with_api_fallback
+2022-09-17 16:06:23,169 - DataSourceAzure.py[INFO]: Attempting IMDS api-version: 2021-08-01
+2022-09-17 16:06:23,169 - handlers.py[DEBUG]: start: azure-ds/get_metadata_from_imds: get_metadata_from_imds
+2022-09-17 16:06:23,169 - handlers.py[DEBUG]: start: azure-ds/_get_metadata_from_imds: _get_metadata_from_imds
+2022-09-17 16:06:23,169 - url_helper.py[DEBUG]: [0/11] open 'http://169.254.169.254/metadata/instance?api-version=2021-08-01&extended=true' with {'url': 'http://169.254.169.254/metadata/instance?api-version=2021-08-01&extended=true', 'allow_redirects': True, 'method': 'GET', 'timeout': 2.0, 'headers': {'User-Agent': 'Cloud-Init/22.2-0ubuntu1~20.04.3', 'Metadata': 'true'}} configuration
+2022-09-17 16:06:23,204 - url_helper.py[DEBUG]: Read from http://169.254.169.254/metadata/instance?api-version=2021-08-01&extended=true (200, 2146b) after 1 attempts
+2022-09-17 16:06:23,204 - handlers.py[DEBUG]: finish: azure-ds/_get_metadata_from_imds: SUCCESS: _get_metadata_from_imds
+2022-09-17 16:06:23,204 - util.py[DEBUG]: Crawl of Azure Instance Metadata Service (IMDS) took 0.035 seconds
+2022-09-17 16:06:23,204 - handlers.py[DEBUG]: finish: azure-ds/get_metadata_from_imds: SUCCESS: get_metadata_from_imds
+2022-09-17 16:06:23,205 - handlers.py[DEBUG]: finish: azure-ds/get_imds_data_with_api_fallback: SUCCESS: get_imds_data_with_api_fallback
+2022-09-17 16:06:23,205 - azure.py[INFO]: PPS type: None
+2022-09-17 16:06:23,205 - handlers.py[DEBUG]: start: azure-ds/validate_imds_network_metadata: validate_imds_network_metadata
+2022-09-17 16:06:23,205 - handlers.py[DEBUG]: start: azure-ds/get_hv_netvsc_macs_normalized: get_hv_netvsc_macs_normalized
+2022-09-17 16:06:23,205 - util.py[DEBUG]: Reading from /sys/class/net/eth0/addr_assign_type (quiet=False)
+2022-09-17 16:06:23,206 - util.py[DEBUG]: Read 2 bytes from /sys/class/net/eth0/addr_assign_type
+2022-09-17 16:06:23,206 - util.py[DEBUG]: Reading from /sys/class/net/eth0/uevent (quiet=False)
+2022-09-17 16:06:23,206 - util.py[DEBUG]: Read 25 bytes from /sys/class/net/eth0/uevent
+2022-09-17 16:06:23,206 - util.py[DEBUG]: Reading from /sys/class/net/eth0/address (quiet=False)
+2022-09-17 16:06:23,206 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/eth0/address
+2022-09-17 16:06:23,206 - __init__.py[DEBUG]: ovs-vsctl not in PATH; not detecting Open vSwitch interfaces
+2022-09-17 16:06:23,206 - util.py[DEBUG]: Reading from /sys/class/net/eth0/device/device (quiet=False)
+2022-09-17 16:06:23,206 - util.py[DEBUG]: Read 4 bytes from /sys/class/net/eth0/device/device
+2022-09-17 16:06:23,206 - util.py[DEBUG]: Reading from /sys/class/net/enP52403s1/addr_assign_type (quiet=False)
+2022-09-17 16:06:23,207 - util.py[DEBUG]: Read 2 bytes from /sys/class/net/enP52403s1/addr_assign_type
+2022-09-17 16:06:23,207 - util.py[DEBUG]: Reading from /sys/class/net/enP52403s1/uevent (quiet=False)
+2022-09-17 16:06:23,207 - util.py[DEBUG]: Read 31 bytes from /sys/class/net/enP52403s1/uevent
+2022-09-17 16:06:23,207 - util.py[DEBUG]: Reading from /sys/class/net/lo/addr_assign_type (quiet=False)
+2022-09-17 16:06:23,207 - util.py[DEBUG]: Read 2 bytes from /sys/class/net/lo/addr_assign_type
+2022-09-17 16:06:23,207 - util.py[DEBUG]: Reading from /sys/class/net/lo/uevent (quiet=False)
+2022-09-17 16:06:23,207 - util.py[DEBUG]: Read 23 bytes from /sys/class/net/lo/uevent
+2022-09-17 16:06:23,207 - util.py[DEBUG]: Reading from /sys/class/net/lo/address (quiet=False)
+2022-09-17 16:06:23,207 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/lo/address
+2022-09-17 16:06:23,207 - util.py[DEBUG]: Reading from /sys/class/net/lo/device/device (quiet=False)
+2022-09-17 16:06:23,207 - handlers.py[DEBUG]: finish: azure-ds/get_hv_netvsc_macs_normalized: SUCCESS: get_hv_netvsc_macs_normalized
+2022-09-17 16:06:23,207 - handlers.py[DEBUG]: finish: azure-ds/validate_imds_network_metadata: SUCCESS: validate_imds_network_metadata
+2022-09-17 16:06:23,208 - DataSourceAzure.py[DEBUG]: Username retrieved from IMDS: azureadmin
+2022-09-17 16:06:23,208 - DataSourceAzure.py[DEBUG]: Hostname retrieved from IMDS: linux-example
+2022-09-17 16:06:23,208 - azure.py[DEBUG]: found datasource in /dev/sr0
+2022-09-17 16:06:23,208 - handlers.py[DEBUG]: start: azure-ds/_get_random_seed: _get_random_seed
+2022-09-17 16:06:23,208 - util.py[DEBUG]: Reading from /sys/firmware/acpi/tables/OEM0 (quiet=True)
+2022-09-17 16:06:23,208 - util.py[DEBUG]: Read 100 bytes from /sys/firmware/acpi/tables/OEM0
+2022-09-17 16:06:23,208 - handlers.py[DEBUG]: finish: azure-ds/_get_random_seed: SUCCESS: _get_random_seed
+2022-09-17 16:06:23,208 - dmi.py[DEBUG]: querying dmi data /sys/class/dmi/id/product_uuid
+2022-09-17 16:06:23,209 - handlers.py[DEBUG]: start: azure-ds/_determine_wireserver_pubkey_info: _determine_wireserver_pubkey_info
+2022-09-17 16:06:23,209 - azure.py[DEBUG]: Retrieved 0 keys from IMDS
+2022-09-17 16:06:23,209 - handlers.py[DEBUG]: finish: azure-ds/_determine_wireserver_pubkey_info: SUCCESS: _determine_wireserver_pubkey_info
+2022-09-17 16:06:23,209 - handlers.py[DEBUG]: start: azure-ds/_report_ready: _report_ready
+2022-09-17 16:06:23,209 - handlers.py[DEBUG]: start: azure-ds/get_metadata_from_fabric: get_metadata_from_fabric
+2022-09-17 16:06:23,209 - handlers.py[DEBUG]: start: azure-ds/register_with_azure_and_fetch_data: register_with_azure_and_fetch_data
+2022-09-17 16:06:23,209 - handlers.py[DEBUG]: start: azure-ds/_fetch_goal_state_from_azure: _fetch_goal_state_from_azure
+2022-09-17 16:06:23,209 - handlers.py[DEBUG]: start: azure-ds/_get_raw_goal_state_xml_from_azure: _get_raw_goal_state_xml_from_azure
+2022-09-17 16:06:23,209 - azure.py[INFO]: Registering with Azure...
+2022-09-17 16:06:23,209 - handlers.py[DEBUG]: start: azure-ds/goalstate-retrieval: retrieve goalstate
+2022-09-17 16:06:23,209 - handlers.py[DEBUG]: start: azure-ds/http_with_retries: http_with_retries
+2022-09-17 16:06:23,210 - url_helper.py[DEBUG]: [0/1] open 'http://168.63.129.16/machine/?comp=goalstate' with {'url': 'http://168.63.129.16/machine/?comp=goalstate', 'allow_redirects': True, 'method': 'GET', 'timeout': 5.0, 'headers': {'User-Agent': 'Cloud-Init/22.2-0ubuntu1~20.04.3', 'x-ms-agent-name': 'WALinuxAgent', 'x-ms-version': '2012-11-30'}} configuration
+2022-09-17 16:06:23,216 - url_helper.py[DEBUG]: Read from http://168.63.129.16/machine/?comp=goalstate (200, 1921b) after 1 attempts
+2022-09-17 16:06:23,216 - azure.py[DEBUG]: Successful HTTP request with Azure endpoint http://168.63.129.16/machine/?comp=goalstate after 1 attempts
+2022-09-17 16:06:23,216 - handlers.py[DEBUG]: finish: azure-ds/http_with_retries: SUCCESS: http_with_retries
+2022-09-17 16:06:23,216 - handlers.py[DEBUG]: finish: azure-ds/goalstate-retrieval: SUCCESS: retrieve goalstate
+2022-09-17 16:06:23,216 - azure.py[DEBUG]: Successfully fetched GoalState XML.
+2022-09-17 16:06:23,216 - handlers.py[DEBUG]: finish: azure-ds/_get_raw_goal_state_xml_from_azure: SUCCESS: _get_raw_goal_state_xml_from_azure
+2022-09-17 16:06:23,216 - handlers.py[DEBUG]: start: azure-ds/_parse_raw_goal_state_xml: _parse_raw_goal_state_xml
+2022-09-17 16:06:23,217 - azure.py[DEBUG]: GoalState XML container id: 7ea074e9-68cf-4be8-9774-69d4cd67504b, GoalState XML instance id: da25e755-071f-4996-891a-27263967cacf._linux-example, GoalState XML incarnation: 1
+2022-09-17 16:06:23,217 - handlers.py[DEBUG]: finish: azure-ds/_parse_raw_goal_state_xml: SUCCESS: _parse_raw_goal_state_xml
+2022-09-17 16:06:23,217 - handlers.py[DEBUG]: finish: azure-ds/_fetch_goal_state_from_azure: SUCCESS: _fetch_goal_state_from_azure
+2022-09-17 16:06:23,217 - handlers.py[DEBUG]: start: azure-ds/eject_iso: eject_iso
+2022-09-17 16:06:23,217 - azure.py[DEBUG]: Ejecting the provisioning iso
+2022-09-17 16:06:23,217 - subp.py[DEBUG]: Running command ['eject', '/dev/sr0'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:23,241 - handlers.py[DEBUG]: finish: azure-ds/eject_iso: SUCCESS: eject_iso
+2022-09-17 16:06:23,241 - handlers.py[DEBUG]: start: azure-ds/send_ready_signal: send_ready_signal
+2022-09-17 16:06:23,241 - azure.py[DEBUG]: Reporting ready to Azure fabric.
+2022-09-17 16:06:23,241 - handlers.py[DEBUG]: start: azure-ds/_post_health_report: _post_health_report
+2022-09-17 16:06:23,241 - handlers.py[DEBUG]: start: azure-ds/push_log_to_kvp: push_log_to_kvp
+2022-09-17 16:06:23,241 - handlers.py[DEBUG]: start: azure-ds/get_last_log_byte_pushed_to_kvp_index: get_last_log_byte_pushed_to_kvp_index
+2022-09-17 16:06:23,242 - handlers.py[DEBUG]: finish: azure-ds/get_last_log_byte_pushed_to_kvp_index: SUCCESS: get_last_log_byte_pushed_to_kvp_index
+2022-09-17 16:06:23,242 - azure.py[DEBUG]: Dumping cloud-init.log file to KVP
+2022-09-17 16:06:23,242 - azure.py[DEBUG]: Dumping last 24387 bytes of cloud-init.log file to KVP starting from index: 0
+2022-09-17 16:06:23,243 - util.py[DEBUG]: Writing to /run/cloud-init/log_pushed_to_kvp_index - wb: [644] 5 bytes
+2022-09-17 16:06:23,244 - azure.py[DEBUG]: Dumping dmesg log to KVP
+2022-09-17 16:06:23,244 - subp.py[DEBUG]: Running command ['dmesg'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:23,264 - handlers.py[DEBUG]: finish: azure-ds/push_log_to_kvp: SUCCESS: push_log_to_kvp
+2022-09-17 16:06:23,265 - azure.py[DEBUG]: Sending health report to Azure fabric.
+2022-09-17 16:06:23,265 - handlers.py[DEBUG]: start: azure-ds/http_with_retries: http_with_retries
+2022-09-17 16:06:23,266 - url_helper.py[DEBUG]: [0/1] open 'http://168.63.129.16/machine?comp=health' with {'url': 'http://168.63.129.16/machine?comp=health', 'allow_redirects': True, 'method': 'POST', 'timeout': 5.0, 'headers': {'User-Agent': 'Cloud-Init/22.2-0ubuntu1~20.04.3', 'x-ms-agent-name': 'WALinuxAgent', 'x-ms-version': '2012-11-30', 'Content-Type': 'text/xml; charset=utf-8'}} configuration
+2022-09-17 16:06:23,533 - url_helper.py[DEBUG]: Read from http://168.63.129.16/machine?comp=health (200, 0b) after 1 attempts
+2022-09-17 16:06:23,534 - azure.py[DEBUG]: Successful HTTP request with Azure endpoint http://168.63.129.16/machine?comp=health after 1 attempts
+2022-09-17 16:06:23,534 - handlers.py[DEBUG]: finish: azure-ds/http_with_retries: SUCCESS: http_with_retries
+2022-09-17 16:06:23,534 - azure.py[DEBUG]: Successfully sent health report to Azure fabric
+2022-09-17 16:06:23,534 - handlers.py[DEBUG]: finish: azure-ds/_post_health_report: SUCCESS: _post_health_report
+2022-09-17 16:06:23,534 - azure.py[INFO]: Reported ready to Azure fabric.
+2022-09-17 16:06:23,534 - handlers.py[DEBUG]: finish: azure-ds/send_ready_signal: SUCCESS: send_ready_signal
+2022-09-17 16:06:23,534 - handlers.py[DEBUG]: finish: azure-ds/register_with_azure_and_fetch_data: SUCCESS: register_with_azure_and_fetch_data
+2022-09-17 16:06:23,534 - handlers.py[DEBUG]: finish: azure-ds/get_metadata_from_fabric: SUCCESS: get_metadata_from_fabric
+2022-09-17 16:06:23,534 - handlers.py[DEBUG]: finish: azure-ds/_report_ready: SUCCESS: _report_ready
+2022-09-17 16:06:23,534 - DataSourceAzure.py[DEBUG]: negotiating returned None
+2022-09-17 16:06:23,534 - util.py[DEBUG]: Attempting to remove /var/lib/cloud/data/reported_ready
+2022-09-17 16:06:23,535 - handlers.py[DEBUG]: finish: azure-ds/crawl_metadata: SUCCESS: crawl_metadata
+2022-09-17 16:06:23,535 - util.py[DEBUG]: Crawl of metadata service took 0.916 seconds
+2022-09-17 16:06:23,535 - handlers.py[DEBUG]: start: azure-ds/_teardown_ephemeral_networking: _teardown_ephemeral_networking
+2022-09-17 16:06:23,535 - subp.py[DEBUG]: Running command ['ip', '-4', 'route', 'del', '169.254.169.254/32', 'via', '10.7.0.1', 'dev', 'eth0'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:23,540 - subp.py[DEBUG]: Running command ['ip', '-4', 'route', 'del', '168.63.129.16/32', 'via', '10.7.0.1', 'dev', 'eth0'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:23,543 - subp.py[DEBUG]: Running command ['ip', '-4', 'route', 'del', '0.0.0.0/0', 'via', '10.7.0.1', 'dev', 'eth0'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:23,546 - subp.py[DEBUG]: Running command ['ip', '-family', 'inet', 'link', 'set', 'dev', 'eth0', 'down'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:23,814 - subp.py[DEBUG]: Running command ['ip', '-family', 'inet', 'addr', 'del', '10.7.0.6/24', 'dev', 'eth0'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:23,817 - handlers.py[DEBUG]: finish: azure-ds/_teardown_ephemeral_networking: SUCCESS: _teardown_ephemeral_networking
+2022-09-17 16:06:23,818 - handlers.py[DEBUG]: start: azure-ds/maybe_remove_ubuntu_network_config_scripts: maybe_remove_ubuntu_network_config_scripts
+2022-09-17 16:06:23,818 - DataSourceAzure.py[INFO]: Removing Ubuntu extended network scripts because cloud-init updates Azure network configuration on the following events: ['boot', 'boot-legacy'].
+2022-09-17 16:06:23,818 - util.py[DEBUG]: Attempting to remove /etc/netplan/90-hotplug-azure.yaml
+2022-09-17 16:06:23,819 - handlers.py[DEBUG]: finish: azure-ds/maybe_remove_ubuntu_network_config_scripts: SUCCESS: maybe_remove_ubuntu_network_config_scripts
+2022-09-17 16:06:23,819 - azure.py[DEBUG]: Ephemeral resource disk '/dev/disk/cloud/azure_resource' exists. Merging default Azure cloud ephemeral disk configs.
+2022-09-17 16:06:23,819 - handlers.py[DEBUG]: start: azure-ds/write_files: write_files
+2022-09-17 16:06:23,821 - util.py[DEBUG]: Writing to /var/lib/waagent/ovf-env.xml - wb: [600] 1259 bytes
+2022-09-17 16:06:23,822 - handlers.py[DEBUG]: finish: azure-ds/write_files: SUCCESS: write_files
+2022-09-17 16:06:23,822 - handlers.py[DEBUG]: finish: azure-ds/_get_data: SUCCESS: _get_data
+2022-09-17 16:06:23,822 - handlers.py[DEBUG]: start: azure-ds/get_public_ssh_keys: get_public_ssh_keys
+2022-09-17 16:06:23,822 - azure.py[DEBUG]: Retrieved 0 keys from IMDS
+2022-09-17 16:06:23,822 - handlers.py[DEBUG]: finish: azure-ds/get_public_ssh_keys: SUCCESS: get_public_ssh_keys
+2022-09-17 16:06:23,824 - util.py[DEBUG]: Writing to /run/cloud-init/cloud-id-azure - wb: [644] 6 bytes
+2022-09-17 16:06:23,825 - util.py[DEBUG]: Creating symbolic link from '/run/cloud-init/cloud-id' => '/run/cloud-init/cloud-id-azure'
+2022-09-17 16:06:23,826 - atomic_helper.py[DEBUG]: Atomically writing to file /run/cloud-init/instance-data-sensitive.json (via temporary file /run/cloud-init/tmplj6sk3h7) - w: [600] 8240 bytes/chars
+2022-09-17 16:06:23,826 - atomic_helper.py[DEBUG]: Atomically writing to file /run/cloud-init/instance-data.json (via temporary file /run/cloud-init/tmpv9_kva6_) - w: [644] 4860 bytes/chars
+2022-09-17 16:06:23,826 - handlers.py[DEBUG]: finish: init-local/search-Azure: SUCCESS: found local data from DataSourceAzure
+2022-09-17 16:06:23,826 - stages.py[INFO]: Loaded datasource DataSourceAzure - DataSourceAzure [seed=/dev/sr0]
+2022-09-17 16:06:23,827 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg (quiet=False)
+2022-09-17 16:06:23,827 - util.py[DEBUG]: Read 3674 bytes from /etc/cloud/cloud.cfg
+2022-09-17 16:06:23,827 - util.py[DEBUG]: Attempting to load yaml from string of length 3674 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:23,837 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/90_dpkg.cfg (quiet=False)
+2022-09-17 16:06:23,837 - util.py[DEBUG]: Read 82 bytes from /etc/cloud/cloud.cfg.d/90_dpkg.cfg
+2022-09-17 16:06:23,837 - util.py[DEBUG]: Attempting to load yaml from string of length 82 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:23,838 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/90-azure.cfg (quiet=False)
+2022-09-17 16:06:23,838 - util.py[DEBUG]: Read 586 bytes from /etc/cloud/cloud.cfg.d/90-azure.cfg
+2022-09-17 16:06:23,838 - util.py[DEBUG]: Attempting to load yaml from string of length 586 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:23,840 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/10-azure-kvp.cfg (quiet=False)
+2022-09-17 16:06:23,840 - util.py[DEBUG]: Read 143 bytes from /etc/cloud/cloud.cfg.d/10-azure-kvp.cfg
+2022-09-17 16:06:23,840 - util.py[DEBUG]: Attempting to load yaml from string of length 143 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:23,840 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/05_logging.cfg (quiet=False)
+2022-09-17 16:06:23,840 - util.py[DEBUG]: Read 2070 bytes from /etc/cloud/cloud.cfg.d/05_logging.cfg
+2022-09-17 16:06:23,840 - util.py[DEBUG]: Attempting to load yaml from string of length 2070 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:23,843 - util.py[DEBUG]: Reading from /run/cloud-init/cloud.cfg (quiet=False)
+2022-09-17 16:06:23,843 - util.py[DEBUG]: Read 33 bytes from /run/cloud-init/cloud.cfg
+2022-09-17 16:06:23,843 - util.py[DEBUG]: Attempting to load yaml from string of length 33 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:23,843 - util.py[DEBUG]: Attempting to load yaml from string of length 0 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:23,844 - util.py[DEBUG]: loaded blob returned None, returning default.
+2022-09-17 16:06:23,844 - util.py[DEBUG]: Attempting to remove /var/lib/cloud/instance
+2022-09-17 16:06:23,844 - util.py[DEBUG]: Creating symbolic link from '/var/lib/cloud/instance' => '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a'
+2022-09-17 16:06:23,845 - util.py[DEBUG]: Reading from /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/datasource (quiet=False)
+2022-09-17 16:06:23,845 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/datasource - wb: [644] 49 bytes
+2022-09-17 16:06:23,845 - util.py[DEBUG]: Writing to /var/lib/cloud/data/previous-datasource - wb: [644] 49 bytes
+2022-09-17 16:06:23,846 - util.py[DEBUG]: Reading from /var/lib/cloud/data/instance-id (quiet=False)
+2022-09-17 16:06:23,846 - stages.py[DEBUG]: previous iid found to be NO_PREVIOUS_INSTANCE_ID
+2022-09-17 16:06:23,846 - util.py[DEBUG]: Writing to /var/lib/cloud/data/instance-id - wb: [644] 37 bytes
+2022-09-17 16:06:23,846 - util.py[DEBUG]: Writing to /run/cloud-init/.instance-id - wb: [644] 37 bytes
+2022-09-17 16:06:23,846 - util.py[DEBUG]: Writing to /var/lib/cloud/data/previous-instance-id - wb: [644] 24 bytes
+2022-09-17 16:06:23,847 - util.py[DEBUG]: Writing to /var/lib/cloud/instance/obj.pkl - wb: [400] 8212 bytes
+2022-09-17 16:06:23,847 - main.py[DEBUG]: [local] init will now be targeting instance id: 946cdd22-5f3e-47d8-bf88-cddca6505e4a. new=True
+2022-09-17 16:06:23,847 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg (quiet=False)
+2022-09-17 16:06:23,847 - util.py[DEBUG]: Read 3674 bytes from /etc/cloud/cloud.cfg
+2022-09-17 16:06:23,847 - util.py[DEBUG]: Attempting to load yaml from string of length 3674 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:23,856 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/90_dpkg.cfg (quiet=False)
+2022-09-17 16:06:23,857 - util.py[DEBUG]: Read 82 bytes from /etc/cloud/cloud.cfg.d/90_dpkg.cfg
+2022-09-17 16:06:23,857 - util.py[DEBUG]: Attempting to load yaml from string of length 82 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:23,857 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/90-azure.cfg (quiet=False)
+2022-09-17 16:06:23,857 - util.py[DEBUG]: Read 586 bytes from /etc/cloud/cloud.cfg.d/90-azure.cfg
+2022-09-17 16:06:23,857 - util.py[DEBUG]: Attempting to load yaml from string of length 586 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:23,859 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/10-azure-kvp.cfg (quiet=False)
+2022-09-17 16:06:23,859 - util.py[DEBUG]: Read 143 bytes from /etc/cloud/cloud.cfg.d/10-azure-kvp.cfg
+2022-09-17 16:06:23,859 - util.py[DEBUG]: Attempting to load yaml from string of length 143 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:23,860 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/05_logging.cfg (quiet=False)
+2022-09-17 16:06:23,860 - util.py[DEBUG]: Read 2070 bytes from /etc/cloud/cloud.cfg.d/05_logging.cfg
+2022-09-17 16:06:23,860 - util.py[DEBUG]: Attempting to load yaml from string of length 2070 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:23,862 - util.py[DEBUG]: Reading from /run/cloud-init/cloud.cfg (quiet=False)
+2022-09-17 16:06:23,862 - util.py[DEBUG]: Read 33 bytes from /run/cloud-init/cloud.cfg
+2022-09-17 16:06:23,862 - util.py[DEBUG]: Attempting to load yaml from string of length 33 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:23,863 - util.py[DEBUG]: Attempting to load yaml from string of length 0 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:23,863 - util.py[DEBUG]: loaded blob returned None, returning default.
+2022-09-17 16:06:23,864 - stages.py[DEBUG]: Using distro class <class 'cloudinit.distros.ubuntu.Distro'>
+2022-09-17 16:06:23,864 - cc_set_hostname.py[DEBUG]: Setting the hostname to linux-example (linux-example)
+2022-09-17 16:06:23,864 - util.py[DEBUG]: Reading from /etc/hostname (quiet=False)
+2022-09-17 16:06:23,864 - util.py[DEBUG]: Read 7 bytes from /etc/hostname
+2022-09-17 16:06:23,865 - util.py[DEBUG]: Writing to /etc/hostname - wb: [644] 14 bytes
+2022-09-17 16:06:23,865 - __init__.py[DEBUG]: Non-persistently setting the system hostname to linux-example
+2022-09-17 16:06:23,865 - subp.py[DEBUG]: Running command ['hostname', 'linux-example'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:23,869 - atomic_helper.py[DEBUG]: Atomically writing to file /var/lib/cloud/data/set-hostname (via temporary file /var/lib/cloud/data/tmpxwvc2taq) - w: [644] 59 bytes/chars
+2022-09-17 16:06:23,870 - util.py[DEBUG]: Reading from /sys/class/net/eth0/address (quiet=False)
+2022-09-17 16:06:23,870 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/eth0/address
+2022-09-17 16:06:23,870 - util.py[DEBUG]: Reading from /sys/class/net/enP52403s1/address (quiet=False)
+2022-09-17 16:06:23,870 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/enP52403s1/address
+2022-09-17 16:06:23,870 - util.py[DEBUG]: Reading from /sys/class/net/lo/address (quiet=False)
+2022-09-17 16:06:23,870 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/lo/address
+2022-09-17 16:06:23,871 - handlers.py[DEBUG]: start: azure-ds/parse_network_config: parse_network_config
+2022-09-17 16:06:23,871 - handlers.py[DEBUG]: start: azure-ds/_generate_network_config_from_imds_metadata: _generate_network_config_from_imds_metadata
+2022-09-17 16:06:23,871 - DataSourceAzure.py[DEBUG]: No ipv6 addresses found for: {'ipv4': {'ipAddress': [{'privateIpAddress': '10.7.0.6', 'publicIpAddress': ''}], 'subnet': [{'address': '10.7.0.0', 'prefix': '24'}]}, 'ipv6': {'ipAddress': []}, 'macAddress': '6045BD0F5CC5'}
+2022-09-17 16:06:23,871 - handlers.py[DEBUG]: finish: azure-ds/_generate_network_config_from_imds_metadata: SUCCESS: _generate_network_config_from_imds_metadata
+2022-09-17 16:06:23,871 - handlers.py[DEBUG]: finish: azure-ds/parse_network_config: SUCCESS: parse_network_config
+2022-09-17 16:06:23,872 - util.py[DEBUG]: Reading from /sys/class/net/eth0/address (quiet=False)
+2022-09-17 16:06:23,872 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/eth0/address
+2022-09-17 16:06:23,872 - util.py[DEBUG]: Reading from /sys/class/net/enP52403s1/address (quiet=False)
+2022-09-17 16:06:23,872 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/enP52403s1/address
+2022-09-17 16:06:23,872 - util.py[DEBUG]: Reading from /sys/class/net/lo/address (quiet=False)
+2022-09-17 16:06:23,872 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/lo/address
+2022-09-17 16:06:23,872 - util.py[DEBUG]: Reading from /sys/class/net/eth0/device/device (quiet=False)
+2022-09-17 16:06:23,873 - util.py[DEBUG]: Read 4 bytes from /sys/class/net/eth0/device/device
+2022-09-17 16:06:23,873 - util.py[DEBUG]: Reading from /sys/class/net/eth0/addr_assign_type (quiet=False)
+2022-09-17 16:06:23,873 - util.py[DEBUG]: Read 2 bytes from /sys/class/net/eth0/addr_assign_type
+2022-09-17 16:06:23,873 - util.py[DEBUG]: Reading from /sys/class/net/eth0/uevent (quiet=False)
+2022-09-17 16:06:23,873 - util.py[DEBUG]: Read 25 bytes from /sys/class/net/eth0/uevent
+2022-09-17 16:06:23,873 - util.py[DEBUG]: Reading from /sys/class/net/eth0/address (quiet=False)
+2022-09-17 16:06:23,873 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/eth0/address
+2022-09-17 16:06:23,873 - util.py[DEBUG]: Reading from /sys/class/net/eth0/device/device (quiet=False)
+2022-09-17 16:06:23,873 - util.py[DEBUG]: Read 4 bytes from /sys/class/net/eth0/device/device
+2022-09-17 16:06:23,873 - util.py[DEBUG]: Reading from /sys/class/net/enP52403s1/addr_assign_type (quiet=False)
+2022-09-17 16:06:23,873 - util.py[DEBUG]: Read 2 bytes from /sys/class/net/enP52403s1/addr_assign_type
+2022-09-17 16:06:23,873 - util.py[DEBUG]: Reading from /sys/class/net/enP52403s1/uevent (quiet=False)
+2022-09-17 16:06:23,873 - util.py[DEBUG]: Read 31 bytes from /sys/class/net/enP52403s1/uevent
+2022-09-17 16:06:23,873 - util.py[DEBUG]: Reading from /sys/class/net/lo/addr_assign_type (quiet=False)
+2022-09-17 16:06:23,873 - util.py[DEBUG]: Read 2 bytes from /sys/class/net/lo/addr_assign_type
+2022-09-17 16:06:23,873 - util.py[DEBUG]: Reading from /sys/class/net/lo/uevent (quiet=False)
+2022-09-17 16:06:23,873 - util.py[DEBUG]: Read 23 bytes from /sys/class/net/lo/uevent
+2022-09-17 16:06:23,873 - util.py[DEBUG]: Reading from /sys/class/net/lo/address (quiet=False)
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/lo/address
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Reading from /sys/class/net/lo/device/device (quiet=False)
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Reading from /sys/class/net/eth0/type (quiet=False)
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Read 2 bytes from /sys/class/net/eth0/type
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Reading from /sys/class/net/lo/type (quiet=False)
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Read 4 bytes from /sys/class/net/lo/type
+2022-09-17 16:06:23,874 - networking.py[DEBUG]: net: all expected physical devices present
+2022-09-17 16:06:23,874 - stages.py[DEBUG]: applying net config names for {'version': 2, 'ethernets': {'eth0': {'dhcp4': True, 'dhcp4-overrides': {'route-metric': 100}, 'dhcp6': False, 'match': {'macaddress': '60:45:bd:0f:5c:c5', 'driver': 'hv_netvsc'}, 'set-name': 'eth0'}}}
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Reading from /sys/class/net/eth0/device/device (quiet=False)
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Read 4 bytes from /sys/class/net/eth0/device/device
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Reading from /sys/class/net/eth0/addr_assign_type (quiet=False)
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Read 2 bytes from /sys/class/net/eth0/addr_assign_type
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Reading from /sys/class/net/eth0/uevent (quiet=False)
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Read 25 bytes from /sys/class/net/eth0/uevent
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Reading from /sys/class/net/eth0/address (quiet=False)
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/eth0/address
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Reading from /sys/class/net/eth0/device/device (quiet=False)
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Read 4 bytes from /sys/class/net/eth0/device/device
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Reading from /sys/class/net/enP52403s1/addr_assign_type (quiet=False)
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Read 2 bytes from /sys/class/net/enP52403s1/addr_assign_type
+2022-09-17 16:06:23,874 - util.py[DEBUG]: Reading from /sys/class/net/enP52403s1/uevent (quiet=False)
+2022-09-17 16:06:23,875 - util.py[DEBUG]: Read 31 bytes from /sys/class/net/enP52403s1/uevent
+2022-09-17 16:06:23,875 - util.py[DEBUG]: Reading from /sys/class/net/lo/addr_assign_type (quiet=False)
+2022-09-17 16:06:23,875 - util.py[DEBUG]: Read 2 bytes from /sys/class/net/lo/addr_assign_type
+2022-09-17 16:06:23,875 - util.py[DEBUG]: Reading from /sys/class/net/lo/uevent (quiet=False)
+2022-09-17 16:06:23,875 - util.py[DEBUG]: Read 23 bytes from /sys/class/net/lo/uevent
+2022-09-17 16:06:23,875 - util.py[DEBUG]: Reading from /sys/class/net/lo/address (quiet=False)
+2022-09-17 16:06:23,875 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/lo/address
+2022-09-17 16:06:23,875 - util.py[DEBUG]: Reading from /sys/class/net/lo/device/device (quiet=False)
+2022-09-17 16:06:23,875 - util.py[DEBUG]: Reading from /sys/class/net/eth0/operstate (quiet=False)
+2022-09-17 16:06:23,875 - util.py[DEBUG]: Read 5 bytes from /sys/class/net/eth0/operstate
+2022-09-17 16:06:23,875 - util.py[DEBUG]: Reading from /sys/class/net/lo/operstate (quiet=False)
+2022-09-17 16:06:23,875 - util.py[DEBUG]: Read 8 bytes from /sys/class/net/lo/operstate
+2022-09-17 16:06:23,875 - subp.py[DEBUG]: Running command ['ip', '-6', 'addr', 'show', 'permanent', 'scope', 'global'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:23,879 - subp.py[DEBUG]: Running command ['ip', '-4', 'addr', 'show'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:23,898 - __init__.py[DEBUG]: Detected interfaces {'eth0': {'downable': True, 'device_id': '0x3', 'driver': 'hv_netvsc', 'mac': '60:45:bd:0f:5c:c5', 'name': 'eth0', 'up': False}, 'lo': {'downable': False, 'device_id': None, 'driver': None, 'mac': '00:00:00:00:00:00', 'name': 'lo', 'up': True}}
+2022-09-17 16:06:23,899 - __init__.py[DEBUG]: no work necessary for renaming of [['60:45:bd:0f:5c:c5', 'eth0', 'hv_netvsc', '0x3']]
+2022-09-17 16:06:23,899 - stages.py[INFO]: Applying network configuration from ds bringup=False: {'version': 2, 'ethernets': {'eth0': {'dhcp4': True, 'dhcp4-overrides': {'route-metric': 100}, 'dhcp6': False, 'match': {'macaddress': '60:45:bd:0f:5c:c5', 'driver': 'hv_netvsc'}, 'set-name': 'eth0'}}}
+2022-09-17 16:06:23,899 - util.py[DEBUG]: Writing to /run/cloud-init/sem/apply_network_config.once - wb: [644] 24 bytes
+2022-09-17 16:06:23,900 - util.py[DEBUG]: Reading from /sys/class/net/eth0/addr_assign_type (quiet=False)
+2022-09-17 16:06:23,900 - util.py[DEBUG]: Read 2 bytes from /sys/class/net/eth0/addr_assign_type
+2022-09-17 16:06:23,900 - util.py[DEBUG]: Reading from /sys/class/net/eth0/uevent (quiet=False)
+2022-09-17 16:06:23,900 - util.py[DEBUG]: Read 25 bytes from /sys/class/net/eth0/uevent
+2022-09-17 16:06:23,900 - util.py[DEBUG]: Reading from /sys/class/net/eth0/address (quiet=False)
+2022-09-17 16:06:23,900 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/eth0/address
+2022-09-17 16:06:23,900 - util.py[DEBUG]: Reading from /sys/class/net/eth0/device/device (quiet=False)
+2022-09-17 16:06:23,901 - util.py[DEBUG]: Read 4 bytes from /sys/class/net/eth0/device/device
+2022-09-17 16:06:23,901 - util.py[DEBUG]: Reading from /sys/class/net/enP52403s1/addr_assign_type (quiet=False)
+2022-09-17 16:06:23,901 - util.py[DEBUG]: Read 2 bytes from /sys/class/net/enP52403s1/addr_assign_type
+2022-09-17 16:06:23,901 - util.py[DEBUG]: Reading from /sys/class/net/enP52403s1/uevent (quiet=False)
+2022-09-17 16:06:23,901 - util.py[DEBUG]: Read 31 bytes from /sys/class/net/enP52403s1/uevent
+2022-09-17 16:06:23,901 - util.py[DEBUG]: Reading from /sys/class/net/lo/addr_assign_type (quiet=False)
+2022-09-17 16:06:23,901 - util.py[DEBUG]: Read 2 bytes from /sys/class/net/lo/addr_assign_type
+2022-09-17 16:06:23,901 - util.py[DEBUG]: Reading from /sys/class/net/lo/uevent (quiet=False)
+2022-09-17 16:06:23,901 - util.py[DEBUG]: Read 23 bytes from /sys/class/net/lo/uevent
+2022-09-17 16:06:23,901 - util.py[DEBUG]: Reading from /sys/class/net/lo/address (quiet=False)
+2022-09-17 16:06:23,901 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/lo/address
+2022-09-17 16:06:23,901 - util.py[DEBUG]: Reading from /sys/class/net/lo/device/device (quiet=False)
+2022-09-17 16:06:23,901 - util.py[DEBUG]: Reading from /sys/class/net/eth0/type (quiet=False)
+2022-09-17 16:06:23,901 - util.py[DEBUG]: Read 2 bytes from /sys/class/net/eth0/type
+2022-09-17 16:06:23,901 - util.py[DEBUG]: Reading from /sys/class/net/lo/type (quiet=False)
+2022-09-17 16:06:23,901 - util.py[DEBUG]: Read 4 bytes from /sys/class/net/lo/type
+2022-09-17 16:06:23,901 - network_state.py[DEBUG]: v2(ethernets) -> v1(physical):
+{'type': 'physical', 'mac_address': '60:45:bd:0f:5c:c5', 'name': 'eth0', 'params': {'driver': 'hv_netvsc'}, 'match': {'macaddress': '60:45:bd:0f:5c:c5', 'driver': 'hv_netvsc'}, 'subnets': [{'type': 'dhcp4', 'metric': 100}]}
+2022-09-17 16:06:23,904 - network_state.py[DEBUG]: v2_common: handling config:
+{'eth0': {'dhcp4': True, 'dhcp4-overrides': {'route-metric': 100}, 'dhcp6': False, 'match': {'macaddress': '60:45:bd:0f:5c:c5', 'driver': 'hv_netvsc'}, 'set-name': 'eth0'}}
+2022-09-17 16:06:23,987 - __init__.py[DEBUG]: Selected renderer 'netplan' from priority list: ['netplan', 'eni', 'sysconfig']
+2022-09-17 16:06:23,987 - netplan.py[DEBUG]: V2 to V2 passthrough
+2022-09-17 16:06:23,988 - util.py[DEBUG]: Writing to /etc/netplan/50-cloud-init.yaml - wb: [644] 603 bytes
+2022-09-17 16:06:23,989 - subp.py[DEBUG]: Running command ['netplan', 'generate'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:24,369 - subp.py[DEBUG]: Running command ['udevadm', 'test-builtin', 'net_setup_link', '/sys/class/net/eth0'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:24,376 - subp.py[DEBUG]: Running command ['udevadm', 'test-builtin', 'net_setup_link', '/sys/class/net/enP52403s1'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:24,383 - subp.py[DEBUG]: Running command ['udevadm', 'test-builtin', 'net_setup_link', '/sys/class/net/lo'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:24,389 - __init__.py[DEBUG]: Not bringing up newly configured network interfaces
+2022-09-17 16:06:24,390 - main.py[DEBUG]: [local] Exiting. datasource DataSourceAzure [seed=/dev/sr0] not in local mode.
+2022-09-17 16:06:24,390 - atomic_helper.py[DEBUG]: Atomically writing to file /var/lib/cloud/data/status.json (via temporary file /var/lib/cloud/data/tmpr5o1a1ak) - w: [644] 504 bytes/chars
+2022-09-17 16:06:24,390 - util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+2022-09-17 16:06:24,390 - util.py[DEBUG]: Read 12 bytes from /proc/uptime
+2022-09-17 16:06:24,391 - util.py[DEBUG]: cloud-init mode 'init' took 2.212 seconds (2.21)
+2022-09-17 16:06:24,391 - handlers.py[DEBUG]: HyperVReportingHandler flushing remaining events
+2022-09-17 16:06:24,391 - handlers.py[DEBUG]: finish: init-local: SUCCESS: searching for local datasources
+2022-09-17 16:06:26,752 - util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+2022-09-17 16:06:26,752 - util.py[DEBUG]: Read 12 bytes from /proc/uptime
+2022-09-17 16:06:26,752 - util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+2022-09-17 16:06:26,752 - util.py[DEBUG]: Read 12 bytes from /proc/uptime
+2022-09-17 16:06:26,752 - util.py[DEBUG]: Cloud-init v. 22.2-0ubuntu1~20.04.3 running 'init' at Sat, 17 Sep 2022 16:06:26 +0000. Up 21.00 seconds.
+2022-09-17 16:06:26,752 - main.py[DEBUG]: No kernel command line url found.
+2022-09-17 16:06:26,752 - main.py[DEBUG]: Closing stdin.
+2022-09-17 16:06:26,754 - util.py[DEBUG]: Writing to /var/log/cloud-init.log - ab: [644] 0 bytes
+2022-09-17 16:06:26,754 - util.py[DEBUG]: Changing the ownership of /var/log/cloud-init.log to 104:4
+2022-09-17 16:06:26,755 - subp.py[DEBUG]: Running command ['ip', '--json', 'addr'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:26,758 - subp.py[DEBUG]: Running command ['ip', '-o', 'route', 'list'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:26,761 - subp.py[DEBUG]: Running command ['ip', '--oneline', '-6', 'route', 'list', 'table', 'all'] with allowed return codes [0, 1] (shell=False, capture=True)
+2022-09-17 16:06:26,765 - handlers.py[DEBUG]: start: init-network/check-cache: attempting to read from cache [trust]
+2022-09-17 16:06:26,765 - util.py[DEBUG]: Reading from /var/lib/cloud/instance/obj.pkl (quiet=False)
+2022-09-17 16:06:26,766 - util.py[DEBUG]: Read 8212 bytes from /var/lib/cloud/instance/obj.pkl
+2022-09-17 16:06:26,785 - util.py[DEBUG]: Reading from /run/cloud-init/.instance-id (quiet=False)
+2022-09-17 16:06:26,785 - util.py[DEBUG]: Read 37 bytes from /run/cloud-init/.instance-id
+2022-09-17 16:06:26,785 - stages.py[DEBUG]: restored from cache with run check: DataSourceAzure [seed=/dev/sr0]
+2022-09-17 16:06:26,785 - handlers.py[DEBUG]: finish: init-network/check-cache: SUCCESS: restored from cache with run check: DataSourceAzure [seed=/dev/sr0]
+2022-09-17 16:06:26,785 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg (quiet=False)
+2022-09-17 16:06:26,786 - util.py[DEBUG]: Read 3674 bytes from /etc/cloud/cloud.cfg
+2022-09-17 16:06:26,786 - util.py[DEBUG]: Attempting to load yaml from string of length 3674 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,795 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/90_dpkg.cfg (quiet=False)
+2022-09-17 16:06:26,795 - util.py[DEBUG]: Read 82 bytes from /etc/cloud/cloud.cfg.d/90_dpkg.cfg
+2022-09-17 16:06:26,796 - util.py[DEBUG]: Attempting to load yaml from string of length 82 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,796 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/90-azure.cfg (quiet=False)
+2022-09-17 16:06:26,796 - util.py[DEBUG]: Read 586 bytes from /etc/cloud/cloud.cfg.d/90-azure.cfg
+2022-09-17 16:06:26,796 - util.py[DEBUG]: Attempting to load yaml from string of length 586 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,798 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/10-azure-kvp.cfg (quiet=False)
+2022-09-17 16:06:26,798 - util.py[DEBUG]: Read 143 bytes from /etc/cloud/cloud.cfg.d/10-azure-kvp.cfg
+2022-09-17 16:06:26,798 - util.py[DEBUG]: Attempting to load yaml from string of length 143 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,799 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/05_logging.cfg (quiet=False)
+2022-09-17 16:06:26,799 - util.py[DEBUG]: Read 2070 bytes from /etc/cloud/cloud.cfg.d/05_logging.cfg
+2022-09-17 16:06:26,799 - util.py[DEBUG]: Attempting to load yaml from string of length 2070 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,801 - util.py[DEBUG]: Reading from /run/cloud-init/cloud.cfg (quiet=False)
+2022-09-17 16:06:26,801 - util.py[DEBUG]: Read 33 bytes from /run/cloud-init/cloud.cfg
+2022-09-17 16:06:26,801 - util.py[DEBUG]: Attempting to load yaml from string of length 33 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,802 - util.py[DEBUG]: Attempting to load yaml from string of length 0 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,802 - util.py[DEBUG]: loaded blob returned None, returning default.
+2022-09-17 16:06:26,802 - util.py[DEBUG]: Attempting to remove /var/lib/cloud/instance
+2022-09-17 16:06:26,802 - util.py[DEBUG]: Creating symbolic link from '/var/lib/cloud/instance' => '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a'
+2022-09-17 16:06:26,803 - util.py[DEBUG]: Reading from /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/datasource (quiet=False)
+2022-09-17 16:06:26,803 - util.py[DEBUG]: Read 49 bytes from /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/datasource
+2022-09-17 16:06:26,803 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/datasource - wb: [644] 49 bytes
+2022-09-17 16:06:26,803 - util.py[DEBUG]: Writing to /var/lib/cloud/data/previous-datasource - wb: [644] 49 bytes
+2022-09-17 16:06:26,804 - util.py[DEBUG]: Reading from /var/lib/cloud/data/instance-id (quiet=False)
+2022-09-17 16:06:26,804 - util.py[DEBUG]: Read 37 bytes from /var/lib/cloud/data/instance-id
+2022-09-17 16:06:26,804 - stages.py[DEBUG]: previous iid found to be 946cdd22-5f3e-47d8-bf88-cddca6505e4a
+2022-09-17 16:06:26,804 - util.py[DEBUG]: Writing to /var/lib/cloud/data/instance-id - wb: [644] 37 bytes
+2022-09-17 16:06:26,804 - util.py[DEBUG]: Writing to /run/cloud-init/.instance-id - wb: [644] 37 bytes
+2022-09-17 16:06:26,804 - util.py[DEBUG]: Writing to /var/lib/cloud/data/previous-instance-id - wb: [644] 37 bytes
+2022-09-17 16:06:26,805 - util.py[DEBUG]: Writing to /var/lib/cloud/instance/obj.pkl - wb: [400] 8224 bytes
+2022-09-17 16:06:26,805 - main.py[DEBUG]: [net] init will now be targeting instance id: 946cdd22-5f3e-47d8-bf88-cddca6505e4a. new=False
+2022-09-17 16:06:26,805 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg (quiet=False)
+2022-09-17 16:06:26,806 - util.py[DEBUG]: Read 3674 bytes from /etc/cloud/cloud.cfg
+2022-09-17 16:06:26,806 - util.py[DEBUG]: Attempting to load yaml from string of length 3674 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,815 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/90_dpkg.cfg (quiet=False)
+2022-09-17 16:06:26,815 - util.py[DEBUG]: Read 82 bytes from /etc/cloud/cloud.cfg.d/90_dpkg.cfg
+2022-09-17 16:06:26,815 - util.py[DEBUG]: Attempting to load yaml from string of length 82 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,815 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/90-azure.cfg (quiet=False)
+2022-09-17 16:06:26,815 - util.py[DEBUG]: Read 586 bytes from /etc/cloud/cloud.cfg.d/90-azure.cfg
+2022-09-17 16:06:26,815 - util.py[DEBUG]: Attempting to load yaml from string of length 586 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,817 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/10-azure-kvp.cfg (quiet=False)
+2022-09-17 16:06:26,817 - util.py[DEBUG]: Read 143 bytes from /etc/cloud/cloud.cfg.d/10-azure-kvp.cfg
+2022-09-17 16:06:26,817 - util.py[DEBUG]: Attempting to load yaml from string of length 143 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,818 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/05_logging.cfg (quiet=False)
+2022-09-17 16:06:26,818 - util.py[DEBUG]: Read 2070 bytes from /etc/cloud/cloud.cfg.d/05_logging.cfg
+2022-09-17 16:06:26,818 - util.py[DEBUG]: Attempting to load yaml from string of length 2070 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,820 - util.py[DEBUG]: Reading from /run/cloud-init/cloud.cfg (quiet=False)
+2022-09-17 16:06:26,821 - util.py[DEBUG]: Read 33 bytes from /run/cloud-init/cloud.cfg
+2022-09-17 16:06:26,821 - util.py[DEBUG]: Attempting to load yaml from string of length 33 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,821 - util.py[DEBUG]: Attempting to load yaml from string of length 0 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,821 - util.py[DEBUG]: loaded blob returned None, returning default.
+2022-09-17 16:06:26,822 - util.py[DEBUG]: Reading from /sys/class/net/eth0/address (quiet=False)
+2022-09-17 16:06:26,822 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/eth0/address
+2022-09-17 16:06:26,822 - util.py[DEBUG]: Reading from /sys/class/net/enP52403s1/address (quiet=False)
+2022-09-17 16:06:26,822 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/enP52403s1/address
+2022-09-17 16:06:26,822 - util.py[DEBUG]: Reading from /sys/class/net/lo/address (quiet=False)
+2022-09-17 16:06:26,822 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/lo/address
+2022-09-17 16:06:26,822 - handlers.py[DEBUG]: start: azure-ds/parse_network_config: parse_network_config
+2022-09-17 16:06:26,823 - handlers.py[DEBUG]: start: azure-ds/_generate_network_config_from_imds_metadata: _generate_network_config_from_imds_metadata
+2022-09-17 16:06:26,823 - DataSourceAzure.py[DEBUG]: No ipv6 addresses found for: {'ipv4': {'ipAddress': [{'privateIpAddress': '10.7.0.6', 'publicIpAddress': ''}], 'subnet': [{'address': '10.7.0.0', 'prefix': '24'}]}, 'ipv6': {'ipAddress': []}, 'macAddress': '6045BD0F5CC5'}
+2022-09-17 16:06:26,823 - handlers.py[DEBUG]: finish: azure-ds/_generate_network_config_from_imds_metadata: SUCCESS: _generate_network_config_from_imds_metadata
+2022-09-17 16:06:26,823 - handlers.py[DEBUG]: finish: azure-ds/parse_network_config: SUCCESS: parse_network_config
+2022-09-17 16:06:26,824 - stages.py[DEBUG]: Allowed events: {<EventScope.NETWORK: 'network'>: {<EventType.BOOT_NEW_INSTANCE: 'boot-new-instance'>, <EventType.BOOT: 'boot'>}}
+2022-09-17 16:06:26,824 - stages.py[DEBUG]: Event Denied: scopes=['network'] EventType=boot-legacy
+2022-09-17 16:06:26,824 - stages.py[DEBUG]: No network config applied. Neither a new instance nor datasource network update allowed
+2022-09-17 16:06:26,824 - stages.py[DEBUG]: applying net config names for {'version': 2, 'ethernets': {'eth0': {'dhcp4': True, 'dhcp4-overrides': {'route-metric': 100}, 'dhcp6': False, 'match': {'macaddress': '60:45:bd:0f:5c:c5', 'driver': 'hv_netvsc'}, 'set-name': 'eth0'}}}
+2022-09-17 16:06:26,824 - stages.py[DEBUG]: Using distro class <class 'cloudinit.distros.ubuntu.Distro'>
+2022-09-17 16:06:26,825 - util.py[DEBUG]: Reading from /sys/class/net/eth0/device/device (quiet=False)
+2022-09-17 16:06:26,825 - util.py[DEBUG]: Read 4 bytes from /sys/class/net/eth0/device/device
+2022-09-17 16:06:26,825 - util.py[DEBUG]: Reading from /sys/class/net/eth0/addr_assign_type (quiet=False)
+2022-09-17 16:06:26,825 - util.py[DEBUG]: Read 2 bytes from /sys/class/net/eth0/addr_assign_type
+2022-09-17 16:06:26,825 - util.py[DEBUG]: Reading from /sys/class/net/eth0/uevent (quiet=False)
+2022-09-17 16:06:26,825 - util.py[DEBUG]: Read 25 bytes from /sys/class/net/eth0/uevent
+2022-09-17 16:06:26,825 - util.py[DEBUG]: Reading from /sys/class/net/eth0/address (quiet=False)
+2022-09-17 16:06:26,825 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/eth0/address
+2022-09-17 16:06:26,825 - __init__.py[DEBUG]: ovs-vsctl not in PATH; not detecting Open vSwitch interfaces
+2022-09-17 16:06:26,826 - util.py[DEBUG]: Reading from /sys/class/net/eth0/device/device (quiet=False)
+2022-09-17 16:06:26,826 - util.py[DEBUG]: Read 4 bytes from /sys/class/net/eth0/device/device
+2022-09-17 16:06:26,826 - util.py[DEBUG]: Reading from /sys/class/net/enP52403s1/addr_assign_type (quiet=False)
+2022-09-17 16:06:26,826 - util.py[DEBUG]: Read 2 bytes from /sys/class/net/enP52403s1/addr_assign_type
+2022-09-17 16:06:26,826 - util.py[DEBUG]: Reading from /sys/class/net/enP52403s1/uevent (quiet=False)
+2022-09-17 16:06:26,826 - util.py[DEBUG]: Read 31 bytes from /sys/class/net/enP52403s1/uevent
+2022-09-17 16:06:26,826 - util.py[DEBUG]: Reading from /sys/class/net/lo/addr_assign_type (quiet=False)
+2022-09-17 16:06:26,826 - util.py[DEBUG]: Read 2 bytes from /sys/class/net/lo/addr_assign_type
+2022-09-17 16:06:26,826 - util.py[DEBUG]: Reading from /sys/class/net/lo/uevent (quiet=False)
+2022-09-17 16:06:26,826 - util.py[DEBUG]: Read 23 bytes from /sys/class/net/lo/uevent
+2022-09-17 16:06:26,826 - util.py[DEBUG]: Reading from /sys/class/net/lo/address (quiet=False)
+2022-09-17 16:06:26,826 - util.py[DEBUG]: Read 18 bytes from /sys/class/net/lo/address
+2022-09-17 16:06:26,826 - util.py[DEBUG]: Reading from /sys/class/net/lo/device/device (quiet=False)
+2022-09-17 16:06:26,826 - util.py[DEBUG]: Reading from /sys/class/net/eth0/operstate (quiet=False)
+2022-09-17 16:06:26,826 - util.py[DEBUG]: Read 3 bytes from /sys/class/net/eth0/operstate
+2022-09-17 16:06:26,826 - util.py[DEBUG]: Reading from /sys/class/net/lo/operstate (quiet=False)
+2022-09-17 16:06:26,826 - util.py[DEBUG]: Read 8 bytes from /sys/class/net/lo/operstate
+2022-09-17 16:06:26,827 - subp.py[DEBUG]: Running command ['ip', '-6', 'addr', 'show', 'permanent', 'scope', 'global'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:26,830 - subp.py[DEBUG]: Running command ['ip', '-4', 'addr', 'show'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:26,833 - __init__.py[DEBUG]: Detected interfaces {'eth0': {'downable': False, 'device_id': '0x3', 'driver': 'hv_netvsc', 'mac': '60:45:bd:0f:5c:c5', 'name': 'eth0', 'up': True}, 'lo': {'downable': False, 'device_id': None, 'driver': None, 'mac': '00:00:00:00:00:00', 'name': 'lo', 'up': True}}
+2022-09-17 16:06:26,834 - __init__.py[DEBUG]: no work necessary for renaming of [['60:45:bd:0f:5c:c5', 'eth0', 'hv_netvsc', '0x3']]
+2022-09-17 16:06:26,834 - handlers.py[DEBUG]: start: init-network/setup-datasource: setting up datasource
+2022-09-17 16:06:26,834 - handlers.py[DEBUG]: finish: init-network/setup-datasource: SUCCESS: setting up datasource
+2022-09-17 16:06:26,834 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/user-data.txt - wb: [600] 0 bytes
+2022-09-17 16:06:26,837 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/user-data.txt.i - wb: [600] 308 bytes
+2022-09-17 16:06:26,837 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/vendor-data.txt - wb: [600] 0 bytes
+2022-09-17 16:06:26,838 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/vendor-data.txt.i - wb: [600] 308 bytes
+2022-09-17 16:06:26,839 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/vendor-data2.txt - wb: [600] 0 bytes
+2022-09-17 16:06:26,839 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/vendor-data2.txt.i - wb: [600] 308 bytes
+2022-09-17 16:06:26,840 - util.py[DEBUG]: Reading from /var/lib/cloud/data/set-hostname (quiet=False)
+2022-09-17 16:06:26,840 - util.py[DEBUG]: Read 59 bytes from /var/lib/cloud/data/set-hostname
+2022-09-17 16:06:26,840 - cc_set_hostname.py[DEBUG]: No hostname changes. Skipping set-hostname
+2022-09-17 16:06:26,841 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/consume_data - wb: [644] 23 bytes
+2022-09-17 16:06:26,841 - helpers.py[DEBUG]: Running consume_data using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/consume_data'>)
+2022-09-17 16:06:26,841 - handlers.py[DEBUG]: start: init-network/consume-user-data: reading and applying user-data
+2022-09-17 16:06:26,842 - stages.py[DEBUG]: Added default handler for {'text/cloud-config', 'text/cloud-config-jsonp'} from CloudConfigPartHandler: [['text/cloud-config', 'text/cloud-config-jsonp']]
+2022-09-17 16:06:26,842 - stages.py[DEBUG]: Added default handler for {'text/x-shellscript'} from ShellScriptPartHandler: [['text/x-shellscript']]
+2022-09-17 16:06:26,842 - stages.py[DEBUG]: Added default handler for {'text/x-shellscript-per-boot'} from ShellScriptByFreqPartHandler: [['text/x-shellscript-per-boot']]
+2022-09-17 16:06:26,842 - stages.py[DEBUG]: Added default handler for {'text/x-shellscript-per-instance'} from ShellScriptByFreqPartHandler: [['text/x-shellscript-per-instance']]
+2022-09-17 16:06:26,842 - stages.py[DEBUG]: Added default handler for {'text/x-shellscript-per-once'} from ShellScriptByFreqPartHandler: [['text/x-shellscript-per-once']]
+2022-09-17 16:06:26,842 - stages.py[DEBUG]: Added default handler for {'text/cloud-boothook'} from BootHookPartHandler: [['text/cloud-boothook']]
+2022-09-17 16:06:26,842 - stages.py[DEBUG]: Added default handler for {'text/jinja2'} from JinjaTemplatePartHandler: [['text/jinja2']]
+2022-09-17 16:06:26,842 - __init__.py[DEBUG]: Calling handler CloudConfigPartHandler: [['text/cloud-config', 'text/cloud-config-jsonp']] (__begin__, None, 3) with frequency once-per-instance
+2022-09-17 16:06:26,842 - __init__.py[DEBUG]: Calling handler ShellScriptPartHandler: [['text/x-shellscript']] (__begin__, None, 2) with frequency once-per-instance
+2022-09-17 16:06:26,842 - __init__.py[DEBUG]: Calling handler ShellScriptByFreqPartHandler: [['text/x-shellscript-per-boot']] (__begin__, None, 2) with frequency once-per-instance
+2022-09-17 16:06:26,843 - __init__.py[DEBUG]: Calling handler ShellScriptByFreqPartHandler: [['text/x-shellscript-per-instance']] (__begin__, None, 2) with frequency once-per-instance
+2022-09-17 16:06:26,843 - __init__.py[DEBUG]: Calling handler ShellScriptByFreqPartHandler: [['text/x-shellscript-per-once']] (__begin__, None, 2) with frequency once-per-instance
+2022-09-17 16:06:26,843 - __init__.py[DEBUG]: Calling handler BootHookPartHandler: [['text/cloud-boothook']] (__begin__, None, 2) with frequency once-per-instance
+2022-09-17 16:06:26,843 - __init__.py[DEBUG]: Calling handler JinjaTemplatePartHandler: [['text/jinja2']] (__begin__, None, 3) with frequency once-per-instance
+2022-09-17 16:06:26,843 - __init__.py[DEBUG]: {'MIME-Version': '1.0', 'Content-Type': 'text/x-not-multipart', 'Content-Disposition': 'attachment; filename="part-001"'}
+2022-09-17 16:06:26,843 - __init__.py[DEBUG]: Empty payload of type text/x-not-multipart
+2022-09-17 16:06:26,843 - __init__.py[DEBUG]: Calling handler CloudConfigPartHandler: [['text/cloud-config', 'text/cloud-config-jsonp']] (__end__, None, 3) with frequency once-per-instance
+2022-09-17 16:06:26,843 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/cloud-config.txt - wb: [600] 0 bytes
+2022-09-17 16:06:26,844 - __init__.py[DEBUG]: Calling handler ShellScriptPartHandler: [['text/x-shellscript']] (__end__, None, 2) with frequency once-per-instance
+2022-09-17 16:06:26,844 - __init__.py[DEBUG]: Calling handler ShellScriptByFreqPartHandler: [['text/x-shellscript-per-boot']] (__end__, None, 2) with frequency once-per-instance
+2022-09-17 16:06:26,844 - __init__.py[DEBUG]: Calling handler ShellScriptByFreqPartHandler: [['text/x-shellscript-per-instance']] (__end__, None, 2) with frequency once-per-instance
+2022-09-17 16:06:26,844 - __init__.py[DEBUG]: Calling handler ShellScriptByFreqPartHandler: [['text/x-shellscript-per-once']] (__end__, None, 2) with frequency once-per-instance
+2022-09-17 16:06:26,844 - __init__.py[DEBUG]: Calling handler BootHookPartHandler: [['text/cloud-boothook']] (__end__, None, 2) with frequency once-per-instance
+2022-09-17 16:06:26,844 - __init__.py[DEBUG]: Calling handler JinjaTemplatePartHandler: [['text/jinja2']] (__end__, None, 3) with frequency once-per-instance
+2022-09-17 16:06:26,844 - handlers.py[DEBUG]: finish: init-network/consume-user-data: SUCCESS: reading and applying user-data
+2022-09-17 16:06:26,844 - handlers.py[DEBUG]: start: init-network/consume-vendor-data: reading and applying vendor-data
+2022-09-17 16:06:26,844 - stages.py[DEBUG]: no vendordata from datasource
+2022-09-17 16:06:26,844 - handlers.py[DEBUG]: finish: init-network/consume-vendor-data: SUCCESS: reading and applying vendor-data
+2022-09-17 16:06:26,844 - handlers.py[DEBUG]: start: init-network/consume-vendor-data2: reading and applying vendor-data2
+2022-09-17 16:06:26,844 - stages.py[DEBUG]: no vendordata2 from datasource
+2022-09-17 16:06:26,844 - handlers.py[DEBUG]: finish: init-network/consume-vendor-data2: SUCCESS: reading and applying vendor-data2
+2022-09-17 16:06:26,844 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg (quiet=False)
+2022-09-17 16:06:26,845 - util.py[DEBUG]: Read 3674 bytes from /etc/cloud/cloud.cfg
+2022-09-17 16:06:26,845 - util.py[DEBUG]: Attempting to load yaml from string of length 3674 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,855 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/90_dpkg.cfg (quiet=False)
+2022-09-17 16:06:26,855 - util.py[DEBUG]: Read 82 bytes from /etc/cloud/cloud.cfg.d/90_dpkg.cfg
+2022-09-17 16:06:26,855 - util.py[DEBUG]: Attempting to load yaml from string of length 82 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,855 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/90-azure.cfg (quiet=False)
+2022-09-17 16:06:26,855 - util.py[DEBUG]: Read 586 bytes from /etc/cloud/cloud.cfg.d/90-azure.cfg
+2022-09-17 16:06:26,855 - util.py[DEBUG]: Attempting to load yaml from string of length 586 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,857 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/10-azure-kvp.cfg (quiet=False)
+2022-09-17 16:06:26,857 - util.py[DEBUG]: Read 143 bytes from /etc/cloud/cloud.cfg.d/10-azure-kvp.cfg
+2022-09-17 16:06:26,857 - util.py[DEBUG]: Attempting to load yaml from string of length 143 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,858 - util.py[DEBUG]: Reading from /etc/cloud/cloud.cfg.d/05_logging.cfg (quiet=False)
+2022-09-17 16:06:26,858 - util.py[DEBUG]: Read 2070 bytes from /etc/cloud/cloud.cfg.d/05_logging.cfg
+2022-09-17 16:06:26,858 - util.py[DEBUG]: Attempting to load yaml from string of length 2070 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,861 - util.py[DEBUG]: Reading from /run/cloud-init/cloud.cfg (quiet=False)
+2022-09-17 16:06:26,861 - util.py[DEBUG]: Read 33 bytes from /run/cloud-init/cloud.cfg
+2022-09-17 16:06:26,861 - util.py[DEBUG]: Attempting to load yaml from string of length 33 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,861 - util.py[DEBUG]: Attempting to load yaml from string of length 0 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,861 - util.py[DEBUG]: loaded blob returned None, returning default.
+2022-09-17 16:06:26,861 - util.py[DEBUG]: Reading from /var/lib/cloud/instance/cloud-config.txt (quiet=False)
+2022-09-17 16:06:26,861 - util.py[DEBUG]: Read 0 bytes from /var/lib/cloud/instance/cloud-config.txt
+2022-09-17 16:06:26,861 - util.py[DEBUG]: Attempting to load yaml from string of length 0 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:26,861 - util.py[DEBUG]: loaded blob returned None, returning default.
+2022-09-17 16:06:26,862 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:26,862 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:27,181 - util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+2022-09-17 16:06:27,181 - util.py[DEBUG]: Read 12 bytes from /proc/uptime
+2022-09-17 16:06:27,181 - util.py[DEBUG]: Reading from /var/lib/cloud/instance/cloud-config.txt (quiet=False)
+2022-09-17 16:06:27,181 - util.py[DEBUG]: Read 0 bytes from /var/lib/cloud/instance/cloud-config.txt
+2022-09-17 16:06:27,181 - util.py[DEBUG]: Attempting to load yaml from string of length 0 with allowed root types (<class 'dict'>,)
+2022-09-17 16:06:27,182 - util.py[DEBUG]: loaded blob returned None, returning default.
+2022-09-17 16:06:27,184 - handlers.py[DEBUG]: start: init-network/activate-datasource: activating datasource
+2022-09-17 16:06:27,184 - handlers.py[DEBUG]: start: azure-ds/activate: activate
+2022-09-17 16:06:27,184 - handlers.py[DEBUG]: start: azure-ds/address_ephemeral_resize: address_ephemeral_resize
+2022-09-17 16:06:27,184 - azure.py[DEBUG]: Ephemeral resource disk '/dev/disk/cloud/azure_resource' exists.
+2022-09-17 16:06:27,185 - handlers.py[DEBUG]: start: azure-ds/can_dev_be_reformatted: can_dev_be_reformatted
+2022-09-17 16:06:27,185 - DataSourceAzure.py[DEBUG]: Resolving realpath of /dev/disk/cloud/azure_resource -> /dev/sdb
+2022-09-17 16:06:27,185 - handlers.py[DEBUG]: start: azure-ds/_has_ntfs_filesystem: _has_ntfs_filesystem
+2022-09-17 16:06:27,185 - subp.py[DEBUG]: Running command ['blkid', '-tTYPE=ntfs', '-c', '/dev/null', '-odevice'] with allowed return codes [0, 2] (shell=False, capture=True)
+2022-09-17 16:06:27,204 - DataSourceAzure.py[DEBUG]: ntfs_devices found = ['/dev/sdb1']
+2022-09-17 16:06:27,205 - handlers.py[DEBUG]: finish: azure-ds/_has_ntfs_filesystem: SUCCESS: _has_ntfs_filesystem
+2022-09-17 16:06:27,205 - handlers.py[DEBUG]: start: azure-ds/mount-ntfs-and-count: mount-ntfs-and-count
+2022-09-17 16:06:27,205 - util.py[DEBUG]: Reading from /proc/mounts (quiet=False)
+2022-09-17 16:06:27,205 - util.py[DEBUG]: Read 2923 bytes from /proc/mounts
+2022-09-17 16:06:27,205 - util.py[DEBUG]: Fetched {'/dev/root': {'fstype': 'ext4', 'mountpoint': '/', 'opts': 'rw,relatime,discard'}, 'devtmpfs': {'fstype': 'devtmpfs', 'mountpoint': '/dev', 'opts': 'rw,relatime,size=4066576k,nr_inodes=1016644,mode=755,inode64'}, 'sysfs': {'fstype': 'sysfs', 'mountpoint': '/sys', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'proc': {'fstype': 'proc', 'mountpoint': '/proc', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'securityfs': {'fstype': 'securityfs', 'mountpoint': '/sys/kernel/security', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'tmpfs': {'fstype': 'tmpfs', 'mountpoint': '/sys/fs/cgroup', 'opts': 'ro,nosuid,nodev,noexec,mode=755,inode64'}, 'devpts': {'fstype': 'devpts', 'mountpoint': '/dev/pts', 'opts': 'rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000'}, 'cgroup2': {'fstype': 'cgroup2', 'mountpoint': '/sys/fs/cgroup/unified', 'opts': 'rw,nosuid,nodev,noexec,relatime,nsdelegate'}, 'cgroup': {'fstype': 'cgroup', 'mountpoint': '/sys/fs/cgroup/memory', 'opts': 'rw,nosuid,nodev,noexec,relatime,memory'}, 'pstore': {'fstype': 'pstore', 'mountpoint': '/sys/fs/pstore', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'efivarfs': {'fstype': 'efivarfs', 'mountpoint': '/sys/firmware/efi/efivars', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'bpf': {'fstype': 'bpf', 'mountpoint': '/sys/fs/bpf', 'opts': 'rw,nosuid,nodev,noexec,relatime,mode=700'}, 'systemd-1': {'fstype': 'autofs', 'mountpoint': '/proc/sys/fs/binfmt_misc', 'opts': 'rw,relatime,fd=28,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=13560'}, 'hugetlbfs': {'fstype': 'hugetlbfs', 'mountpoint': '/dev/hugepages', 'opts': 'rw,relatime,pagesize=2M'}, 'mqueue': {'fstype': 'mqueue', 'mountpoint': '/dev/mqueue', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'debugfs': {'fstype': 'debugfs', 'mountpoint': '/sys/kernel/debug', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'tracefs': {'fstype': 'tracefs', 'mountpoint': '/sys/kernel/tracing', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'configfs': {'fstype': 'configfs', 'mountpoint': '/sys/kernel/config', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'fusectl': {'fstype': 'fusectl', 'mountpoint': '/sys/fs/fuse/connections', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, '/dev/loop0': {'fstype': 'squashfs', 'mountpoint': '/snap/snapd/16292', 'opts': 'ro,nodev,relatime,errors=continue'}, '/dev/sda15': {'fstype': 'vfat', 'mountpoint': '/boot/efi', 'opts': 'rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro'}, '/dev/loop1': {'fstype': 'squashfs', 'mountpoint': '/snap/core20/1611', 'opts': 'ro,nodev,relatime,errors=continue'}, '/dev/loop2': {'fstype': 'squashfs', 'mountpoint': '/snap/lxd/22753', 'opts': 'ro,nodev,relatime,errors=continue'}} mounts from proc
+2022-09-17 16:06:27,206 - subp.py[DEBUG]: Running command ['mount', '-o', 'ro', '-t', 'ntfs', '/dev/sdb1', '/run/cloud-init/tmp/tmpymdrd6v_'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:27,293 - handlers.py[DEBUG]: start: azure-ds/count_files: count_files
+2022-09-17 16:06:27,294 - handlers.py[DEBUG]: finish: azure-ds/count_files: SUCCESS: count_files
+2022-09-17 16:06:27,294 - subp.py[DEBUG]: Running command ['umount', '/run/cloud-init/tmp/tmpymdrd6v_'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:27,303 - handlers.py[DEBUG]: finish: azure-ds/mount-ntfs-and-count: SUCCESS: mount-ntfs-and-count
+2022-09-17 16:06:27,303 - handlers.py[DEBUG]: finish: azure-ds/can_dev_be_reformatted: SUCCESS: can_dev_be_reformatted
+2022-09-17 16:06:27,303 - DataSourceAzure.py[DEBUG]: reformattable=True: partition 1 (/dev/sdb1) on device /dev/disk/cloud/azure_resource was ntfs formatted and had no important files. Safe for reformatting.
+2022-09-17 16:06:27,303 - DataSourceAzure.py[DEBUG]: Marker "/var/lib/cloud/instance/sem/config_disk_setup" for module "disk_setup" did not exist.
+2022-09-17 16:06:27,304 - DataSourceAzure.py[DEBUG]: Marker "/var/lib/cloud/instance/sem/config_mounts" for module "mounts" did not exist.
+2022-09-17 16:06:27,304 - handlers.py[DEBUG]: finish: azure-ds/address_ephemeral_resize: SUCCESS: address_ephemeral_resize
+2022-09-17 16:06:27,304 - handlers.py[DEBUG]: start: azure-ds/push_log_to_kvp: push_log_to_kvp
+2022-09-17 16:06:27,304 - handlers.py[DEBUG]: start: azure-ds/get_last_log_byte_pushed_to_kvp_index: get_last_log_byte_pushed_to_kvp_index
+2022-09-17 16:06:27,304 - handlers.py[DEBUG]: finish: azure-ds/get_last_log_byte_pushed_to_kvp_index: SUCCESS: get_last_log_byte_pushed_to_kvp_index
+2022-09-17 16:06:27,304 - azure.py[DEBUG]: Dumping cloud-init.log file to KVP
+2022-09-17 16:06:27,305 - azure.py[DEBUG]: Dumping last 55357 bytes of cloud-init.log file to KVP starting from index: 24508
+2022-09-17 16:06:27,306 - util.py[DEBUG]: Writing to /run/cloud-init/log_pushed_to_kvp_index - wb: [644] 5 bytes
+2022-09-17 16:06:27,307 - azure.py[DEBUG]: Dumping dmesg log to KVP
+2022-09-17 16:06:27,307 - subp.py[DEBUG]: Running command ['dmesg'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:27,320 - handlers.py[DEBUG]: finish: azure-ds/push_log_to_kvp: SUCCESS: push_log_to_kvp
+2022-09-17 16:06:27,321 - handlers.py[DEBUG]: finish: azure-ds/activate: SUCCESS: activate
+2022-09-17 16:06:27,322 - util.py[DEBUG]: Writing to /var/lib/cloud/instance/obj.pkl - wb: [400] 10457 bytes
+2022-09-17 16:06:27,324 - handlers.py[DEBUG]: finish: init-network/activate-datasource: SUCCESS: activating datasource
+2022-09-17 16:06:27,324 - main.py[DEBUG]: no di_report found in config.
+2022-09-17 16:06:27,339 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:27,339 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:27,341 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:27,342 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:27,355 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:27,355 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:27,370 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:27,371 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:27,384 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:27,384 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:27,402 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:27,402 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:27,404 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:27,405 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:27,407 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:27,407 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:27,410 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:27,410 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:27,412 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:27,412 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:27,414 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:27,414 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:27,416 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:27,416 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:27,418 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:27,419 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:27,421 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:27,421 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:27,422 - stages.py[DEBUG]: Using distro class <class 'cloudinit.distros.ubuntu.Distro'>
+2022-09-17 16:06:27,423 - modules.py[DEBUG]: Running module migrator (<module 'cloudinit.config.cc_migrator' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_migrator.py'>) with frequency always
+2022-09-17 16:06:27,423 - handlers.py[DEBUG]: start: init-network/config-migrator: running config-migrator with frequency always
+2022-09-17 16:06:27,423 - helpers.py[DEBUG]: Running config-migrator using lock (<cloudinit.helpers.DummyLock object at 0x7fe213658280>)
+2022-09-17 16:06:27,424 - cc_migrator.py[DEBUG]: Migrated 0 semaphore files to there canonicalized names
+2022-09-17 16:06:27,424 - handlers.py[DEBUG]: finish: init-network/config-migrator: SUCCESS: config-migrator ran successfully
+2022-09-17 16:06:27,424 - modules.py[DEBUG]: Running module seed_random (<module 'cloudinit.config.cc_seed_random' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_seed_random.py'>) with frequency once-per-instance
+2022-09-17 16:06:27,424 - handlers.py[DEBUG]: start: init-network/config-seed_random: running config-seed_random with frequency once-per-instance
+2022-09-17 16:06:27,425 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_seed_random - wb: [644] 23 bytes
+2022-09-17 16:06:27,425 - helpers.py[DEBUG]: Running config-seed_random using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_seed_random'>)
+2022-09-17 16:06:27,425 - cc_seed_random.py[DEBUG]: seed_random: adding 136 bytes of random seed entropy to /dev/urandom
+2022-09-17 16:06:27,425 - util.py[DEBUG]: Writing to /dev/urandom - ab: [None] 136 bytes
+2022-09-17 16:06:27,426 - cc_seed_random.py[DEBUG]: no command provided
+2022-09-17 16:06:27,426 - handlers.py[DEBUG]: finish: init-network/config-seed_random: SUCCESS: config-seed_random ran successfully
+2022-09-17 16:06:27,426 - modules.py[DEBUG]: Running module bootcmd (<module 'cloudinit.config.cc_bootcmd' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_bootcmd.py'>) with frequency always
+2022-09-17 16:06:27,426 - handlers.py[DEBUG]: start: init-network/config-bootcmd: running config-bootcmd with frequency always
+2022-09-17 16:06:27,426 - helpers.py[DEBUG]: Running config-bootcmd using lock (<cloudinit.helpers.DummyLock object at 0x7fe213658a30>)
+2022-09-17 16:06:27,426 - cc_bootcmd.py[DEBUG]: Skipping module named bootcmd, no 'bootcmd' key in configuration
+2022-09-17 16:06:27,426 - handlers.py[DEBUG]: finish: init-network/config-bootcmd: SUCCESS: config-bootcmd ran successfully
+2022-09-17 16:06:27,426 - modules.py[DEBUG]: Running module write-files (<module 'cloudinit.config.cc_write_files' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_write_files.py'>) with frequency once-per-instance
+2022-09-17 16:06:27,426 - handlers.py[DEBUG]: start: init-network/config-write-files: running config-write-files with frequency once-per-instance
+2022-09-17 16:06:27,427 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_write_files - wb: [644] 24 bytes
+2022-09-17 16:06:27,427 - helpers.py[DEBUG]: Running config-write-files using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_write_files'>)
+2022-09-17 16:06:27,427 - cc_write_files.py[DEBUG]: Skipping module named write-files, no/empty 'write_files' key in configuration
+2022-09-17 16:06:27,427 - handlers.py[DEBUG]: finish: init-network/config-write-files: SUCCESS: config-write-files ran successfully
+2022-09-17 16:06:27,427 - modules.py[DEBUG]: Running module growpart (<module 'cloudinit.config.cc_growpart' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_growpart.py'>) with frequency always
+2022-09-17 16:06:27,428 - handlers.py[DEBUG]: start: init-network/config-growpart: running config-growpart with frequency always
+2022-09-17 16:06:27,428 - helpers.py[DEBUG]: Running config-growpart using lock (<cloudinit.helpers.DummyLock object at 0x7fe2136588e0>)
+2022-09-17 16:06:27,428 - cc_growpart.py[DEBUG]: No 'growpart' entry in cfg.  Using default: {'mode': 'auto', 'devices': ['/'], 'ignore_growroot_disabled': False}
+2022-09-17 16:06:27,428 - subp.py[DEBUG]: Running command ['growpart', '--help'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:27,444 - util.py[DEBUG]: Reading from /proc/591/mountinfo (quiet=False)
+2022-09-17 16:06:27,445 - util.py[DEBUG]: Read 3822 bytes from /proc/591/mountinfo
+2022-09-17 16:06:27,445 - util.py[DEBUG]: Reading from /sys/class/block/sda1/partition (quiet=False)
+2022-09-17 16:06:27,445 - util.py[DEBUG]: Read 2 bytes from /sys/class/block/sda1/partition
+2022-09-17 16:06:27,445 - util.py[DEBUG]: Reading from /sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/f8b3781a-1e82-4818-a1c3-63d806ec15bb/host0/target0:0:0/0:0:0:0/block/sda/dev (quiet=False)
+2022-09-17 16:06:27,445 - util.py[DEBUG]: Read 4 bytes from /sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/f8b3781a-1e82-4818-a1c3-63d806ec15bb/host0/target0:0:0/0:0:0:0/block/sda/dev
+2022-09-17 16:06:27,446 - subp.py[DEBUG]: Running command ['growpart', '--dry-run', '/dev/sda', '1'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:27,708 - subp.py[DEBUG]: Running command ['growpart', '/dev/sda', '1'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:28,188 - util.py[DEBUG]: resize_devices took 0.744 seconds
+2022-09-17 16:06:28,189 - cc_growpart.py[INFO]: '/' resized: changed (/dev/sda, 1) from 2244984320 to 32096894464
+2022-09-17 16:06:28,189 - handlers.py[DEBUG]: finish: init-network/config-growpart: SUCCESS: config-growpart ran successfully
+2022-09-17 16:06:28,189 - modules.py[DEBUG]: Running module resizefs (<module 'cloudinit.config.cc_resizefs' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_resizefs.py'>) with frequency always
+2022-09-17 16:06:28,190 - handlers.py[DEBUG]: start: init-network/config-resizefs: running config-resizefs with frequency always
+2022-09-17 16:06:28,190 - helpers.py[DEBUG]: Running config-resizefs using lock (<cloudinit.helpers.DummyLock object at 0x7fe213658bb0>)
+2022-09-17 16:06:28,190 - util.py[DEBUG]: Reading from /proc/591/mountinfo (quiet=False)
+2022-09-17 16:06:28,190 - util.py[DEBUG]: Read 3822 bytes from /proc/591/mountinfo
+2022-09-17 16:06:28,191 - cc_resizefs.py[DEBUG]: resize_info: dev=/dev/root mnt_point=/ path=/
+2022-09-17 16:06:28,191 - cc_resizefs.py[DEBUG]: Resizing / (ext4) using resize2fs /dev/root
+2022-09-17 16:06:28,191 - subp.py[DEBUG]: Running command ('resize2fs', '/dev/root') with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:30,770 - util.py[DEBUG]: Resizing took 2.579 seconds
+2022-09-17 16:06:30,770 - cc_resizefs.py[DEBUG]: Resized root filesystem (type=ext4, val=True)
+2022-09-17 16:06:30,770 - handlers.py[DEBUG]: finish: init-network/config-resizefs: SUCCESS: config-resizefs ran successfully
+2022-09-17 16:06:30,770 - modules.py[DEBUG]: Running module disk_setup (<module 'cloudinit.config.cc_disk_setup' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_disk_setup.py'>) with frequency once-per-instance
+2022-09-17 16:06:30,771 - handlers.py[DEBUG]: start: init-network/config-disk_setup: running config-disk_setup with frequency once-per-instance
+2022-09-17 16:06:30,771 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_disk_setup - wb: [644] 24 bytes
+2022-09-17 16:06:30,772 - helpers.py[DEBUG]: Running config-disk_setup using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_disk_setup'>)
+2022-09-17 16:06:30,772 - cc_disk_setup.py[DEBUG]: updated disk_setup device entry 'ephemeral0' to '/dev/disk/cloud/azure_resource'
+2022-09-17 16:06:30,772 - cc_disk_setup.py[DEBUG]: Partitioning disks: {'/dev/disk/cloud/azure_resource': {'table_type': 'gpt', 'layout': [100], 'overwrite': True, '_origname': 'ephemeral0'}}
+2022-09-17 16:06:30,772 - cc_disk_setup.py[DEBUG]: Creating new partition table/disk
+2022-09-17 16:06:30,772 - subp.py[DEBUG]: Running command ['udevadm', 'settle'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:30,784 - cc_disk_setup.py[DEBUG]: Checking values for /dev/sdb definition
+2022-09-17 16:06:30,784 - cc_disk_setup.py[DEBUG]: Checking against default devices
+2022-09-17 16:06:30,784 - cc_disk_setup.py[DEBUG]: Checking if device /dev/sdb is a valid device
+2022-09-17 16:06:30,784 - subp.py[DEBUG]: Running command ['/usr/bin/lsblk', '--pairs', '--output', 'NAME,TYPE,FSTYPE,LABEL', '/dev/sdb', '--nodeps'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:30,815 - cc_disk_setup.py[DEBUG]: Checking if device layout matches
+2022-09-17 16:06:30,815 - subp.py[DEBUG]: Running command ['/usr/sbin/sgdisk', '-p', '/dev/sdb'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:31,058 - cc_disk_setup.py[DEBUG]: called check_partition_gpt_layout(/dev/sdb, [100]), returned: ['07']
+2022-09-17 16:06:31,059 - cc_disk_setup.py[DEBUG]: Layout types=[None]. Found types=['07']
+2022-09-17 16:06:31,059 - cc_disk_setup.py[DEBUG]: Device partitioning layout matches
+2022-09-17 16:06:31,059 - util.py[DEBUG]: Creating partition on /dev/disk/cloud/azure_resource took 0.286 seconds
+2022-09-17 16:06:31,059 - cc_disk_setup.py[DEBUG]: setting up filesystems: [{'filesystem': 'ext4', 'device': 'ephemeral0.1'}]
+2022-09-17 16:06:31,059 - cc_disk_setup.py[DEBUG]: ephemeral0.1 is mapped to disk=/dev/disk/cloud/azure_resource part=1
+2022-09-17 16:06:31,059 - cc_disk_setup.py[DEBUG]: Creating new filesystem.
+2022-09-17 16:06:31,059 - subp.py[DEBUG]: Running command ['udevadm', 'settle'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:31,928 - cc_disk_setup.py[DEBUG]: Checking /dev/sdb against default devices
+2022-09-17 16:06:31,928 - cc_disk_setup.py[DEBUG]: Manual request of partition 1 for /dev/sdb1
+2022-09-17 16:06:31,928 - cc_disk_setup.py[DEBUG]: Checking device /dev/sdb1
+2022-09-17 16:06:31,928 - subp.py[DEBUG]: Running command ['/usr/sbin/blkid', '-c', '/dev/null', '/dev/sdb1'] with allowed return codes [0, 2] (shell=False, capture=True)
+2022-09-17 16:06:31,941 - cc_disk_setup.py[DEBUG]: Device '/dev/sdb1' has check_label='Temporary Storage' check_fstype=ntfs
+2022-09-17 16:06:31,941 - cc_disk_setup.py[DEBUG]: Device /dev/sdb1 is cleared for formating
+2022-09-17 16:06:31,942 - cc_disk_setup.py[DEBUG]: File system type 'ext4' with label 'None' will be created on /dev/sdb1
+2022-09-17 16:06:31,942 - subp.py[DEBUG]: Running command ['/usr/bin/lsblk', '--pairs', '--output', 'NAME,TYPE,FSTYPE,LABEL', '/dev/sdb1', '--nodeps'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:31,946 - cc_disk_setup.py[DEBUG]: Creating file system None on /dev/sdb1
+2022-09-17 16:06:31,946 - cc_disk_setup.py[DEBUG]:      Using cmd: ['/usr/sbin/mkfs.ext4', '/dev/sdb1']
+2022-09-17 16:06:31,947 - subp.py[DEBUG]: Running command ['/usr/sbin/mkfs.ext4', '/dev/sdb1'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:32,090 - util.py[DEBUG]: Creating fs for /dev/disk/cloud/azure_resource took 1.030 seconds
+2022-09-17 16:06:32,090 - handlers.py[DEBUG]: finish: init-network/config-disk_setup: SUCCESS: config-disk_setup ran successfully
+2022-09-17 16:06:32,091 - modules.py[DEBUG]: Running module mounts (<module 'cloudinit.config.cc_mounts' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_mounts.py'>) with frequency once-per-instance
+2022-09-17 16:06:32,091 - handlers.py[DEBUG]: start: init-network/config-mounts: running config-mounts with frequency once-per-instance
+2022-09-17 16:06:32,091 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_mounts - wb: [644] 24 bytes
+2022-09-17 16:06:32,093 - helpers.py[DEBUG]: Running config-mounts using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_mounts'>)
+2022-09-17 16:06:32,093 - cc_mounts.py[DEBUG]: mounts configuration is []
+2022-09-17 16:06:32,093 - util.py[DEBUG]: Reading from /etc/fstab (quiet=False)
+2022-09-17 16:06:32,093 - util.py[DEBUG]: Read 193 bytes from /etc/fstab
+2022-09-17 16:06:32,094 - cc_mounts.py[DEBUG]: Attempting to determine the real name of ephemeral0
+2022-09-17 16:06:32,094 - cc_mounts.py[DEBUG]: Mapped metadata name ephemeral0 to /dev/disk/cloud/azure_resource
+2022-09-17 16:06:32,094 - cc_mounts.py[DEBUG]: changed default device ephemeral0 => /dev/disk/cloud/azure_resource-part1
+2022-09-17 16:06:32,094 - cc_mounts.py[DEBUG]: Attempting to determine the real name of swap
+2022-09-17 16:06:32,094 - cc_mounts.py[DEBUG]: changed default device swap => None
+2022-09-17 16:06:32,094 - cc_mounts.py[DEBUG]: Ignoring nonexistent default named mount swap
+2022-09-17 16:06:32,094 - cc_mounts.py[DEBUG]: no need to setup swap
+2022-09-17 16:06:32,094 - util.py[DEBUG]: Reading from /proc/mounts (quiet=False)
+2022-09-17 16:06:32,094 - util.py[DEBUG]: Read 2923 bytes from /proc/mounts
+2022-09-17 16:06:32,094 - util.py[DEBUG]: Fetched {'/dev/root': {'fstype': 'ext4', 'mountpoint': '/', 'opts': 'rw,relatime,discard'}, 'devtmpfs': {'fstype': 'devtmpfs', 'mountpoint': '/dev', 'opts': 'rw,relatime,size=4066576k,nr_inodes=1016644,mode=755,inode64'}, 'sysfs': {'fstype': 'sysfs', 'mountpoint': '/sys', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'proc': {'fstype': 'proc', 'mountpoint': '/proc', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'securityfs': {'fstype': 'securityfs', 'mountpoint': '/sys/kernel/security', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'tmpfs': {'fstype': 'tmpfs', 'mountpoint': '/sys/fs/cgroup', 'opts': 'ro,nosuid,nodev,noexec,mode=755,inode64'}, 'devpts': {'fstype': 'devpts', 'mountpoint': '/dev/pts', 'opts': 'rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000'}, 'cgroup2': {'fstype': 'cgroup2', 'mountpoint': '/sys/fs/cgroup/unified', 'opts': 'rw,nosuid,nodev,noexec,relatime,nsdelegate'}, 'cgroup': {'fstype': 'cgroup', 'mountpoint': '/sys/fs/cgroup/memory', 'opts': 'rw,nosuid,nodev,noexec,relatime,memory'}, 'pstore': {'fstype': 'pstore', 'mountpoint': '/sys/fs/pstore', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'efivarfs': {'fstype': 'efivarfs', 'mountpoint': '/sys/firmware/efi/efivars', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'bpf': {'fstype': 'bpf', 'mountpoint': '/sys/fs/bpf', 'opts': 'rw,nosuid,nodev,noexec,relatime,mode=700'}, 'systemd-1': {'fstype': 'autofs', 'mountpoint': '/proc/sys/fs/binfmt_misc', 'opts': 'rw,relatime,fd=28,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=13560'}, 'hugetlbfs': {'fstype': 'hugetlbfs', 'mountpoint': '/dev/hugepages', 'opts': 'rw,relatime,pagesize=2M'}, 'mqueue': {'fstype': 'mqueue', 'mountpoint': '/dev/mqueue', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'debugfs': {'fstype': 'debugfs', 'mountpoint': '/sys/kernel/debug', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'tracefs': {'fstype': 'tracefs', 'mountpoint': '/sys/kernel/tracing', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'configfs': {'fstype': 'configfs', 'mountpoint': '/sys/kernel/config', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, 'fusectl': {'fstype': 'fusectl', 'mountpoint': '/sys/fs/fuse/connections', 'opts': 'rw,nosuid,nodev,noexec,relatime'}, '/dev/loop0': {'fstype': 'squashfs', 'mountpoint': '/snap/snapd/16292', 'opts': 'ro,nodev,relatime,errors=continue'}, '/dev/sda15': {'fstype': 'vfat', 'mountpoint': '/boot/efi', 'opts': 'rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro'}, '/dev/loop1': {'fstype': 'squashfs', 'mountpoint': '/snap/core20/1611', 'opts': 'ro,nodev,relatime,errors=continue'}, '/dev/loop2': {'fstype': 'squashfs', 'mountpoint': '/snap/lxd/22753', 'opts': 'ro,nodev,relatime,errors=continue'}} mounts from proc
+2022-09-17 16:06:32,095 - util.py[DEBUG]: Writing to /etc/fstab - wb: [644] 326 bytes
+2022-09-17 16:06:32,095 - cc_mounts.py[DEBUG]: Changes to fstab: ['+ /dev/disk/cloud/azure_resource-part1 /mnt auto defaults,nofail,x-systemd.requires=cloud-init.service,_netdev,comment=cloudconfig 0 2']
+2022-09-17 16:06:32,095 - subp.py[DEBUG]: Running command ['mount', '-a'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:32,106 - cc_mounts.py[DEBUG]: Activate mounts: PASS:mount -a
+2022-09-17 16:06:32,106 - subp.py[DEBUG]: Running command ['systemctl', 'daemon-reload'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:32,341 - cc_mounts.py[DEBUG]: Activate mounts: PASS:systemctl daemon-reload
+2022-09-17 16:06:32,342 - handlers.py[DEBUG]: finish: init-network/config-mounts: SUCCESS: config-mounts ran successfully
+2022-09-17 16:06:32,342 - modules.py[DEBUG]: Running module set_hostname (<module 'cloudinit.config.cc_set_hostname' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_set_hostname.py'>) with frequency always
+2022-09-17 16:06:32,342 - handlers.py[DEBUG]: start: init-network/config-set_hostname: running config-set_hostname with frequency always
+2022-09-17 16:06:32,342 - helpers.py[DEBUG]: Running config-set_hostname using lock (<cloudinit.helpers.DummyLock object at 0x7fe213658a90>)
+2022-09-17 16:06:32,343 - util.py[DEBUG]: Reading from /var/lib/cloud/data/set-hostname (quiet=False)
+2022-09-17 16:06:32,343 - util.py[DEBUG]: Read 59 bytes from /var/lib/cloud/data/set-hostname
+2022-09-17 16:06:32,343 - cc_set_hostname.py[DEBUG]: No hostname changes. Skipping set-hostname
+2022-09-17 16:06:32,343 - handlers.py[DEBUG]: finish: init-network/config-set_hostname: SUCCESS: config-set_hostname ran successfully
+2022-09-17 16:06:32,344 - modules.py[DEBUG]: Running module update_hostname (<module 'cloudinit.config.cc_update_hostname' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_update_hostname.py'>) with frequency always
+2022-09-17 16:06:32,344 - handlers.py[DEBUG]: start: init-network/config-update_hostname: running config-update_hostname with frequency always
+2022-09-17 16:06:32,344 - helpers.py[DEBUG]: Running config-update_hostname using lock (<cloudinit.helpers.DummyLock object at 0x7fe213658a60>)
+2022-09-17 16:06:32,344 - cc_update_hostname.py[DEBUG]: Updating hostname to linux-example (linux-example)
+2022-09-17 16:06:32,344 - util.py[DEBUG]: Reading from /etc/hostname (quiet=False)
+2022-09-17 16:06:32,344 - util.py[DEBUG]: Read 14 bytes from /etc/hostname
+2022-09-17 16:06:32,345 - __init__.py[DEBUG]: Attempting to update hostname to linux-example in 1 files
+2022-09-17 16:06:32,345 - util.py[DEBUG]: Reading from /var/lib/cloud/data/previous-hostname (quiet=False)
+2022-09-17 16:06:32,345 - util.py[DEBUG]: Writing to /var/lib/cloud/data/previous-hostname - wb: [644] 14 bytes
+2022-09-17 16:06:32,345 - handlers.py[DEBUG]: finish: init-network/config-update_hostname: SUCCESS: config-update_hostname ran successfully
+2022-09-17 16:06:32,345 - modules.py[DEBUG]: Running module update_etc_hosts (<module 'cloudinit.config.cc_update_etc_hosts' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_update_etc_hosts.py'>) with frequency always
+2022-09-17 16:06:32,345 - handlers.py[DEBUG]: start: init-network/config-update_etc_hosts: running config-update_etc_hosts with frequency always
+2022-09-17 16:06:32,346 - helpers.py[DEBUG]: Running config-update_etc_hosts using lock (<cloudinit.helpers.DummyLock object at 0x7fe213658d00>)
+2022-09-17 16:06:32,346 - cc_update_etc_hosts.py[DEBUG]: Configuration option 'manage_etc_hosts' is not set, not managing /etc/hosts in module update_etc_hosts
+2022-09-17 16:06:32,346 - handlers.py[DEBUG]: finish: init-network/config-update_etc_hosts: SUCCESS: config-update_etc_hosts ran successfully
+2022-09-17 16:06:32,346 - modules.py[DEBUG]: Running module ca-certs (<module 'cloudinit.config.cc_ca_certs' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_ca_certs.py'>) with frequency once-per-instance
+2022-09-17 16:06:32,346 - handlers.py[DEBUG]: start: init-network/config-ca-certs: running config-ca-certs with frequency once-per-instance
+2022-09-17 16:06:32,346 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_ca_certs - wb: [644] 23 bytes
+2022-09-17 16:06:32,347 - helpers.py[DEBUG]: Running config-ca-certs using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_ca_certs'>)
+2022-09-17 16:06:32,347 - cc_ca_certs.py[DEBUG]: Skipping module named ca-certs, no 'ca_certs' key in configuration
+2022-09-17 16:06:32,347 - handlers.py[DEBUG]: finish: init-network/config-ca-certs: SUCCESS: config-ca-certs ran successfully
+2022-09-17 16:06:32,347 - modules.py[DEBUG]: Running module rsyslog (<module 'cloudinit.config.cc_rsyslog' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_rsyslog.py'>) with frequency once-per-instance
+2022-09-17 16:06:32,347 - handlers.py[DEBUG]: start: init-network/config-rsyslog: running config-rsyslog with frequency once-per-instance
+2022-09-17 16:06:32,348 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_rsyslog - wb: [644] 23 bytes
+2022-09-17 16:06:32,348 - helpers.py[DEBUG]: Running config-rsyslog using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_rsyslog'>)
+2022-09-17 16:06:32,348 - cc_rsyslog.py[DEBUG]: Skipping module named rsyslog, no 'rsyslog' key in configuration
+2022-09-17 16:06:32,348 - handlers.py[DEBUG]: finish: init-network/config-rsyslog: SUCCESS: config-rsyslog ran successfully
+2022-09-17 16:06:32,348 - modules.py[DEBUG]: Running module users-groups (<module 'cloudinit.config.cc_users_groups' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_users_groups.py'>) with frequency once-per-instance
+2022-09-17 16:06:32,349 - handlers.py[DEBUG]: start: init-network/config-users-groups: running config-users-groups with frequency once-per-instance
+2022-09-17 16:06:32,349 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_users_groups - wb: [644] 23 bytes
+2022-09-17 16:06:32,349 - helpers.py[DEBUG]: Running config-users-groups using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_users_groups'>)
+2022-09-17 16:06:32,350 - handlers.py[DEBUG]: start: azure-ds/get_public_ssh_keys: get_public_ssh_keys
+2022-09-17 16:06:32,350 - azure.py[DEBUG]: Retrieved 0 keys from IMDS
+2022-09-17 16:06:32,350 - handlers.py[DEBUG]: finish: azure-ds/get_public_ssh_keys: SUCCESS: get_public_ssh_keys
+2022-09-17 16:06:32,351 - util.py[DEBUG]: Reading from /etc/os-release (quiet=True)
+2022-09-17 16:06:32,351 - util.py[DEBUG]: Read 382 bytes from /etc/os-release
+2022-09-17 16:06:32,351 - util.py[DEBUG]: Reading from /etc/system-image/channel.ini (quiet=True)
+2022-09-17 16:06:32,351 - util.py[DEBUG]: Read 0 bytes from /etc/system-image/channel.ini
+2022-09-17 16:06:32,351 - __init__.py[DEBUG]: Adding user azureadmin
+2022-09-17 16:06:32,352 - subp.py[DEBUG]: Running hidden command to protect sensitive input/output logstring: ['useradd', 'azureadmin', '--comment', 'Ubuntu', '--groups', 'adm,audio,cdrom,dialout,dip,floppy,lxd,netdev,plugdev,sudo,video', '--password', 'REDACTED', '--shell', '/bin/bash', '-m']
+2022-09-17 16:06:32,577 - util.py[DEBUG]: Reading from /etc/sudoers (quiet=False)
+2022-09-17 16:06:32,578 - util.py[DEBUG]: Read 755 bytes from /etc/sudoers
+2022-09-17 16:06:32,580 - util.py[DEBUG]: Writing to /etc/sudoers.d/90-cloud-init-users - wb: [440] 147 bytes
+2022-09-17 16:06:32,580 - handlers.py[DEBUG]: finish: init-network/config-users-groups: SUCCESS: config-users-groups ran successfully
+2022-09-17 16:06:32,581 - modules.py[DEBUG]: Running module ssh (<module 'cloudinit.config.cc_ssh' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_ssh.py'>) with frequency once-per-instance
+2022-09-17 16:06:32,581 - handlers.py[DEBUG]: start: init-network/config-ssh: running config-ssh with frequency once-per-instance
+2022-09-17 16:06:32,581 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_ssh - wb: [644] 24 bytes
+2022-09-17 16:06:32,582 - helpers.py[DEBUG]: Running config-ssh using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_ssh'>)
+2022-09-17 16:06:32,583 - subp.py[DEBUG]: Running command ['ssh-keygen', '-t', 'rsa', '-N', '', '-f', '/etc/ssh/ssh_host_rsa_key'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:32,731 - util.py[DEBUG]: Group ssh_keys is not a valid group name
+2022-09-17 16:06:32,732 - subp.py[DEBUG]: Running command ['ssh-keygen', '-t', 'dsa', '-N', '', '-f', '/etc/ssh/ssh_host_dsa_key'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:32,802 - util.py[DEBUG]: Group ssh_keys is not a valid group name
+2022-09-17 16:06:32,803 - subp.py[DEBUG]: Running command ['ssh-keygen', '-t', 'ecdsa', '-N', '', '-f', '/etc/ssh/ssh_host_ecdsa_key'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:32,874 - util.py[DEBUG]: Group ssh_keys is not a valid group name
+2022-09-17 16:06:32,875 - subp.py[DEBUG]: Running command ['ssh-keygen', '-t', 'ed25519', '-N', '', '-f', '/etc/ssh/ssh_host_ed25519_key'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:32,894 - util.py[DEBUG]: Group ssh_keys is not a valid group name
+2022-09-17 16:06:32,895 - util.py[DEBUG]: Reading from /etc/ssh/ssh_host_ecdsa_key.pub (quiet=False)
+2022-09-17 16:06:32,895 - util.py[DEBUG]: Read 180 bytes from /etc/ssh/ssh_host_ecdsa_key.pub
+2022-09-17 16:06:32,895 - util.py[DEBUG]: Reading from /etc/ssh/ssh_host_rsa_key.pub (quiet=False)
+2022-09-17 16:06:32,895 - util.py[DEBUG]: Read 572 bytes from /etc/ssh/ssh_host_rsa_key.pub
+2022-09-17 16:06:32,895 - util.py[DEBUG]: Reading from /etc/ssh/ssh_host_ed25519_key.pub (quiet=False)
+2022-09-17 16:06:32,895 - util.py[DEBUG]: Read 100 bytes from /etc/ssh/ssh_host_ed25519_key.pub
+2022-09-17 16:06:32,896 - handlers.py[DEBUG]: start: azure-ds/get_public_ssh_keys: get_public_ssh_keys
+2022-09-17 16:06:32,896 - azure.py[DEBUG]: Retrieved 0 keys from IMDS
+2022-09-17 16:06:32,896 - handlers.py[DEBUG]: finish: azure-ds/get_public_ssh_keys: SUCCESS: get_public_ssh_keys
+2022-09-17 16:06:32,897 - util.py[DEBUG]: Reading from /etc/ssh/sshd_config (quiet=False)
+2022-09-17 16:06:32,898 - util.py[DEBUG]: Read 3287 bytes from /etc/ssh/sshd_config
+2022-09-17 16:06:32,899 - util.py[DEBUG]: Changing the ownership of /home/azureadmin/.ssh to 1000:1000
+2022-09-17 16:06:32,899 - util.py[DEBUG]: Writing to /home/azureadmin/.ssh/authorized_keys - wb: [600] 0 bytes
+2022-09-17 16:06:32,899 - util.py[DEBUG]: Changing the ownership of /home/azureadmin/.ssh/authorized_keys to 1000:1000
+2022-09-17 16:06:32,899 - util.py[DEBUG]: Reading from /home/azureadmin/.ssh/authorized_keys (quiet=False)
+2022-09-17 16:06:32,899 - util.py[DEBUG]: Read 0 bytes from /home/azureadmin/.ssh/authorized_keys
+2022-09-17 16:06:32,900 - util.py[DEBUG]: Writing to /home/azureadmin/.ssh/authorized_keys - wb: [600] 0 bytes
+2022-09-17 16:06:32,900 - util.py[DEBUG]: Reading from /etc/ssh/sshd_config (quiet=False)
+2022-09-17 16:06:32,900 - util.py[DEBUG]: Read 3287 bytes from /etc/ssh/sshd_config
+2022-09-17 16:06:32,900 - util.py[DEBUG]: Changing the ownership of /root/.ssh to 0:0
+2022-09-17 16:06:32,900 - util.py[DEBUG]: Writing to /root/.ssh/authorized_keys - wb: [600] 0 bytes
+2022-09-17 16:06:32,901 - util.py[DEBUG]: Changing the ownership of /root/.ssh/authorized_keys to 0:0
+2022-09-17 16:06:32,901 - util.py[DEBUG]: Reading from /root/.ssh/authorized_keys (quiet=False)
+2022-09-17 16:06:32,901 - util.py[DEBUG]: Read 0 bytes from /root/.ssh/authorized_keys
+2022-09-17 16:06:32,901 - util.py[DEBUG]: Writing to /root/.ssh/authorized_keys - wb: [600] 0 bytes
+2022-09-17 16:06:32,901 - handlers.py[DEBUG]: finish: init-network/config-ssh: SUCCESS: config-ssh ran successfully
+2022-09-17 16:06:32,902 - main.py[DEBUG]: Ran 15 modules with 0 failures
+2022-09-17 16:06:32,902 - atomic_helper.py[DEBUG]: Atomically writing to file /var/lib/cloud/data/status.json (via temporary file /var/lib/cloud/data/tmponhubvwu) - w: [644] 532 bytes/chars
+2022-09-17 16:06:32,902 - util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+2022-09-17 16:06:32,903 - util.py[DEBUG]: Read 12 bytes from /proc/uptime
+2022-09-17 16:06:32,903 - util.py[DEBUG]: cloud-init mode 'init' took 6.194 seconds (6.19)
+2022-09-17 16:06:32,903 - handlers.py[DEBUG]: HyperVReportingHandler flushing remaining events
+2022-09-17 16:06:32,903 - handlers.py[DEBUG]: finish: init-network: SUCCESS: searching for network datasources
+2022-09-17 16:06:42,288 - util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+2022-09-17 16:06:42,288 - util.py[DEBUG]: Read 12 bytes from /proc/uptime
+2022-09-17 16:06:42,288 - util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+2022-09-17 16:06:42,288 - util.py[DEBUG]: Read 12 bytes from /proc/uptime
+2022-09-17 16:06:42,288 - util.py[DEBUG]: Cloud-init v. 22.2-0ubuntu1~20.04.3 running 'modules:config' at Sat, 17 Sep 2022 16:06:42 +0000. Up 36.48 seconds.
+2022-09-17 16:06:42,290 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:42,290 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:42,292 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:42,292 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:42,294 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:42,294 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:42,296 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:42,296 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:42,297 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:42,297 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:42,299 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:42,299 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:42,312 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:42,313 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:42,328 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:42,328 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:42,331 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:42,331 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:42,333 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:42,333 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:42,335 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:42,336 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:42,337 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:42,337 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:42,339 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:42,339 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:42,341 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:42,342 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:42,343 - stages.py[DEBUG]: Using distro class <class 'cloudinit.distros.ubuntu.Distro'>
+2022-09-17 16:06:42,343 - modules.py[DEBUG]: Running module snap (<module 'cloudinit.config.cc_snap' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_snap.py'>) with frequency once-per-instance
+2022-09-17 16:06:42,344 - handlers.py[DEBUG]: start: modules-config/config-snap: running config-snap with frequency once-per-instance
+2022-09-17 16:06:42,344 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_snap - wb: [644] 25 bytes
+2022-09-17 16:06:42,345 - helpers.py[DEBUG]: Running config-snap using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_snap'>)
+2022-09-17 16:06:42,345 - cc_snap.py[DEBUG]: Skipping module named snap, no 'snap' key in configuration
+2022-09-17 16:06:42,345 - handlers.py[DEBUG]: finish: modules-config/config-snap: SUCCESS: config-snap ran successfully
+2022-09-17 16:06:42,345 - modules.py[DEBUG]: Running module ssh-import-id (<module 'cloudinit.config.cc_ssh_import_id' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_ssh_import_id.py'>) with frequency once-per-instance
+2022-09-17 16:06:42,345 - handlers.py[DEBUG]: start: modules-config/config-ssh-import-id: running config-ssh-import-id with frequency once-per-instance
+2022-09-17 16:06:42,346 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_ssh_import_id - wb: [644] 24 bytes
+2022-09-17 16:06:42,346 - helpers.py[DEBUG]: Running config-ssh-import-id using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_ssh_import_id'>)
+2022-09-17 16:06:42,346 - cc_ssh_import_id.py[DEBUG]: Skipping module named ssh-import-id, no 'ssh_import_id' directives found.
+2022-09-17 16:06:42,346 - handlers.py[DEBUG]: finish: modules-config/config-ssh-import-id: SUCCESS: config-ssh-import-id ran successfully
+2022-09-17 16:06:42,346 - modules.py[DEBUG]: Running module keyboard (<module 'cloudinit.config.cc_keyboard' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_keyboard.py'>) with frequency once-per-instance
+2022-09-17 16:06:42,347 - handlers.py[DEBUG]: start: modules-config/config-keyboard: running config-keyboard with frequency once-per-instance
+2022-09-17 16:06:42,347 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_keyboard - wb: [644] 25 bytes
+2022-09-17 16:06:42,347 - helpers.py[DEBUG]: Running config-keyboard using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_keyboard'>)
+2022-09-17 16:06:42,347 - cc_keyboard.py[DEBUG]: Skipping module named keyboard, no 'keyboard' section found
+2022-09-17 16:06:42,347 - handlers.py[DEBUG]: finish: modules-config/config-keyboard: SUCCESS: config-keyboard ran successfully
+2022-09-17 16:06:42,348 - modules.py[DEBUG]: Running module locale (<module 'cloudinit.config.cc_locale' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_locale.py'>) with frequency once-per-instance
+2022-09-17 16:06:42,348 - handlers.py[DEBUG]: start: modules-config/config-locale: running config-locale with frequency once-per-instance
+2022-09-17 16:06:42,348 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_locale - wb: [644] 25 bytes
+2022-09-17 16:06:42,349 - helpers.py[DEBUG]: Running config-locale using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_locale'>)
+2022-09-17 16:06:42,349 - util.py[DEBUG]: Reading from /etc/default/locale (quiet=False)
+2022-09-17 16:06:42,349 - util.py[DEBUG]: Read 13 bytes from /etc/default/locale
+2022-09-17 16:06:42,349 - cc_locale.py[DEBUG]: Setting locale to C.UTF-8
+2022-09-17 16:06:42,349 - debian.py[DEBUG]: System has 'LANG=C.UTF-8' requested 'C.UTF-8', skipping regeneration.
+2022-09-17 16:06:42,349 - handlers.py[DEBUG]: finish: modules-config/config-locale: SUCCESS: config-locale ran successfully
+2022-09-17 16:06:42,349 - modules.py[DEBUG]: Running module set-passwords (<module 'cloudinit.config.cc_set_passwords' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_set_passwords.py'>) with frequency once-per-instance
+2022-09-17 16:06:42,349 - handlers.py[DEBUG]: start: modules-config/config-set-passwords: running config-set-passwords with frequency once-per-instance
+2022-09-17 16:06:42,349 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_set_passwords - wb: [644] 25 bytes
+2022-09-17 16:06:42,350 - helpers.py[DEBUG]: Running config-set-passwords using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_set_passwords'>)
+2022-09-17 16:06:42,351 - cc_set_passwords.py[DEBUG]: Setting hashed password for ['azureadmin']:
+2022-09-17 16:06:42,351 - subp.py[DEBUG]: Running command ['chpasswd', '-e'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:42,416 - subp.py[DEBUG]: Running command ['systemctl', 'status', 'ssh'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:42,427 - util.py[DEBUG]: Reading from /etc/ssh/sshd_config (quiet=False)
+2022-09-17 16:06:42,427 - util.py[DEBUG]: Read 3287 bytes from /etc/ssh/sshd_config
+2022-09-17 16:06:42,427 - ssh_util.py[DEBUG]: line 58: option PasswordAuthentication updated no -> yes
+2022-09-17 16:06:42,428 - util.py[DEBUG]: Writing to /etc/ssh/sshd_config - wb: [644] 3288 bytes
+2022-09-17 16:06:42,428 - subp.py[DEBUG]: Running command ['systemctl', 'restart', 'ssh'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:42,466 - cc_set_passwords.py[DEBUG]: Restarted the SSH daemon.
+2022-09-17 16:06:42,467 - handlers.py[DEBUG]: finish: modules-config/config-set-passwords: SUCCESS: config-set-passwords ran successfully
+2022-09-17 16:06:42,467 - modules.py[DEBUG]: Running module grub-dpkg (<module 'cloudinit.config.cc_grub_dpkg' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_grub_dpkg.py'>) with frequency once-per-instance
+2022-09-17 16:06:42,468 - handlers.py[DEBUG]: start: modules-config/config-grub-dpkg: running config-grub-dpkg with frequency once-per-instance
+2022-09-17 16:06:42,468 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_grub_dpkg - wb: [644] 24 bytes
+2022-09-17 16:06:42,469 - helpers.py[DEBUG]: Running config-grub-dpkg using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_grub_dpkg'>)
+2022-09-17 16:06:42,469 - subp.py[DEBUG]: Running command ['grub-probe', '-t', 'disk', '/boot'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:42,600 - subp.py[DEBUG]: Running command ['udevadm', 'info', '--root', '--query=symlink', '/dev/sda'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:42,606 - cc_grub_dpkg.py[DEBUG]: considering these device symlinks: /dev/disk/by-id/wwn-0x600224807e18cb9db37b3d7d09655609,/dev/disk/by-id/scsi-14d534654202020207e18cb9db37b4b8a9e333d7d09655609,/dev/disk/cloud/azure_root,/dev/disk/by-path/acpi-VMBUS:00-vmbus-f8b3781a1e824818a1c363d806ec15bb-lun-0,/dev/disk/by-id/scsi-3600224807e18cb9db37b3d7d09655609,/dev/disk/azure/root
+2022-09-17 16:06:42,607 - cc_grub_dpkg.py[DEBUG]: filtered to these disk/by-id symlinks: /dev/disk/by-id/wwn-0x600224807e18cb9db37b3d7d09655609,/dev/disk/by-id/scsi-14d534654202020207e18cb9db37b4b8a9e333d7d09655609,/dev/disk/by-id/scsi-3600224807e18cb9db37b3d7d09655609
+2022-09-17 16:06:42,607 - cc_grub_dpkg.py[DEBUG]: selected /dev/disk/by-id/scsi-14d534654202020207e18cb9db37b4b8a9e333d7d09655609
+2022-09-17 16:06:42,607 - cc_grub_dpkg.py[DEBUG]: Setting grub debconf-set-selections with '/dev/disk/by-id/scsi-14d534654202020207e18cb9db37b4b8a9e333d7d09655609','false'
+2022-09-17 16:06:42,607 - subp.py[DEBUG]: Running command ['debconf-set-selections'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:43,823 - handlers.py[DEBUG]: finish: modules-config/config-grub-dpkg: SUCCESS: config-grub-dpkg ran successfully
+2022-09-17 16:06:43,823 - modules.py[DEBUG]: Running module apt-pipelining (<module 'cloudinit.config.cc_apt_pipelining' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_apt_pipelining.py'>) with frequency once-per-instance
+2022-09-17 16:06:43,824 - handlers.py[DEBUG]: start: modules-config/config-apt-pipelining: running config-apt-pipelining with frequency once-per-instance
+2022-09-17 16:06:43,824 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_apt_pipelining - wb: [644] 25 bytes
+2022-09-17 16:06:43,825 - helpers.py[DEBUG]: Running config-apt-pipelining using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_apt_pipelining'>)
+2022-09-17 16:06:43,825 - handlers.py[DEBUG]: finish: modules-config/config-apt-pipelining: SUCCESS: config-apt-pipelining ran successfully
+2022-09-17 16:06:43,825 - modules.py[DEBUG]: Running module apt-configure (<module 'cloudinit.config.cc_apt_configure' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_apt_configure.py'>) with frequency once-per-instance
+2022-09-17 16:06:43,826 - handlers.py[DEBUG]: start: modules-config/config-apt-configure: running config-apt-configure with frequency once-per-instance
+2022-09-17 16:06:43,826 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_apt_configure - wb: [644] 25 bytes
+2022-09-17 16:06:43,826 - helpers.py[DEBUG]: Running config-apt-configure using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_apt_configure'>)
+2022-09-17 16:06:43,826 - cc_apt_configure.py[DEBUG]: debconf_selections was not set in config
+2022-09-17 16:06:43,827 - util.py[DEBUG]: Reading from /etc/os-release (quiet=True)
+2022-09-17 16:06:43,827 - util.py[DEBUG]: Read 382 bytes from /etc/os-release
+2022-09-17 16:06:43,827 - util.py[DEBUG]: Reading from /etc/system-image/channel.ini (quiet=True)
+2022-09-17 16:06:43,827 - util.py[DEBUG]: Read 0 bytes from /etc/system-image/channel.ini
+2022-09-17 16:06:43,827 - cc_apt_configure.py[DEBUG]: handling apt config: {}
+2022-09-17 16:06:43,827 - subp.py[DEBUG]: Running command ['lsb_release', '--all'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:43,874 - subp.py[DEBUG]: Running command ['dpkg', '--print-architecture'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:43,879 - cc_apt_configure.py[DEBUG]: got primary mirror: None
+2022-09-17 16:06:43,879 - cc_apt_configure.py[DEBUG]: got security mirror: None
+2022-09-17 16:06:43,879 - subp.py[DEBUG]: Running command ['dpkg', '--print-architecture'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:43,883 - util.py[DEBUG]: search for mirror in candidates: '['http://azure.archive.ubuntu.com/ubuntu/']'
+2022-09-17 16:06:43,900 - util.py[DEBUG]: Resolving URL: http://azure.archive.ubuntu.com/ubuntu/ took 0.016 seconds
+2022-09-17 16:06:43,900 - util.py[DEBUG]: found working mirror: 'http://azure.archive.ubuntu.com/ubuntu/'
+2022-09-17 16:06:43,900 - util.py[DEBUG]: search for mirror in candidates: '['http://azure.archive.ubuntu.com/ubuntu/']'
+2022-09-17 16:06:43,902 - util.py[DEBUG]: Resolving URL: http://azure.archive.ubuntu.com/ubuntu/ took 0.002 seconds
+2022-09-17 16:06:43,902 - util.py[DEBUG]: found working mirror: 'http://azure.archive.ubuntu.com/ubuntu/'
+2022-09-17 16:06:43,902 - __init__.py[DEBUG]: filtered distro mirror info: {'primary': 'http://azure.archive.ubuntu.com/ubuntu/', 'security': 'http://azure.archive.ubuntu.com/ubuntu/'}
+2022-09-17 16:06:43,902 - cc_apt_configure.py[DEBUG]: Apt Mirror info: {'primary': 'http://azure.archive.ubuntu.com/ubuntu/', 'security': 'http://azure.archive.ubuntu.com/ubuntu/', 'PRIMARY': 'http://azure.archive.ubuntu.com/ubuntu/', 'SECURITY': 'http://azure.archive.ubuntu.com/ubuntu/', 'MIRROR': 'http://azure.archive.ubuntu.com/ubuntu/'}
+2022-09-17 16:06:43,902 - cc_apt_configure.py[INFO]: No custom template provided, fall back to builtin
+2022-09-17 16:06:43,903 - util.py[DEBUG]: Reading from /etc/cloud/templates/sources.list.ubuntu.tmpl (quiet=False)
+2022-09-17 16:06:43,904 - util.py[DEBUG]: Read 2858 bytes from /etc/cloud/templates/sources.list.ubuntu.tmpl
+2022-09-17 16:06:43,943 - util.py[DEBUG]: Writing to /etc/apt/sources.list - wb: [644] 3254 bytes
+2022-09-17 16:06:43,944 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_focal_main_binary-amd64_Packages to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal_main_binary-amd64_Packages
+2022-09-17 16:06:43,944 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_focal_main_i18n_Translation-en to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal_main_i18n_Translation-en
+2022-09-17 16:06:43,944 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_focal-updates_main_cnf_Commands-amd64 to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal-updates_main_cnf_Commands-amd64
+2022-09-17 16:06:43,945 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_focal-updates_main_binary-amd64_Packages to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal-updates_main_binary-amd64_Packages
+2022-09-17 16:06:43,945 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_focal_restricted_binary-amd64_Packages to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal_restricted_binary-amd64_Packages
+2022-09-17 16:06:43,945 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_focal-updates_main_i18n_Translation-en to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal-updates_main_i18n_Translation-en
+2022-09-17 16:06:43,945 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_focal-updates_InRelease to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal-updates_InRelease
+2022-09-17 16:06:43,945 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_focal_main_cnf_Commands-amd64 to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal_main_cnf_Commands-amd64
+2022-09-17 16:06:43,945 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_focal-updates_restricted_i18n_Translation-en to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal-updates_restricted_i18n_Translation-en
+2022-09-17 16:06:43,945 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_focal_restricted_cnf_Commands-amd64 to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal_restricted_cnf_Commands-amd64
+2022-09-17 16:06:43,945 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_focal-updates_restricted_binary-amd64_Packages to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal-updates_restricted_binary-amd64_Packages
+2022-09-17 16:06:43,945 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_focal-updates_restricted_cnf_Commands-amd64 to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal-updates_restricted_cnf_Commands-amd64
+2022-09-17 16:06:43,945 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_focal_restricted_i18n_Translation-en to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal_restricted_i18n_Translation-en
+2022-09-17 16:06:43,945 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_focal_InRelease to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal_InRelease
+2022-09-17 16:06:43,945 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_focal-security_restricted_i18n_Translation-en to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal-security_restricted_i18n_Translation-en
+2022-09-17 16:06:43,945 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_focal-security_restricted_binary-amd64_Packages to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal-security_restricted_binary-amd64_Packages
+2022-09-17 16:06:43,945 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_focal-security_main_i18n_Translation-en to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal-security_main_i18n_Translation-en
+2022-09-17 16:06:43,945 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_focal-security_main_binary-amd64_Packages to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal-security_main_binary-amd64_Packages
+2022-09-17 16:06:43,945 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_focal-security_main_cnf_Commands-amd64 to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal-security_main_cnf_Commands-amd64
+2022-09-17 16:06:43,945 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_focal-security_restricted_cnf_Commands-amd64 to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal-security_restricted_cnf_Commands-amd64
+2022-09-17 16:06:43,945 - cc_apt_configure.py[DEBUG]: Renaming apt list /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_focal-security_InRelease to /var/lib/apt/lists/azure.archive.ubuntu.com_ubuntu_dists_focal-security_InRelease
+2022-09-17 16:06:43,946 - handlers.py[DEBUG]: finish: modules-config/config-apt-configure: SUCCESS: config-apt-configure ran successfully
+2022-09-17 16:06:43,946 - modules.py[DEBUG]: Running module ubuntu-advantage (<module 'cloudinit.config.cc_ubuntu_advantage' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_ubuntu_advantage.py'>) with frequency once-per-instance
+2022-09-17 16:06:43,946 - handlers.py[DEBUG]: start: modules-config/config-ubuntu-advantage: running config-ubuntu-advantage with frequency once-per-instance
+2022-09-17 16:06:43,946 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_ubuntu_advantage - wb: [644] 25 bytes
+2022-09-17 16:06:43,947 - helpers.py[DEBUG]: Running config-ubuntu-advantage using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_ubuntu_advantage'>)
+2022-09-17 16:06:43,947 - cc_ubuntu_advantage.py[DEBUG]: Skipping module named ubuntu-advantage, no 'ubuntu_advantage' configuration found
+2022-09-17 16:06:43,947 - handlers.py[DEBUG]: finish: modules-config/config-ubuntu-advantage: SUCCESS: config-ubuntu-advantage ran successfully
+2022-09-17 16:06:43,947 - modules.py[DEBUG]: Running module ntp (<module 'cloudinit.config.cc_ntp' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_ntp.py'>) with frequency once-per-instance
+2022-09-17 16:06:43,947 - handlers.py[DEBUG]: start: modules-config/config-ntp: running config-ntp with frequency once-per-instance
+2022-09-17 16:06:43,948 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_ntp - wb: [644] 24 bytes
+2022-09-17 16:06:43,948 - helpers.py[DEBUG]: Running config-ntp using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_ntp'>)
+2022-09-17 16:06:43,948 - cc_ntp.py[DEBUG]: Skipping module named ntp, not present or disabled by cfg
+2022-09-17 16:06:43,948 - handlers.py[DEBUG]: finish: modules-config/config-ntp: SUCCESS: config-ntp ran successfully
+2022-09-17 16:06:43,948 - modules.py[DEBUG]: Running module timezone (<module 'cloudinit.config.cc_timezone' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_timezone.py'>) with frequency once-per-instance
+2022-09-17 16:06:43,949 - handlers.py[DEBUG]: start: modules-config/config-timezone: running config-timezone with frequency once-per-instance
+2022-09-17 16:06:43,949 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_timezone - wb: [644] 24 bytes
+2022-09-17 16:06:43,950 - helpers.py[DEBUG]: Running config-timezone using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_timezone'>)
+2022-09-17 16:06:43,950 - cc_timezone.py[DEBUG]: Skipping module named timezone, no 'timezone' specified
+2022-09-17 16:06:43,950 - handlers.py[DEBUG]: finish: modules-config/config-timezone: SUCCESS: config-timezone ran successfully
+2022-09-17 16:06:43,950 - modules.py[DEBUG]: Running module disable-ec2-metadata (<module 'cloudinit.config.cc_disable_ec2_metadata' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_disable_ec2_metadata.py'>) with frequency always
+2022-09-17 16:06:43,950 - handlers.py[DEBUG]: start: modules-config/config-disable-ec2-metadata: running config-disable-ec2-metadata with frequency always
+2022-09-17 16:06:43,950 - helpers.py[DEBUG]: Running config-disable-ec2-metadata using lock (<cloudinit.helpers.DummyLock object at 0x7fc06a5f0be0>)
+2022-09-17 16:06:43,950 - cc_disable_ec2_metadata.py[DEBUG]: Skipping module named disable-ec2-metadata, disabling the ec2 route not enabled
+2022-09-17 16:06:43,950 - handlers.py[DEBUG]: finish: modules-config/config-disable-ec2-metadata: SUCCESS: config-disable-ec2-metadata ran successfully
+2022-09-17 16:06:43,950 - modules.py[DEBUG]: Running module runcmd (<module 'cloudinit.config.cc_runcmd' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_runcmd.py'>) with frequency once-per-instance
+2022-09-17 16:06:43,951 - handlers.py[DEBUG]: start: modules-config/config-runcmd: running config-runcmd with frequency once-per-instance
+2022-09-17 16:06:43,951 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_runcmd - wb: [644] 25 bytes
+2022-09-17 16:06:43,951 - helpers.py[DEBUG]: Running config-runcmd using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_runcmd'>)
+2022-09-17 16:06:43,952 - cc_runcmd.py[DEBUG]: Skipping module named runcmd, no 'runcmd' key in configuration
+2022-09-17 16:06:43,952 - handlers.py[DEBUG]: finish: modules-config/config-runcmd: SUCCESS: config-runcmd ran successfully
+2022-09-17 16:06:43,952 - modules.py[DEBUG]: Running module byobu (<module 'cloudinit.config.cc_byobu' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_byobu.py'>) with frequency once-per-instance
+2022-09-17 16:06:43,952 - handlers.py[DEBUG]: start: modules-config/config-byobu: running config-byobu with frequency once-per-instance
+2022-09-17 16:06:43,952 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_byobu - wb: [644] 24 bytes
+2022-09-17 16:06:43,953 - helpers.py[DEBUG]: Running config-byobu using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_byobu'>)
+2022-09-17 16:06:43,953 - cc_byobu.py[DEBUG]: Skipping module named byobu, no 'byobu' values found
+2022-09-17 16:06:43,953 - handlers.py[DEBUG]: finish: modules-config/config-byobu: SUCCESS: config-byobu ran successfully
+2022-09-17 16:06:43,953 - main.py[DEBUG]: Ran 14 modules with 0 failures
+2022-09-17 16:06:43,954 - atomic_helper.py[DEBUG]: Atomically writing to file /var/lib/cloud/data/status.json (via temporary file /var/lib/cloud/data/tmptrqffzvj) - w: [644] 559 bytes/chars
+2022-09-17 16:06:43,954 - util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+2022-09-17 16:06:43,954 - util.py[DEBUG]: Read 12 bytes from /proc/uptime
+2022-09-17 16:06:43,954 - util.py[DEBUG]: cloud-init mode 'modules' took 1.748 seconds (1.74)
+2022-09-17 16:06:43,954 - handlers.py[DEBUG]: HyperVReportingHandler flushing remaining events
+2022-09-17 16:06:43,954 - handlers.py[DEBUG]: finish: modules-config: SUCCESS: running modules for config
+2022-09-17 16:06:44,412 - util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+2022-09-17 16:06:44,412 - util.py[DEBUG]: Read 12 bytes from /proc/uptime
+2022-09-17 16:06:44,412 - util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+2022-09-17 16:06:44,412 - util.py[DEBUG]: Read 12 bytes from /proc/uptime
+2022-09-17 16:06:44,413 - util.py[DEBUG]: Cloud-init v. 22.2-0ubuntu1~20.04.3 running 'modules:final' at Sat, 17 Sep 2022 16:06:44 +0000. Up 38.60 seconds.
+2022-09-17 16:06:44,414 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,414 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,417 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,417 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,418 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,419 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,420 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,421 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,423 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,423 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,425 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,425 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,427 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,427 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,429 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,429 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,431 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,431 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,433 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,433 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,436 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,436 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,438 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,438 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,439 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,440 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,441 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,441 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,442 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,442 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,463 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,463 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,465 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,465 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,467 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,467 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,468 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,469 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,470 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,470 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,472 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,472 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,474 - util.py[DEBUG]: Reading from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json (quiet=False)
+2022-09-17 16:06:44,474 - util.py[DEBUG]: Read 100004 bytes from /usr/lib/python3/dist-packages/cloudinit/config/schemas/schema-cloud-config-v1.json
+2022-09-17 16:06:44,475 - stages.py[DEBUG]: Using distro class <class 'cloudinit.distros.ubuntu.Distro'>
+2022-09-17 16:06:44,476 - modules.py[DEBUG]: Running module package-update-upgrade-install (<module 'cloudinit.config.cc_package_update_upgrade_install' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_package_update_upgrade_install.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,476 - handlers.py[DEBUG]: start: modules-final/config-package-update-upgrade-install: running config-package-update-upgrade-install with frequency once-per-instance
+2022-09-17 16:06:44,477 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_package_update_upgrade_install - wb: [644] 25 bytes
+2022-09-17 16:06:44,477 - helpers.py[DEBUG]: Running config-package-update-upgrade-install using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_package_update_upgrade_install'>)
+2022-09-17 16:06:44,477 - handlers.py[DEBUG]: finish: modules-final/config-package-update-upgrade-install: SUCCESS: config-package-update-upgrade-install ran successfully
+2022-09-17 16:06:44,477 - modules.py[DEBUG]: Running module fan (<module 'cloudinit.config.cc_fan' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_fan.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,478 - handlers.py[DEBUG]: start: modules-final/config-fan: running config-fan with frequency once-per-instance
+2022-09-17 16:06:44,478 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_fan - wb: [644] 24 bytes
+2022-09-17 16:06:44,478 - helpers.py[DEBUG]: Running config-fan using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_fan'>)
+2022-09-17 16:06:44,478 - cc_fan.py[DEBUG]: fan: no 'fan' config entry. disabling
+2022-09-17 16:06:44,479 - handlers.py[DEBUG]: finish: modules-final/config-fan: SUCCESS: config-fan ran successfully
+2022-09-17 16:06:44,479 - modules.py[DEBUG]: Running module landscape (<module 'cloudinit.config.cc_landscape' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_landscape.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,479 - handlers.py[DEBUG]: start: modules-final/config-landscape: running config-landscape with frequency once-per-instance
+2022-09-17 16:06:44,479 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_landscape - wb: [644] 24 bytes
+2022-09-17 16:06:44,480 - helpers.py[DEBUG]: Running config-landscape using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_landscape'>)
+2022-09-17 16:06:44,480 - handlers.py[DEBUG]: finish: modules-final/config-landscape: SUCCESS: config-landscape ran successfully
+2022-09-17 16:06:44,480 - modules.py[DEBUG]: Running module lxd (<module 'cloudinit.config.cc_lxd' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_lxd.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,480 - handlers.py[DEBUG]: start: modules-final/config-lxd: running config-lxd with frequency once-per-instance
+2022-09-17 16:06:44,480 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_lxd - wb: [644] 24 bytes
+2022-09-17 16:06:44,481 - helpers.py[DEBUG]: Running config-lxd using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_lxd'>)
+2022-09-17 16:06:44,481 - cc_lxd.py[DEBUG]: Skipping module named lxd, not present or disabled by cfg
+2022-09-17 16:06:44,481 - handlers.py[DEBUG]: finish: modules-final/config-lxd: SUCCESS: config-lxd ran successfully
+2022-09-17 16:06:44,481 - modules.py[DEBUG]: Running module ubuntu-drivers (<module 'cloudinit.config.cc_ubuntu_drivers' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_ubuntu_drivers.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,481 - handlers.py[DEBUG]: start: modules-final/config-ubuntu-drivers: running config-ubuntu-drivers with frequency once-per-instance
+2022-09-17 16:06:44,482 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_ubuntu_drivers - wb: [644] 25 bytes
+2022-09-17 16:06:44,482 - helpers.py[DEBUG]: Running config-ubuntu-drivers using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_ubuntu_drivers'>)
+2022-09-17 16:06:44,482 - cc_ubuntu_drivers.py[DEBUG]: Skipping module named ubuntu-drivers, no 'drivers' key in config
+2022-09-17 16:06:44,482 - handlers.py[DEBUG]: finish: modules-final/config-ubuntu-drivers: SUCCESS: config-ubuntu-drivers ran successfully
+2022-09-17 16:06:44,482 - modules.py[DEBUG]: Running module write-files-deferred (<module 'cloudinit.config.cc_write_files_deferred' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_write_files_deferred.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,483 - handlers.py[DEBUG]: start: modules-final/config-write-files-deferred: running config-write-files-deferred with frequency once-per-instance
+2022-09-17 16:06:44,483 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_write_files_deferred - wb: [644] 25 bytes
+2022-09-17 16:06:44,483 - helpers.py[DEBUG]: Running config-write-files-deferred using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_write_files_deferred'>)
+2022-09-17 16:06:44,483 - cc_write_files_deferred.py[DEBUG]: Skipping module named write-files-deferred, no deferred file defined in configuration
+2022-09-17 16:06:44,483 - handlers.py[DEBUG]: finish: modules-final/config-write-files-deferred: SUCCESS: config-write-files-deferred ran successfully
+2022-09-17 16:06:44,484 - modules.py[DEBUG]: Running module puppet (<module 'cloudinit.config.cc_puppet' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_puppet.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,484 - handlers.py[DEBUG]: start: modules-final/config-puppet: running config-puppet with frequency once-per-instance
+2022-09-17 16:06:44,484 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_puppet - wb: [644] 25 bytes
+2022-09-17 16:06:44,485 - helpers.py[DEBUG]: Running config-puppet using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_puppet'>)
+2022-09-17 16:06:44,485 - cc_puppet.py[DEBUG]: Skipping module named puppet, no 'puppet' configuration found
+2022-09-17 16:06:44,485 - handlers.py[DEBUG]: finish: modules-final/config-puppet: SUCCESS: config-puppet ran successfully
+2022-09-17 16:06:44,485 - modules.py[DEBUG]: Running module chef (<module 'cloudinit.config.cc_chef' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_chef.py'>) with frequency always
+2022-09-17 16:06:44,485 - handlers.py[DEBUG]: start: modules-final/config-chef: running config-chef with frequency always
+2022-09-17 16:06:44,485 - helpers.py[DEBUG]: Running config-chef using lock (<cloudinit.helpers.DummyLock object at 0x7eff584a3550>)
+2022-09-17 16:06:44,485 - cc_chef.py[DEBUG]: Skipping module named chef, no 'chef' key in configuration
+2022-09-17 16:06:44,485 - handlers.py[DEBUG]: finish: modules-final/config-chef: SUCCESS: config-chef ran successfully
+2022-09-17 16:06:44,485 - modules.py[DEBUG]: Running module mcollective (<module 'cloudinit.config.cc_mcollective' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_mcollective.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,486 - handlers.py[DEBUG]: start: modules-final/config-mcollective: running config-mcollective with frequency once-per-instance
+2022-09-17 16:06:44,486 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_mcollective - wb: [644] 25 bytes
+2022-09-17 16:06:44,486 - helpers.py[DEBUG]: Running config-mcollective using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_mcollective'>)
+2022-09-17 16:06:44,486 - cc_mcollective.py[DEBUG]: Skipping module named mcollective, no 'mcollective' key in configuration
+2022-09-17 16:06:44,487 - handlers.py[DEBUG]: finish: modules-final/config-mcollective: SUCCESS: config-mcollective ran successfully
+2022-09-17 16:06:44,487 - modules.py[DEBUG]: Running module salt-minion (<module 'cloudinit.config.cc_salt_minion' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_salt_minion.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,487 - handlers.py[DEBUG]: start: modules-final/config-salt-minion: running config-salt-minion with frequency once-per-instance
+2022-09-17 16:06:44,487 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_salt_minion - wb: [644] 24 bytes
+2022-09-17 16:06:44,488 - helpers.py[DEBUG]: Running config-salt-minion using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_salt_minion'>)
+2022-09-17 16:06:44,488 - cc_salt_minion.py[DEBUG]: Skipping module named salt-minion, no 'salt_minion' key in configuration
+2022-09-17 16:06:44,488 - handlers.py[DEBUG]: finish: modules-final/config-salt-minion: SUCCESS: config-salt-minion ran successfully
+2022-09-17 16:06:44,488 - modules.py[DEBUG]: Running module reset_rmc (<module 'cloudinit.config.cc_reset_rmc' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_reset_rmc.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,488 - handlers.py[DEBUG]: start: modules-final/config-reset_rmc: running config-reset_rmc with frequency once-per-instance
+2022-09-17 16:06:44,488 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_reset_rmc - wb: [644] 25 bytes
+2022-09-17 16:06:44,489 - helpers.py[DEBUG]: Running config-reset_rmc using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_reset_rmc'>)
+2022-09-17 16:06:44,489 - cc_reset_rmc.py[DEBUG]: module disabled, RSCT_PATH not present
+2022-09-17 16:06:44,489 - handlers.py[DEBUG]: finish: modules-final/config-reset_rmc: SUCCESS: config-reset_rmc ran successfully
+2022-09-17 16:06:44,489 - modules.py[DEBUG]: Running module refresh_rmc_and_interface (<module 'cloudinit.config.cc_refresh_rmc_and_interface' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_refresh_rmc_and_interface.py'>) with frequency always
+2022-09-17 16:06:44,490 - handlers.py[DEBUG]: start: modules-final/config-refresh_rmc_and_interface: running config-refresh_rmc_and_interface with frequency always
+2022-09-17 16:06:44,490 - helpers.py[DEBUG]: Running config-refresh_rmc_and_interface using lock (<cloudinit.helpers.DummyLock object at 0x7eff584a37f0>)
+2022-09-17 16:06:44,490 - cc_refresh_rmc_and_interface.py[DEBUG]: No 'rmcctrl' in path, disabled
+2022-09-17 16:06:44,490 - handlers.py[DEBUG]: finish: modules-final/config-refresh_rmc_and_interface: SUCCESS: config-refresh_rmc_and_interface ran successfully
+2022-09-17 16:06:44,490 - modules.py[DEBUG]: Running module rightscale_userdata (<module 'cloudinit.config.cc_rightscale_userdata' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_rightscale_userdata.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,491 - handlers.py[DEBUG]: start: modules-final/config-rightscale_userdata: running config-rightscale_userdata with frequency once-per-instance
+2022-09-17 16:06:44,491 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_rightscale_userdata - wb: [644] 25 bytes
+2022-09-17 16:06:44,491 - helpers.py[DEBUG]: Running config-rightscale_userdata using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_rightscale_userdata'>)
+2022-09-17 16:06:44,491 - cc_rightscale_userdata.py[DEBUG]: Failed to get raw userdata in module rightscale_userdata
+2022-09-17 16:06:44,492 - handlers.py[DEBUG]: finish: modules-final/config-rightscale_userdata: SUCCESS: config-rightscale_userdata ran successfully
+2022-09-17 16:06:44,492 - modules.py[DEBUG]: Running module scripts-vendor (<module 'cloudinit.config.cc_scripts_vendor' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_scripts_vendor.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,492 - handlers.py[DEBUG]: start: modules-final/config-scripts-vendor: running config-scripts-vendor with frequency once-per-instance
+2022-09-17 16:06:44,492 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_scripts_vendor - wb: [644] 25 bytes
+2022-09-17 16:06:44,493 - helpers.py[DEBUG]: Running config-scripts-vendor using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_scripts_vendor'>)
+2022-09-17 16:06:44,493 - handlers.py[DEBUG]: finish: modules-final/config-scripts-vendor: SUCCESS: config-scripts-vendor ran successfully
+2022-09-17 16:06:44,493 - modules.py[DEBUG]: Running module scripts-per-once (<module 'cloudinit.config.cc_scripts_per_once' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_scripts_per_once.py'>) with frequency once
+2022-09-17 16:06:44,493 - handlers.py[DEBUG]: start: modules-final/config-scripts-per-once: running config-scripts-per-once with frequency once
+2022-09-17 16:06:44,493 - util.py[DEBUG]: Writing to /var/lib/cloud/sem/config_scripts_per_once.once - wb: [644] 24 bytes
+2022-09-17 16:06:44,494 - helpers.py[DEBUG]: Running config-scripts-per-once using lock (<FileLock using file '/var/lib/cloud/sem/config_scripts_per_once.once'>)
+2022-09-17 16:06:44,494 - handlers.py[DEBUG]: finish: modules-final/config-scripts-per-once: SUCCESS: config-scripts-per-once ran successfully
+2022-09-17 16:06:44,494 - modules.py[DEBUG]: Running module scripts-per-boot (<module 'cloudinit.config.cc_scripts_per_boot' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_scripts_per_boot.py'>) with frequency always
+2022-09-17 16:06:44,494 - handlers.py[DEBUG]: start: modules-final/config-scripts-per-boot: running config-scripts-per-boot with frequency always
+2022-09-17 16:06:44,494 - helpers.py[DEBUG]: Running config-scripts-per-boot using lock (<cloudinit.helpers.DummyLock object at 0x7eff584a3ca0>)
+2022-09-17 16:06:44,495 - handlers.py[DEBUG]: finish: modules-final/config-scripts-per-boot: SUCCESS: config-scripts-per-boot ran successfully
+2022-09-17 16:06:44,495 - modules.py[DEBUG]: Running module scripts-per-instance (<module 'cloudinit.config.cc_scripts_per_instance' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_scripts_per_instance.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,495 - handlers.py[DEBUG]: start: modules-final/config-scripts-per-instance: running config-scripts-per-instance with frequency once-per-instance
+2022-09-17 16:06:44,495 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_scripts_per_instance - wb: [644] 25 bytes
+2022-09-17 16:06:44,496 - helpers.py[DEBUG]: Running config-scripts-per-instance using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_scripts_per_instance'>)
+2022-09-17 16:06:44,496 - handlers.py[DEBUG]: finish: modules-final/config-scripts-per-instance: SUCCESS: config-scripts-per-instance ran successfully
+2022-09-17 16:06:44,496 - modules.py[DEBUG]: Running module scripts-user (<module 'cloudinit.config.cc_scripts_user' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_scripts_user.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,496 - handlers.py[DEBUG]: start: modules-final/config-scripts-user: running config-scripts-user with frequency once-per-instance
+2022-09-17 16:06:44,496 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_scripts_user - wb: [644] 24 bytes
+2022-09-17 16:06:44,497 - helpers.py[DEBUG]: Running config-scripts-user using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_scripts_user'>)
+2022-09-17 16:06:44,497 - handlers.py[DEBUG]: finish: modules-final/config-scripts-user: SUCCESS: config-scripts-user ran successfully
+2022-09-17 16:06:44,497 - modules.py[DEBUG]: Running module ssh-authkey-fingerprints (<module 'cloudinit.config.cc_ssh_authkey_fingerprints' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_ssh_authkey_fingerprints.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,497 - handlers.py[DEBUG]: start: modules-final/config-ssh-authkey-fingerprints: running config-ssh-authkey-fingerprints with frequency once-per-instance
+2022-09-17 16:06:44,498 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_ssh_authkey_fingerprints - wb: [644] 23 bytes
+2022-09-17 16:06:44,498 - helpers.py[DEBUG]: Running config-ssh-authkey-fingerprints using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_ssh_authkey_fingerprints'>)
+2022-09-17 16:06:44,499 - util.py[DEBUG]: Reading from /etc/ssh/sshd_config (quiet=False)
+2022-09-17 16:06:44,499 - util.py[DEBUG]: Read 3288 bytes from /etc/ssh/sshd_config
+2022-09-17 16:06:44,499 - util.py[DEBUG]: Reading from /home/azureadmin/.ssh/authorized_keys (quiet=False)
+2022-09-17 16:06:44,499 - util.py[DEBUG]: Read 0 bytes from /home/azureadmin/.ssh/authorized_keys
+2022-09-17 16:06:44,502 - handlers.py[DEBUG]: finish: modules-final/config-ssh-authkey-fingerprints: SUCCESS: config-ssh-authkey-fingerprints ran successfully
+2022-09-17 16:06:44,502 - modules.py[DEBUG]: Running module keys-to-console (<module 'cloudinit.config.cc_keys_to_console' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_keys_to_console.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,502 - handlers.py[DEBUG]: start: modules-final/config-keys-to-console: running config-keys-to-console with frequency once-per-instance
+2022-09-17 16:06:44,502 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_keys_to_console - wb: [644] 25 bytes
+2022-09-17 16:06:44,503 - helpers.py[DEBUG]: Running config-keys-to-console using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_keys_to_console'>)
+2022-09-17 16:06:44,503 - subp.py[DEBUG]: Running command ['/usr/lib/cloud-init/write-ssh-key-fingerprints', '', 'ssh-dss'] with allowed return codes [0] (shell=False, capture=True)
+2022-09-17 16:06:44,538 - handlers.py[DEBUG]: finish: modules-final/config-keys-to-console: SUCCESS: config-keys-to-console ran successfully
+2022-09-17 16:06:44,539 - modules.py[DEBUG]: Running module install-hotplug (<module 'cloudinit.config.cc_install_hotplug' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_install_hotplug.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,539 - handlers.py[DEBUG]: start: modules-final/config-install-hotplug: running config-install-hotplug with frequency once-per-instance
+2022-09-17 16:06:44,540 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_install_hotplug - wb: [644] 25 bytes
+2022-09-17 16:06:44,541 - helpers.py[DEBUG]: Running config-install-hotplug using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_install_hotplug'>)
+2022-09-17 16:06:44,541 - stages.py[DEBUG]: Allowed events: {<EventScope.NETWORK: 'network'>: {<EventType.BOOT: 'boot'>, <EventType.BOOT_NEW_INSTANCE: 'boot-new-instance'>}}
+2022-09-17 16:06:44,541 - stages.py[DEBUG]: Event Denied: scopes=['network'] EventType=hotplug
+2022-09-17 16:06:44,541 - cc_install_hotplug.py[DEBUG]: Skipping hotplug install, not enabled
+2022-09-17 16:06:44,541 - handlers.py[DEBUG]: finish: modules-final/config-install-hotplug: SUCCESS: config-install-hotplug ran successfully
+2022-09-17 16:06:44,541 - modules.py[DEBUG]: Running module phone-home (<module 'cloudinit.config.cc_phone_home' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_phone_home.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,542 - handlers.py[DEBUG]: start: modules-final/config-phone-home: running config-phone-home with frequency once-per-instance
+2022-09-17 16:06:44,542 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_phone_home - wb: [644] 24 bytes
+2022-09-17 16:06:44,542 - helpers.py[DEBUG]: Running config-phone-home using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_phone_home'>)
+2022-09-17 16:06:44,542 - cc_phone_home.py[DEBUG]: Skipping module named phone-home, no 'phone_home' configuration found
+2022-09-17 16:06:44,542 - handlers.py[DEBUG]: finish: modules-final/config-phone-home: SUCCESS: config-phone-home ran successfully
+2022-09-17 16:06:44,542 - modules.py[DEBUG]: Running module final-message (<module 'cloudinit.config.cc_final_message' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_final_message.py'>) with frequency always
+2022-09-17 16:06:44,543 - handlers.py[DEBUG]: start: modules-final/config-final-message: running config-final-message with frequency always
+2022-09-17 16:06:44,543 - helpers.py[DEBUG]: Running config-final-message using lock (<cloudinit.helpers.DummyLock object at 0x7eff57c664c0>)
+2022-09-17 16:06:44,543 - util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+2022-09-17 16:06:44,543 - util.py[DEBUG]: Read 12 bytes from /proc/uptime
+2022-09-17 16:06:44,548 - util.py[DEBUG]: Cloud-init v. 22.2-0ubuntu1~20.04.3 finished at Sat, 17 Sep 2022 16:06:44 +0000. Datasource DataSourceAzure [seed=/dev/sr0].  Up 38.81 seconds
+2022-09-17 16:06:44,548 - util.py[DEBUG]: Writing to /var/lib/cloud/instance/boot-finished - wb: [644] 67 bytes
+2022-09-17 16:06:44,548 - handlers.py[DEBUG]: finish: modules-final/config-final-message: SUCCESS: config-final-message ran successfully
+2022-09-17 16:06:44,548 - modules.py[DEBUG]: Running module power-state-change (<module 'cloudinit.config.cc_power_state_change' from '/usr/lib/python3/dist-packages/cloudinit/config/cc_power_state_change.py'>) with frequency once-per-instance
+2022-09-17 16:06:44,548 - handlers.py[DEBUG]: start: modules-final/config-power-state-change: running config-power-state-change with frequency once-per-instance
+2022-09-17 16:06:44,549 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_power_state_change - wb: [644] 25 bytes
+2022-09-17 16:06:44,549 - helpers.py[DEBUG]: Running config-power-state-change using lock (<FileLock using file '/var/lib/cloud/instances/946cdd22-5f3e-47d8-bf88-cddca6505e4a/sem/config_power_state_change'>)
+2022-09-17 16:06:44,549 - cc_power_state_change.py[DEBUG]: no power_state provided. doing nothing
+2022-09-17 16:06:44,549 - handlers.py[DEBUG]: finish: modules-final/config-power-state-change: SUCCESS: config-power-state-change ran successfully
+2022-09-17 16:06:44,549 - main.py[DEBUG]: Ran 24 modules with 0 failures
+2022-09-17 16:06:44,550 - atomic_helper.py[DEBUG]: Atomically writing to file /var/lib/cloud/data/status.json (via temporary file /var/lib/cloud/data/tmpyp0arcwq) - w: [644] 587 bytes/chars
+2022-09-17 16:06:44,550 - atomic_helper.py[DEBUG]: Atomically writing to file /var/lib/cloud/data/result.json (via temporary file /var/lib/cloud/data/tmpymabfg4h) - w: [644] 82 bytes/chars
+2022-09-17 16:06:44,550 - util.py[DEBUG]: Creating symbolic link from '/run/cloud-init/result.json' => '../../var/lib/cloud/data/result.json'
+2022-09-17 16:06:44,551 - util.py[DEBUG]: Reading from /proc/uptime (quiet=False)
+2022-09-17 16:06:44,551 - util.py[DEBUG]: Read 12 bytes from /proc/uptime
+2022-09-17 16:06:44,551 - util.py[DEBUG]: cloud-init mode 'modules' took 0.217 seconds (0.22)
+2022-09-17 16:06:44,551 - handlers.py[DEBUG]: HyperVReportingHandler flushing remaining events
+2022-09-17 16:06:44,551 - handlers.py[DEBUG]: finish: modules-final: SUCCESS: running modules for final

@@ -1,0 +1,117 @@
+
+Start-Date: 2022-10-01  19:31:40
+Commandline: apt-get upgrade
+Requested-By: azureadmin (1000)
+Upgrade: libsystemd0:amd64 (245.4-4ubuntu3.17, 245.4-4ubuntu3.18), udev:amd64 (245.4-4ubuntu3.17, 245.4-4ubuntu3.18), libudev1:amd64 (245.4-4ubuntu3.17, 245.4-4ubuntu3.18), systemd-sysv:amd64 (245.4-4ubuntu3.17, 245.4-4ubuntu3.18), libpam-systemd:amd64 (245.4-4ubuntu3.17, 245.4-4ubuntu3.18), systemd:amd64 (245.4-4ubuntu3.17, 245.4-4ubuntu3.18), libnss-systemd:amd64 (245.4-4ubuntu3.17, 245.4-4ubuntu3.18)
+End-Date: 2022-10-01  19:31:57
+
+Start-Date: 2022-10-06  06:06:16
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: isc-dhcp-common:amd64 (4.4.1-2.1ubuntu5.20.04.3, 4.4.1-2.1ubuntu5.20.04.4)
+End-Date: 2022-10-06  06:06:16
+
+Start-Date: 2022-10-06  06:06:18
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: isc-dhcp-client:amd64 (4.4.1-2.1ubuntu5.20.04.3, 4.4.1-2.1ubuntu5.20.04.4)
+End-Date: 2022-10-06  06:06:19
+
+Start-Date: 2022-10-11  06:14:52
+Commandline: /usr/bin/unattended-upgrade
+Install: linux-image-5.15.0-1021-azure:amd64 (5.15.0-1021.26~20.04.1, automatic), linux-cloud-tools-5.15.0-1021-azure:amd64 (5.15.0-1021.26~20.04.1, automatic), linux-azure-5.15-cloud-tools-5.15.0-1021:amd64 (5.15.0-1021.26~20.04.1, automatic), linux-tools-5.15.0-1021-azure:amd64 (5.15.0-1021.26~20.04.1, automatic), linux-modules-5.15.0-1021-azure:amd64 (5.15.0-1021.26~20.04.1, automatic), linux-headers-5.15.0-1021-azure:amd64 (5.15.0-1021.26~20.04.1, automatic), linux-azure-5.15-tools-5.15.0-1021:amd64 (5.15.0-1021.26~20.04.1, automatic), linux-azure-5.15-headers-5.15.0-1021:amd64 (5.15.0-1021.26~20.04.1, automatic)
+Upgrade: linux-azure:amd64 (5.15.0.1020.25~20.04.13, 5.15.0.1021.26~20.04.14), linux-image-azure:amd64 (5.15.0.1020.25~20.04.13, 5.15.0.1021.26~20.04.14), linux-headers-azure:amd64 (5.15.0.1020.25~20.04.13, 5.15.0.1021.26~20.04.14), linux-tools-azure:amd64 (5.15.0.1020.25~20.04.13, 5.15.0.1021.26~20.04.14), linux-cloud-tools-azure:amd64 (5.15.0.1020.25~20.04.13, 5.15.0.1021.26~20.04.14)
+End-Date: 2022-10-11  06:15:18
+
+Start-Date: 2022-10-11  06:15:20
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: linux-tools-common:amd64 (5.4.0-126.142, 5.4.0-128.144)
+End-Date: 2022-10-11  06:15:22
+
+Start-Date: 2022-10-11  06:15:24
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: linux-cloud-tools-common:amd64 (5.4.0-126.142, 5.4.0-128.144)
+End-Date: 2022-10-11  06:15:25
+
+Start-Date: 2022-10-11  06:15:28
+Commandline: /usr/bin/unattended-upgrade
+Remove: linux-headers-5.15.0-1020-azure:amd64 (5.15.0-1020.25~20.04.1)
+End-Date: 2022-10-11  06:15:28
+
+Start-Date: 2022-10-11  06:15:30
+Commandline: /usr/bin/unattended-upgrade
+Remove: linux-azure-5.15-headers-5.15.0-1020:amd64 (5.15.0-1020.25~20.04.1)
+End-Date: 2022-10-11  06:15:32
+
+Start-Date: 2022-10-11  06:15:34
+Commandline: /usr/bin/unattended-upgrade
+Remove: linux-image-5.15.0-1020-azure:amd64 (5.15.0-1020.25~20.04.1), linux-modules-5.15.0-1020-azure:amd64 (5.15.0-1020.25~20.04.1)
+End-Date: 2022-10-11  06:15:37
+
+Start-Date: 2022-10-11  06:15:39
+Commandline: /usr/bin/unattended-upgrade
+Remove: linux-tools-5.15.0-1020-azure:amd64 (5.15.0-1020.25~20.04.1), linux-azure-5.15-tools-5.15.0-1020:amd64 (5.15.0-1020.25~20.04.1)
+End-Date: 2022-10-11  06:15:40
+
+Start-Date: 2022-10-11  06:15:42
+Commandline: /usr/bin/unattended-upgrade
+Remove: linux-cloud-tools-5.15.0-1020-azure:amd64 (5.15.0-1020.25~20.04.1)
+End-Date: 2022-10-11  06:15:42
+
+Start-Date: 2022-10-11  06:15:44
+Commandline: /usr/bin/unattended-upgrade
+Remove: linux-azure-5.15-cloud-tools-5.15.0-1020:amd64 (5.15.0-1020.25~20.04.1)
+End-Date: 2022-10-11  06:15:44
+
+Start-Date: 2022-10-13  06:02:47
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libgmp10:amd64 (2:6.2.0+dfsg-4, 2:6.2.0+dfsg-4ubuntu0.1)
+End-Date: 2022-10-13  06:02:47
+
+Start-Date: 2022-10-14  06:18:03
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libheimbase1-heimdal:amd64 (7.7.0+dfsg-1ubuntu1, 7.7.0+dfsg-1ubuntu1.1)
+End-Date: 2022-10-14  06:18:03
+
+Start-Date: 2022-10-14  06:18:06
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libhx509-5-heimdal:amd64 (7.7.0+dfsg-1ubuntu1, 7.7.0+dfsg-1ubuntu1.1)
+End-Date: 2022-10-14  06:18:06
+
+Start-Date: 2022-10-14  06:18:09
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libwind0-heimdal:amd64 (7.7.0+dfsg-1ubuntu1, 7.7.0+dfsg-1ubuntu1.1)
+End-Date: 2022-10-14  06:18:09
+
+Start-Date: 2022-10-14  06:18:11
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libasn1-8-heimdal:amd64 (7.7.0+dfsg-1ubuntu1, 7.7.0+dfsg-1ubuntu1.1)
+End-Date: 2022-10-14  06:18:12
+
+Start-Date: 2022-10-14  06:18:14
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libheimntlm0-heimdal:amd64 (7.7.0+dfsg-1ubuntu1, 7.7.0+dfsg-1ubuntu1.1)
+End-Date: 2022-10-14  06:18:15
+
+Start-Date: 2022-10-14  06:18:17
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libroken18-heimdal:amd64 (7.7.0+dfsg-1ubuntu1, 7.7.0+dfsg-1ubuntu1.1)
+End-Date: 2022-10-14  06:18:17
+
+Start-Date: 2022-10-14  06:18:20
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libkrb5-26-heimdal:amd64 (7.7.0+dfsg-1ubuntu1, 7.7.0+dfsg-1ubuntu1.1)
+End-Date: 2022-10-14  06:18:20
+
+Start-Date: 2022-10-14  06:18:23
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libgssapi3-heimdal:amd64 (7.7.0+dfsg-1ubuntu1, 7.7.0+dfsg-1ubuntu1.1)
+End-Date: 2022-10-14  06:18:23
+
+Start-Date: 2022-10-14  06:18:25
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libhcrypto4-heimdal:amd64 (7.7.0+dfsg-1ubuntu1, 7.7.0+dfsg-1ubuntu1.1)
+End-Date: 2022-10-14  06:18:26
+
+Start-Date: 2022-10-18  07:00:00
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: zlib1g:amd64 (1:1.2.11.dfsg-2ubuntu1.3, 1:1.2.11.dfsg-2ubuntu1.5)
+End-Date: 2022-10-18  07:00:01

@@ -1,0 +1,885 @@
+Oct 17 00:00:03 linux-example systemd[1]: man-db.service: Succeeded.
+Oct 17 00:00:03 linux-example systemd[1]: Finished Daily man-db regeneration.
+Oct 17 00:00:04 linux-example systemd[1]: logrotate.service: Main process exited, code=exited, status=1/FAILURE
+Oct 17 00:00:04 linux-example systemd[1]: logrotate.service: Failed with result 'exit-code'.
+Oct 17 00:00:04 linux-example systemd[1]: Failed to start Rotate log files.
+Oct 17 00:03:01 linux-example CRON[3365152]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 00:05:01 linux-example CRON[3365432]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 00:10:01 linux-example CRON[3365728]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 00:15:01 linux-example CRON[3366000]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 00:15:01 linux-example CRON[3366002]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 00:17:01 linux-example CRON[3366129]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 00:18:01 linux-example CRON[3366190]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 00:18:44 linux-example python3[406733]: 2022-10-17T00:18:44.852579Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 00:19:02 linux-example python3[406733]: 2022-10-17T00:19:02.961834Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1264;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 00:20:01 linux-example CRON[3366457]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 00:25:01 linux-example CRON[3366744]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 00:26:19 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.44768' (uid=0 pid=3367103 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 00:26:19 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 00:26:19 linux-example PackageKit: daemon start
+Oct 17 00:26:19 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 00:26:19 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 00:30:01 linux-example CRON[3367440]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 00:30:01 linux-example CRON[3367441]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 00:31:24 linux-example PackageKit: daemon quit
+Oct 17 00:31:24 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 00:31:51 linux-example snapd[1143394]: storehelpers.go:748: cannot refresh: snap has no updates available: "core20", "lxd", "snapd"
+Oct 17 00:31:51 linux-example snapd[1143394]: autorefresh.go:540: auto-refresh: all snaps are up-to-date
+Oct 17 00:33:01 linux-example CRON[3367610]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 00:35:01 linux-example CRON[3367880]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 00:40:01 linux-example CRON[3368164]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 00:45:01 linux-example CRON[3368443]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 00:45:01 linux-example CRON[3368444]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 00:48:01 linux-example CRON[3368617]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 00:49:03 linux-example python3[406733]: 2022-10-17T00:49:03.345898Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1265;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 00:50:01 linux-example CRON[3368888]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 00:55:01 linux-example CRON[3369170]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 01:00:01 linux-example CRON[3369519]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 01:00:01 linux-example CRON[3369521]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 01:03:01 linux-example CRON[3369697]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 01:05:01 linux-example CRON[3369974]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 01:10:01 linux-example CRON[3370254]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 01:15:01 linux-example CRON[3370534]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 01:15:01 linux-example CRON[3370535]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 01:17:01 linux-example CRON[3370657]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 01:18:01 linux-example CRON[3370708]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 01:18:45 linux-example python3[406733]: 2022-10-17T01:18:45.992440Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 01:19:04 linux-example python3[406733]: 2022-10-17T01:19:04.091091Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1266;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 01:20:01 linux-example CRON[3370982]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 01:25:01 linux-example CRON[3371264]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 01:26:22 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.44831' (uid=0 pid=3371621 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 01:26:22 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 01:26:22 linux-example PackageKit: daemon start
+Oct 17 01:26:22 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 01:26:22 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 01:30:01 linux-example CRON[3371944]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 01:30:01 linux-example CRON[3371946]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 01:31:27 linux-example PackageKit: daemon quit
+Oct 17 01:31:27 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 01:33:01 linux-example CRON[3372119]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 01:35:01 linux-example CRON[3372388]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 01:40:01 linux-example CRON[3372670]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 01:45:01 linux-example CRON[3372945]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 01:45:01 linux-example CRON[3372947]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 01:48:01 linux-example CRON[3373121]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 01:49:04 linux-example python3[406733]: 2022-10-17T01:49:04.417505Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1267;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 01:50:01 linux-example CRON[3373386]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 01:55:01 linux-example CRON[3373670]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 02:00:01 linux-example CRON[3374020]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 02:00:01 linux-example CRON[3374021]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 02:03:01 linux-example CRON[3374195]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 02:05:01 linux-example CRON[3374504]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 02:10:01 linux-example CRON[3374788]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 02:15:01 linux-example CRON[3375069]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 02:15:01 linux-example CRON[3375070]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 02:17:01 linux-example CRON[3375185]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 02:18:01 linux-example CRON[3375245]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 02:18:47 linux-example python3[406733]: 2022-10-17T02:18:47.238748Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 02:19:05 linux-example python3[406733]: 2022-10-17T02:19:05.332297Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1268;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 02:20:01 linux-example CRON[3375524]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 02:25:01 linux-example CRON[3375806]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 02:26:25 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.44894' (uid=0 pid=3376167 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 02:26:25 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 02:26:25 linux-example PackageKit: daemon start
+Oct 17 02:26:25 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 02:26:25 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 02:30:01 linux-example CRON[3376505]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 02:30:01 linux-example CRON[3376507]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 02:31:30 linux-example PackageKit: daemon quit
+Oct 17 02:31:30 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 02:33:01 linux-example CRON[3376676]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 02:35:01 linux-example CRON[3376958]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 02:40:01 linux-example CRON[3377239]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 02:45:01 linux-example CRON[3377511]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 02:45:01 linux-example CRON[3377513]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 02:47:03 linux-example systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+Oct 17 02:47:03 linux-example systemd[1]: ua-timer.service: Succeeded.
+Oct 17 02:47:03 linux-example systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+Oct 17 02:48:01 linux-example CRON[3377704]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 02:49:05 linux-example python3[406733]: 2022-10-17T02:49:05.693353Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1269;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 02:50:01 linux-example CRON[3377970]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 02:55:01 linux-example CRON[3378255]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 03:00:01 linux-example CRON[3378608]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 03:00:01 linux-example CRON[3378609]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 03:03:01 linux-example CRON[3378782]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 03:05:01 linux-example CRON[3379048]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 03:10:01 linux-example CRON[3379342]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 03:10:01 linux-example CRON[3379343]: (root) CMD (test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r)
+Oct 17 03:15:01 linux-example CRON[3379621]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 03:15:01 linux-example CRON[3379622]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 03:17:01 linux-example CRON[3379738]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 03:18:01 linux-example CRON[3379802]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 03:18:48 linux-example python3[406733]: 2022-10-17T03:18:48.402605Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 03:19:06 linux-example python3[406733]: 2022-10-17T03:19:06.506485Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1270;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 03:20:01 linux-example CRON[3380068]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 03:25:01 linux-example CRON[3380357]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 03:26:30 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.44957' (uid=0 pid=3380724 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 03:26:30 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 03:26:30 linux-example PackageKit: daemon start
+Oct 17 03:26:30 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 03:26:30 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 03:30:01 linux-example CRON[3381053]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 03:30:01 linux-example CRON[3381055]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 03:31:35 linux-example PackageKit: daemon quit
+Oct 17 03:31:35 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 03:33:01 linux-example CRON[3381223]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 03:35:01 linux-example CRON[3381505]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 03:40:01 linux-example CRON[3381782]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 03:45:01 linux-example CRON[3382065]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 03:45:01 linux-example CRON[3382066]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 03:48:01 linux-example CRON[3382236]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 03:49:06 linux-example python3[406733]: 2022-10-17T03:49:06.928454Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1271;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 03:50:01 linux-example CRON[3382512]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 03:55:01 linux-example CRON[3382794]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 04:00:01 linux-example CRON[3383134]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 04:00:01 linux-example CRON[3383135]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 04:00:01 linux-example CRON[3383137]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/scxagent --state /var/opt/microsoft/scx/log/scx-logrotate.status >/dev/null 2>&1)
+Oct 17 04:03:01 linux-example CRON[3383314]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 04:05:01 linux-example CRON[3383590]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 04:10:01 linux-example CRON[3383871]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 04:15:01 linux-example CRON[3384147]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 04:15:01 linux-example CRON[3384148]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 04:17:01 linux-example CRON[3384266]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 04:18:01 linux-example CRON[3384323]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 04:18:49 linux-example python3[406733]: 2022-10-17T04:18:49.280033Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 04:19:07 linux-example python3[406733]: 2022-10-17T04:19:07.376592Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1272;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 04:20:01 linux-example CRON[3384587]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 04:25:01 linux-example CRON[3384863]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 04:26:32 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45020' (uid=0 pid=3385227 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 04:26:32 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 04:26:32 linux-example PackageKit: daemon start
+Oct 17 04:26:32 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 04:26:32 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 04:30:01 linux-example CRON[3385559]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 04:30:01 linux-example CRON[3385560]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 04:31:38 linux-example PackageKit: daemon quit
+Oct 17 04:31:38 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 04:33:01 linux-example CRON[3385729]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 04:35:01 linux-example CRON[3385996]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 04:40:01 linux-example CRON[3386281]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 04:45:01 linux-example CRON[3386559]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 04:45:01 linux-example CRON[3386560]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 04:48:01 linux-example CRON[3386732]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 04:49:08 linux-example python3[406733]: 2022-10-17T04:49:08.009768Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1273;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 04:50:01 linux-example CRON[3387009]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 04:55:01 linux-example CRON[3387280]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 05:00:01 linux-example CRON[3387629]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 05:00:01 linux-example CRON[3387631]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 05:03:01 linux-example CRON[3387803]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 05:05:01 linux-example CRON[3388080]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 05:10:01 linux-example CRON[3388362]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 05:15:01 linux-example CRON[3388642]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 05:15:01 linux-example CRON[3388643]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 05:17:01 linux-example CRON[3388767]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 05:18:01 linux-example CRON[3388825]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 05:18:51 linux-example python3[406733]: 2022-10-17T05:18:51.508525Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 05:19:09 linux-example python3[406733]: 2022-10-17T05:19:09.615240Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1274;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 05:20:01 linux-example CRON[3389091]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 05:25:01 linux-example CRON[3389373]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 05:26:37 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45083' (uid=0 pid=3389738 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 05:26:37 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 05:26:37 linux-example PackageKit: daemon start
+Oct 17 05:26:37 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 05:26:37 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 05:30:01 linux-example CRON[3390060]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 05:30:01 linux-example CRON[3390061]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 05:31:42 linux-example PackageKit: daemon quit
+Oct 17 05:31:42 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 05:33:01 linux-example CRON[3390228]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 05:35:01 linux-example CRON[3390496]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 05:40:01 linux-example CRON[3390777]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 05:45:01 linux-example CRON[3391050]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 05:45:01 linux-example CRON[3391051]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 05:48:01 linux-example CRON[3391222]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 05:49:10 linux-example python3[406733]: 2022-10-17T05:49:10.188787Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1275;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 05:50:01 linux-example CRON[3391486]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 05:55:01 linux-example CRON[3391767]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 06:00:01 linux-example CRON[3392113]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 06:00:01 linux-example CRON[3392114]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 06:03:01 linux-example CRON[3392285]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 06:05:01 linux-example CRON[3392561]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 06:10:01 linux-example CRON[3392832]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 06:15:01 linux-example CRON[3393117]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 06:15:01 linux-example CRON[3393119]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 06:16:51 linux-example systemd[1]: Starting Daily apt upgrade and clean activities...
+Oct 17 06:16:52 linux-example systemd[1]: apt-daily-upgrade.service: Succeeded.
+Oct 17 06:16:52 linux-example systemd[1]: Finished Daily apt upgrade and clean activities.
+Oct 17 06:17:01 linux-example CRON[3393314]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 06:18:01 linux-example CRON[3393371]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 06:18:52 linux-example python3[406733]: 2022-10-17T06:18:52.706157Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 06:19:10 linux-example python3[406733]: 2022-10-17T06:19:10.815837Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1276;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 06:20:01 linux-example CRON[3393648]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 06:25:01 linux-example CRON[3393931]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 06:25:01 linux-example CRON[3393933]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Oct 17 06:26:40 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45147' (uid=0 pid=3394357 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 06:26:40 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 06:26:40 linux-example PackageKit: daemon start
+Oct 17 06:26:40 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 06:26:40 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 06:30:01 linux-example CRON[3394671]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 06:30:01 linux-example CRON[3394672]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 06:31:45 linux-example PackageKit: daemon quit
+Oct 17 06:31:45 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 06:33:01 linux-example CRON[3394839]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 06:35:01 linux-example CRON[3395117]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 06:40:01 linux-example CRON[3395392]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 06:45:01 linux-example CRON[3395656]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 06:45:01 linux-example CRON[3395657]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 06:48:01 linux-example CRON[3395834]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 06:49:11 linux-example python3[406733]: 2022-10-17T06:49:11.403459Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1277;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 06:50:01 linux-example CRON[3396098]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 06:55:01 linux-example CRON[3396375]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 07:00:01 linux-example CRON[3396716]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 07:00:01 linux-example CRON[3396718]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 07:03:01 linux-example CRON[3396886]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 07:05:01 linux-example CRON[3397147]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 07:10:01 linux-example CRON[3397423]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 07:15:01 linux-example CRON[3397704]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 07:15:01 linux-example CRON[3397705]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 07:17:01 linux-example CRON[3397819]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 07:18:01 linux-example CRON[3397876]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 07:18:54 linux-example python3[406733]: 2022-10-17T07:18:54.098282Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 07:19:12 linux-example python3[406733]: 2022-10-17T07:19:12.203991Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1278;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 07:20:01 linux-example CRON[3398152]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 07:25:01 linux-example CRON[3398419]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 07:26:43 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45210' (uid=0 pid=3398789 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 07:26:43 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 07:26:43 linux-example PackageKit: daemon start
+Oct 17 07:26:43 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 07:26:43 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 07:30:01 linux-example CRON[3399115]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 07:30:01 linux-example CRON[3399117]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 07:31:48 linux-example PackageKit: daemon quit
+Oct 17 07:31:48 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 07:33:01 linux-example CRON[3399279]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 07:35:01 linux-example CRON[3399556]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 07:40:01 linux-example CRON[3399823]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 07:45:01 linux-example CRON[3400094]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 07:45:01 linux-example CRON[3400095]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 07:46:51 linux-example snapd[1143394]: storehelpers.go:748: cannot refresh: snap has no updates available: "core20", "lxd", "snapd"
+Oct 17 07:46:51 linux-example snapd[1143394]: autorefresh.go:540: auto-refresh: all snaps are up-to-date
+Oct 17 07:48:01 linux-example CRON[3400261]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 07:49:13 linux-example python3[406733]: 2022-10-17T07:49:13.259947Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1279;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 07:50:01 linux-example CRON[3400536]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 07:55:01 linux-example CRON[3400817]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 08:00:01 linux-example CRON[3401152]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 08:00:01 linux-example CRON[3401153]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 08:00:01 linux-example CRON[3401155]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/scxagent --state /var/opt/microsoft/scx/log/scx-logrotate.status >/dev/null 2>&1)
+Oct 17 08:03:01 linux-example CRON[3401340]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 08:05:01 linux-example CRON[3401603]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 08:10:01 linux-example CRON[3401873]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 08:15:01 linux-example CRON[3402167]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 08:15:01 linux-example CRON[3402169]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 08:17:01 linux-example CRON[3402280]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 08:18:01 linux-example CRON[3402338]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 08:18:56 linux-example python3[406733]: 2022-10-17T08:18:56.203744Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 08:19:14 linux-example python3[406733]: 2022-10-17T08:19:14.296029Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1280;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 08:20:01 linux-example CRON[3402607]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 08:25:01 linux-example CRON[3402889]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 08:26:48 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45273' (uid=0 pid=3403262 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 08:26:48 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 08:26:48 linux-example PackageKit: daemon start
+Oct 17 08:26:48 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 08:26:48 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 08:30:01 linux-example CRON[3403571]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 08:30:01 linux-example CRON[3403572]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 08:31:53 linux-example PackageKit: daemon quit
+Oct 17 08:31:53 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 08:33:01 linux-example CRON[3403739]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 08:35:01 linux-example CRON[3404007]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 08:40:01 linux-example CRON[3404290]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 08:45:01 linux-example CRON[3404564]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 08:45:01 linux-example CRON[3404565]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 08:48:01 linux-example CRON[3404736]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 08:49:14 linux-example python3[406733]: 2022-10-17T08:49:14.807225Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1281;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 08:49:47 linux-example systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+Oct 17 08:49:47 linux-example systemd[1]: ua-timer.service: Succeeded.
+Oct 17 08:49:47 linux-example systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+Oct 17 08:50:01 linux-example CRON[3405021]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 08:55:01 linux-example CRON[3405289]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 09:00:01 linux-example CRON[3405639]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 09:00:01 linux-example CRON[3405640]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 09:03:01 linux-example CRON[3405811]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 09:05:01 linux-example CRON[3406089]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 09:10:01 linux-example CRON[3406359]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 09:15:01 linux-example CRON[3406638]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 09:15:01 linux-example CRON[3406640]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 09:17:01 linux-example CRON[3406763]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 09:18:01 linux-example CRON[3406815]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 09:18:57 linux-example python3[406733]: 2022-10-17T09:18:57.527245Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 09:19:15 linux-example python3[406733]: 2022-10-17T09:19:15.624013Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1282;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 09:20:01 linux-example CRON[3407092]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 09:25:01 linux-example CRON[3407367]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 09:26:51 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45336' (uid=0 pid=3407737 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 09:26:51 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 09:26:51 linux-example PackageKit: daemon start
+Oct 17 09:26:51 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 09:26:51 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 09:30:01 linux-example CRON[3408059]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 09:30:01 linux-example CRON[3408060]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 09:31:56 linux-example PackageKit: daemon quit
+Oct 17 09:31:56 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 09:33:01 linux-example CRON[3408229]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 09:35:01 linux-example CRON[3408508]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 09:40:01 linux-example CRON[3408780]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 09:45:01 linux-example CRON[3409049]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 09:45:01 linux-example CRON[3409051]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 09:48:01 linux-example CRON[3409249]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 09:49:16 linux-example python3[406733]: 2022-10-17T09:49:16.549202Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1283;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 09:50:01 linux-example CRON[3409525]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 09:55:01 linux-example CRON[3409830]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 10:00:01 linux-example CRON[3410176]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 10:00:01 linux-example CRON[3410177]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 10:03:01 linux-example CRON[3410346]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 10:05:01 linux-example CRON[3410615]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 10:10:01 linux-example CRON[3410891]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 10:15:01 linux-example CRON[3411166]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 10:15:01 linux-example CRON[3411168]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 10:17:01 linux-example CRON[3411285]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 10:18:01 linux-example CRON[3411342]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 10:18:58 linux-example python3[406733]: 2022-10-17T10:18:58.898461Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 10:19:17 linux-example python3[406733]: 2022-10-17T10:19:17.017488Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1284;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 10:20:01 linux-example CRON[3411612]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 10:25:01 linux-example CRON[3411880]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 10:26:56 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45399' (uid=0 pid=3412264 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 10:26:56 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 10:26:56 linux-example PackageKit: daemon start
+Oct 17 10:26:56 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 10:26:56 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 10:30:01 linux-example CRON[3412563]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 10:30:01 linux-example CRON[3412564]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 10:32:01 linux-example PackageKit: daemon quit
+Oct 17 10:32:01 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 10:33:01 linux-example CRON[3412733]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 10:35:01 linux-example CRON[3413011]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 10:40:01 linux-example CRON[3413279]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 10:45:01 linux-example CRON[3413552]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 10:45:01 linux-example CRON[3413554]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 10:48:02 linux-example CRON[3413728]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 10:49:17 linux-example python3[406733]: 2022-10-17T10:49:17.822223Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1285;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 10:50:01 linux-example CRON[3414003]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 10:55:01 linux-example CRON[3414286]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 11:00:01 linux-example CRON[3414628]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 11:00:01 linux-example CRON[3414629]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 11:02:05 linux-example systemd[1]: Starting Message of the Day...
+Oct 17 11:02:05 linux-example 50-motd-news[3414784]:  * Super-optimized for small spaces - read how we shrank the memory
+Oct 17 11:02:05 linux-example 50-motd-news[3414784]:    footprint of MicroK8s to make it the smallest full K8s around.
+Oct 17 11:02:05 linux-example 50-motd-news[3414784]:    https://ubuntu.com/blog/microk8s-memory-optimisation
+Oct 17 11:02:05 linux-example systemd[1]: motd-news.service: Succeeded.
+Oct 17 11:02:05 linux-example systemd[1]: Finished Message of the Day.
+Oct 17 11:03:01 linux-example CRON[3414848]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 11:05:01 linux-example CRON[3415115]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 11:10:01 linux-example CRON[3415401]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 11:15:01 linux-example CRON[3415685]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 11:15:01 linux-example CRON[3415687]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 11:17:01 linux-example CRON[3415802]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 11:18:01 linux-example CRON[3415867]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 11:19:00 linux-example python3[406733]: 2022-10-17T11:19:00.342726Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 11:19:18 linux-example python3[406733]: 2022-10-17T11:19:18.459680Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1286;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 11:20:01 linux-example CRON[3416139]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 11:25:01 linux-example CRON[3416420]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 11:26:59 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45462' (uid=0 pid=3416805 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 11:26:59 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 11:26:59 linux-example PackageKit: daemon start
+Oct 17 11:26:59 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 11:26:59 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 11:30:01 linux-example CRON[3417121]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 11:30:01 linux-example CRON[3417123]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 11:32:04 linux-example PackageKit: daemon quit
+Oct 17 11:32:04 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 11:33:01 linux-example CRON[3417291]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 11:35:01 linux-example CRON[3417564]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 11:40:01 linux-example CRON[3417847]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 11:45:01 linux-example CRON[3418128]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 11:45:01 linux-example CRON[3418130]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 11:48:01 linux-example CRON[3418299]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 11:49:19 linux-example python3[406733]: 2022-10-17T11:49:19.186917Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1287;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 11:50:01 linux-example CRON[3418575]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 11:55:01 linux-example CRON[3418847]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 12:00:01 linux-example CRON[3419193]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 12:00:01 linux-example CRON[3419196]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/scxagent --state /var/opt/microsoft/scx/log/scx-logrotate.status >/dev/null 2>&1)
+Oct 17 12:00:01 linux-example CRON[3419194]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 12:03:01 linux-example CRON[3419413]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 12:05:01 linux-example CRON[3419690]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 12:10:01 linux-example CRON[3419974]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 12:15:01 linux-example CRON[3420248]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 12:15:01 linux-example CRON[3420250]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 12:17:01 linux-example CRON[3420375]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 12:18:01 linux-example CRON[3420438]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 12:19:01 linux-example python3[406733]: 2022-10-17T12:19:01.732210Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 12:19:19 linux-example python3[406733]: 2022-10-17T12:19:19.833950Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1288;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 12:20:01 linux-example CRON[3420708]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 12:21:07 linux-example systemd[1]: Starting Refresh fwupd metadata and update motd...
+Oct 17 12:21:07 linux-example systemd[1]: fwupd-refresh.service: Main process exited, code=exited, status=1/FAILURE
+Oct 17 12:21:07 linux-example systemd[1]: fwupd-refresh.service: Failed with result 'exit-code'.
+Oct 17 12:21:07 linux-example systemd[1]: Failed to start Refresh fwupd metadata and update motd.
+Oct 17 12:25:01 linux-example CRON[3420996]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 12:27:04 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45525' (uid=0 pid=3421383 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 12:27:04 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 12:27:04 linux-example PackageKit: daemon start
+Oct 17 12:27:04 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 12:27:04 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 12:30:01 linux-example CRON[3421676]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 12:30:01 linux-example CRON[3421677]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 12:32:09 linux-example PackageKit: daemon quit
+Oct 17 12:32:09 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 12:33:01 linux-example CRON[3421854]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 12:35:01 linux-example CRON[3422124]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 12:40:01 linux-example CRON[3422407]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 12:45:01 linux-example CRON[3422685]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 12:45:01 linux-example CRON[3422686]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 12:48:01 linux-example CRON[3422857]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 12:49:20 linux-example python3[406733]: 2022-10-17T12:49:20.431406Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1289;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 12:50:01 linux-example CRON[3423124]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 12:55:01 linux-example CRON[3423406]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 13:00:02 linux-example CRON[3423754]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 13:00:02 linux-example CRON[3423755]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 13:03:01 linux-example CRON[3423926]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 13:05:01 linux-example CRON[3424203]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 13:10:01 linux-example CRON[3424479]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 13:15:01 linux-example CRON[3424758]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 13:15:01 linux-example CRON[3424759]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 13:17:01 linux-example CRON[3424889]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 13:18:01 linux-example CRON[3424954]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 13:19:02 linux-example python3[406733]: 2022-10-17T13:19:02.819016Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 13:19:20 linux-example python3[406733]: 2022-10-17T13:19:20.913228Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1290;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 13:20:01 linux-example CRON[3425249]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 13:25:01 linux-example CRON[3425552]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 13:27:07 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45588' (uid=0 pid=3425945 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 13:27:07 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 13:27:07 linux-example PackageKit: daemon start
+Oct 17 13:27:07 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 13:27:07 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 13:30:01 linux-example CRON[3426237]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 13:30:01 linux-example CRON[3426239]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 13:32:12 linux-example PackageKit: daemon quit
+Oct 17 13:32:12 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 13:33:01 linux-example CRON[3426402]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 13:35:01 linux-example CRON[3426682]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 13:36:51 linux-example snapd[1143394]: storehelpers.go:748: cannot refresh: snap has no updates available: "core20", "lxd", "snapd"
+Oct 17 13:36:51 linux-example snapd[1143394]: autorefresh.go:540: auto-refresh: all snaps are up-to-date
+Oct 17 13:40:01 linux-example CRON[3426958]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 13:45:01 linux-example CRON[3427223]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 13:45:01 linux-example CRON[3427225]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 13:48:01 linux-example CRON[3427402]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 13:49:21 linux-example python3[406733]: 2022-10-17T13:49:21.448468Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1291;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 13:50:01 linux-example CRON[3427666]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 13:55:01 linux-example CRON[3427943]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 14:00:01 linux-example CRON[3428289]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 14:00:01 linux-example CRON[3428290]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 14:03:01 linux-example CRON[3428461]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 14:05:01 linux-example CRON[3428726]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 14:10:01 linux-example CRON[3429009]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 14:15:01 linux-example CRON[3429288]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 14:15:01 linux-example CRON[3429287]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 14:17:01 linux-example CRON[3429400]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 14:18:01 linux-example CRON[3429461]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 14:19:03 linux-example python3[406733]: 2022-10-17T14:19:03.945353Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 14:19:22 linux-example python3[406733]: 2022-10-17T14:19:22.043613Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1292;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 14:20:01 linux-example CRON[3429731]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 14:25:01 linux-example CRON[3430010]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 14:27:10 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45652' (uid=0 pid=3430407 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 14:27:10 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 14:27:10 linux-example PackageKit: daemon start
+Oct 17 14:27:10 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 14:27:10 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 14:30:01 linux-example CRON[3430709]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 14:30:01 linux-example CRON[3430710]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 14:32:15 linux-example PackageKit: daemon quit
+Oct 17 14:32:15 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 14:33:01 linux-example CRON[3430874]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 14:35:01 linux-example CRON[3431153]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 14:40:01 linux-example CRON[3431425]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 14:45:01 linux-example CRON[3431704]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 14:45:01 linux-example CRON[3431705]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 14:48:01 linux-example CRON[3431877]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 14:49:22 linux-example python3[406733]: 2022-10-17T14:49:22.560451Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1293;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 14:50:01 linux-example CRON[3432153]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 14:50:52 linux-example systemd[1]: Starting Message of the Day...
+Oct 17 14:50:52 linux-example 50-motd-news[3432232]:  * Super-optimized for small spaces - read how we shrank the memory
+Oct 17 14:50:52 linux-example 50-motd-news[3432232]:    footprint of MicroK8s to make it the smallest full K8s around.
+Oct 17 14:50:52 linux-example 50-motd-news[3432232]:    https://ubuntu.com/blog/microk8s-memory-optimisation
+Oct 17 14:50:52 linux-example systemd[1]: motd-news.service: Succeeded.
+Oct 17 14:50:52 linux-example systemd[1]: Finished Message of the Day.
+Oct 17 14:55:01 linux-example CRON[3432468]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 15:00:01 linux-example CRON[3432804]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 15:00:01 linux-example CRON[3432805]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 15:03:01 linux-example CRON[3432990]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 15:05:01 linux-example CRON[3433257]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 15:10:01 linux-example CRON[3433533]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 15:15:01 linux-example CRON[3433800]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 15:15:01 linux-example CRON[3433801]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 15:17:01 linux-example CRON[3433916]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 15:18:01 linux-example CRON[3433973]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 15:18:01 linux-example systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+Oct 17 15:18:01 linux-example systemd[1]: ua-timer.service: Succeeded.
+Oct 17 15:18:01 linux-example systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+Oct 17 15:19:04 linux-example python3[406733]: 2022-10-17T15:19:04.897461Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 15:19:23 linux-example python3[406733]: 2022-10-17T15:19:23.008819Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1294;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 15:20:01 linux-example CRON[3434245]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 15:25:01 linux-example CRON[3434525]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 15:27:15 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45715' (uid=0 pid=3434920 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 15:27:15 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 15:27:15 linux-example PackageKit: daemon start
+Oct 17 15:27:15 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 15:27:15 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 15:30:01 linux-example CRON[3435206]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 15:30:01 linux-example CRON[3435208]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 15:32:20 linux-example PackageKit: daemon quit
+Oct 17 15:32:20 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 15:33:01 linux-example CRON[3435370]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 15:35:01 linux-example CRON[3435639]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 15:40:01 linux-example CRON[3435916]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 15:45:01 linux-example CRON[3436188]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 15:45:01 linux-example CRON[3436189]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 15:48:01 linux-example CRON[3436358]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 15:49:23 linux-example python3[406733]: 2022-10-17T15:49:23.418272Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1295;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 15:50:01 linux-example CRON[3436633]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 15:55:01 linux-example CRON[3436901]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 16:00:01 linux-example CRON[3437246]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 16:00:01 linux-example CRON[3437247]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 16:00:01 linux-example CRON[3437248]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/scxagent --state /var/opt/microsoft/scx/log/scx-logrotate.status >/dev/null 2>&1)
+Oct 17 16:03:01 linux-example CRON[3437420]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 16:05:01 linux-example CRON[3437698]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 16:06:52 linux-example python3[406733]: 2022-10-17T16:06:52.217551Z INFO EnvHandler ExtHandler Current Firewall rules:
+Oct 17 16:06:52 linux-example python3[406733]: Chain INPUT (policy ACCEPT 4816 packets, 2277877 bytes)
+Oct 17 16:06:52 linux-example python3[406733]:     pkts      bytes target     prot opt in     out     source               destination
+Oct 17 16:06:52 linux-example python3[406733]: Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+Oct 17 16:06:52 linux-example python3[406733]:     pkts      bytes target     prot opt in     out     source               destination
+Oct 17 16:06:52 linux-example python3[406733]: Chain OUTPUT (policy ACCEPT 2738 packets, 1741172 bytes)
+Oct 17 16:06:52 linux-example python3[406733]:     pkts      bytes target     prot opt in     out     source               destination
+Oct 17 16:06:52 linux-example python3[406733]:        0        0 ACCEPT     tcp  --  *      *       0.0.0.0/0            168.63.129.16        tcp dpt:53
+Oct 17 16:06:52 linux-example python3[406733]:     3764  1061316 ACCEPT     tcp  --  *      *       0.0.0.0/0            168.63.129.16        owner UID match 0
+Oct 17 16:06:52 linux-example python3[406733]:        0        0 DROP       tcp  --  *      *       0.0.0.0/0            168.63.129.16        ctstate INVALID,NEW
+Oct 17 16:10:01 linux-example CRON[3437967]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 16:15:01 linux-example CRON[3438241]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 16:15:01 linux-example CRON[3438242]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 16:17:01 linux-example CRON[3438363]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 16:18:01 linux-example CRON[3438411]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 16:19:05 linux-example python3[406733]: 2022-10-17T16:19:05.738478Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 16:19:23 linux-example python3[406733]: 2022-10-17T16:19:23.846315Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1296;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 16:20:01 linux-example CRON[3438685]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 16:25:01 linux-example CRON[3438970]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 16:27:18 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45778' (uid=0 pid=3439369 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 16:27:18 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 16:27:18 linux-example PackageKit: daemon start
+Oct 17 16:27:18 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 16:27:18 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 16:28:03 linux-example systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 17 16:28:03 linux-example systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Oct 17 16:28:03 linux-example systemd[1]: Finished Cleanup of Temporary Directories.
+Oct 17 16:30:01 linux-example CRON[3439658]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 16:30:01 linux-example CRON[3439659]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 16:32:23 linux-example PackageKit: daemon quit
+Oct 17 16:32:23 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 16:33:01 linux-example CRON[3439834]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 16:35:01 linux-example CRON[3440109]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 16:40:01 linux-example CRON[3440387]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 16:45:01 linux-example CRON[3440704]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 16:45:01 linux-example CRON[3440705]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 16:48:01 linux-example CRON[3440878]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 16:49:24 linux-example python3[406733]: 2022-10-17T16:49:24.323773Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1297;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 16:50:01 linux-example CRON[3441144]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 16:55:01 linux-example CRON[3441424]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 17:00:01 linux-example CRON[3441774]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 17:00:01 linux-example CRON[3441776]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 17:03:01 linux-example CRON[3441951]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 17:03:24 linux-example systemd[1]: Created slice User Slice of UID 0.
+Oct 17 17:03:24 linux-example systemd[1]: Starting User Runtime Directory /run/user/0...
+Oct 17 17:03:24 linux-example systemd[1]: Finished User Runtime Directory /run/user/0.
+Oct 17 17:03:25 linux-example systemd[1]: Starting User Manager for UID 0...
+Oct 17 17:03:25 linux-example systemd[3442163]: Reached target Paths.
+Oct 17 17:03:25 linux-example systemd[3442163]: Reached target Timers.
+Oct 17 17:03:25 linux-example systemd[3442163]: Starting D-Bus User Message Bus Socket.
+Oct 17 17:03:25 linux-example systemd[3442163]: Listening on GnuPG network certificate management daemon.
+Oct 17 17:03:25 linux-example systemd[3442163]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct 17 17:03:25 linux-example systemd[3442163]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Oct 17 17:03:25 linux-example systemd[3442163]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Oct 17 17:03:25 linux-example systemd[3442163]: Listening on GnuPG cryptographic agent and passphrase cache.
+Oct 17 17:03:25 linux-example systemd[3442163]: Listening on debconf communication socket.
+Oct 17 17:03:25 linux-example systemd[3442163]: Listening on REST API socket for snapd user session agent.
+Oct 17 17:03:25 linux-example systemd[3442163]: Listening on D-Bus User Message Bus Socket.
+Oct 17 17:03:25 linux-example systemd[3442163]: Reached target Sockets.
+Oct 17 17:03:25 linux-example systemd[3442163]: Reached target Basic System.
+Oct 17 17:03:25 linux-example systemd[3442163]: Reached target Main User Target.
+Oct 17 17:03:25 linux-example systemd[3442163]: Startup finished in 74ms.
+Oct 17 17:03:25 linux-example systemd[1]: Started User Manager for UID 0.
+Oct 17 17:03:25 linux-example systemd[1]: Started Session c41 of user root.
+Oct 17 17:03:25 linux-example systemd[1]: session-c41.scope: Succeeded.
+Oct 17 17:03:35 linux-example systemd[1]: Stopping User Manager for UID 0...
+Oct 17 17:03:35 linux-example systemd[3442163]: Stopped target Main User Target.
+Oct 17 17:03:35 linux-example systemd[3442163]: Stopped target Basic System.
+Oct 17 17:03:35 linux-example systemd[3442163]: Stopped target Paths.
+Oct 17 17:03:35 linux-example systemd[3442163]: Stopped target Sockets.
+Oct 17 17:03:35 linux-example systemd[3442163]: Stopped target Timers.
+Oct 17 17:03:35 linux-example systemd[3442163]: dbus.socket: Succeeded.
+Oct 17 17:03:35 linux-example systemd[3442163]: Closed D-Bus User Message Bus Socket.
+Oct 17 17:03:35 linux-example systemd[3442163]: dirmngr.socket: Succeeded.
+Oct 17 17:03:35 linux-example systemd[3442163]: Closed GnuPG network certificate management daemon.
+Oct 17 17:03:35 linux-example systemd[3442163]: gpg-agent-browser.socket: Succeeded.
+Oct 17 17:03:35 linux-example systemd[3442163]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct 17 17:03:35 linux-example systemd[3442163]: gpg-agent-extra.socket: Succeeded.
+Oct 17 17:03:35 linux-example systemd[3442163]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Oct 17 17:03:35 linux-example systemd[3442163]: gpg-agent-ssh.socket: Succeeded.
+Oct 17 17:03:35 linux-example systemd[3442163]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Oct 17 17:03:35 linux-example systemd[3442163]: gpg-agent.socket: Succeeded.
+Oct 17 17:03:35 linux-example systemd[3442163]: Closed GnuPG cryptographic agent and passphrase cache.
+Oct 17 17:03:35 linux-example systemd[3442163]: pk-debconf-helper.socket: Succeeded.
+Oct 17 17:03:35 linux-example systemd[3442163]: Closed debconf communication socket.
+Oct 17 17:03:35 linux-example systemd[3442163]: snapd.session-agent.socket: Succeeded.
+Oct 17 17:03:35 linux-example systemd[3442163]: Closed REST API socket for snapd user session agent.
+Oct 17 17:03:35 linux-example systemd[3442163]: Reached target Shutdown.
+Oct 17 17:03:35 linux-example systemd[3442163]: systemd-exit.service: Succeeded.
+Oct 17 17:03:35 linux-example systemd[3442163]: Finished Exit the Session.
+Oct 17 17:03:35 linux-example systemd[3442163]: Reached target Exit the Session.
+Oct 17 17:03:35 linux-example systemd[1]: user@0.service: Succeeded.
+Oct 17 17:03:35 linux-example systemd[1]: Stopped User Manager for UID 0.
+Oct 17 17:03:35 linux-example systemd[1]: Stopping User Runtime Directory /run/user/0...
+Oct 17 17:03:35 linux-example systemd[1687]: run-user-0.mount: Succeeded.
+Oct 17 17:03:35 linux-example systemd[1]: run-user-0.mount: Succeeded.
+Oct 17 17:03:35 linux-example systemd[1]: user-runtime-dir@0.service: Succeeded.
+Oct 17 17:03:35 linux-example systemd[1]: Stopped User Runtime Directory /run/user/0.
+Oct 17 17:03:35 linux-example systemd[1]: Removed slice User Slice of UID 0.
+Oct 17 17:05:01 linux-example CRON[3442320]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 17:10:01 linux-example CRON[3442596]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 17:15:01 linux-example CRON[3442875]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 17:15:01 linux-example CRON[3442876]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 17:17:01 linux-example CRON[3443001]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 17:18:01 linux-example CRON[3443049]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 17:19:07 linux-example python3[406733]: 2022-10-17T17:19:07.101588Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 17:19:25 linux-example python3[406733]: 2022-10-17T17:19:25.204440Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1298;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 17:20:01 linux-example CRON[3443329]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 17:25:01 linux-example CRON[3443616]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 17:27:23 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45845' (uid=0 pid=3444012 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 17:27:23 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 17:27:23 linux-example PackageKit: daemon start
+Oct 17 17:27:23 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 17:27:23 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 17:30:01 linux-example CRON[3444293]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 17:30:01 linux-example CRON[3444295]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 17:32:28 linux-example PackageKit: daemon quit
+Oct 17 17:32:28 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 17:33:01 linux-example CRON[3444465]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+Oct 17 17:33:01 linux-example CRON[3444466]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 17:33:57 linux-example systemd[1]: Starting Daily apt download activities...
+Oct 17 17:33:58 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45854' (uid=0 pid=3444956 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 17:33:58 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 17:33:58 linux-example PackageKit: daemon start
+Oct 17 17:33:58 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 17:33:58 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 17:34:01 linux-example systemd[1]: apt-daily.service: Succeeded.
+Oct 17 17:34:01 linux-example systemd[1]: Finished Daily apt download activities.
+Oct 17 17:35:01 linux-example CRON[3445073]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 17:39:03 linux-example PackageKit: daemon quit
+Oct 17 17:39:03 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 17:40:01 linux-example CRON[3445355]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 17:45:01 linux-example CRON[3445624]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 17:45:01 linux-example CRON[3445625]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 17:48:01 linux-example CRON[3445802]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 17:49:25 linux-example python3[406733]: 2022-10-17T17:49:25.464919Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1299;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 17:50:01 linux-example CRON[3446067]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 17:55:01 linux-example CRON[3446348]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 18:00:01 linux-example CRON[3446697]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 18:00:01 linux-example CRON[3446699]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 18:03:01 linux-example CRON[3446869]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 18:05:01 linux-example CRON[3447135]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 18:10:01 linux-example CRON[3447411]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 18:15:01 linux-example CRON[3447690]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 18:15:01 linux-example CRON[3447692]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 18:17:01 linux-example CRON[3447805]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 18:18:01 linux-example CRON[3447863]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 18:19:07 linux-example python3[406733]: 2022-10-17T18:19:07.604943Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 18:19:25 linux-example python3[406733]: 2022-10-17T18:19:25.702836Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1300;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 18:20:01 linux-example CRON[3448139]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 18:25:01 linux-example CRON[3448412]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 18:27:25 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45912' (uid=0 pid=3448818 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 18:27:25 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 18:27:25 linux-example PackageKit: daemon start
+Oct 17 18:27:25 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 18:27:25 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 18:30:01 linux-example CRON[3449108]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 18:30:01 linux-example CRON[3449109]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 18:32:30 linux-example PackageKit: daemon quit
+Oct 17 18:32:30 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 18:33:01 linux-example CRON[3449275]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 18:35:01 linux-example CRON[3449552]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 18:40:01 linux-example CRON[3449830]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 18:45:01 linux-example CRON[3450098]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 18:45:01 linux-example CRON[3450100]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 18:48:01 linux-example CRON[3450274]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 18:49:25 linux-example python3[406733]: 2022-10-17T18:49:25.913221Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1301;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 18:50:01 linux-example CRON[3450539]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 18:55:01 linux-example CRON[3450816]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 19:00:01 linux-example CRON[3451147]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 19:00:01 linux-example CRON[3451149]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 19:03:01 linux-example CRON[3451325]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 19:05:01 linux-example CRON[3451589]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 19:10:01 linux-example CRON[3451856]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 19:15:01 linux-example CRON[3452122]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 19:15:01 linux-example CRON[3452123]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 19:17:01 linux-example CRON[3452232]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 19:18:01 linux-example CRON[3452288]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 19:19:08 linux-example python3[406733]: 2022-10-17T19:19:08.494685Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 19:19:26 linux-example python3[406733]: 2022-10-17T19:19:26.595431Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1302;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 19:20:01 linux-example CRON[3452553]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 19:25:01 linux-example CRON[3452828]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 19:27:30 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45975' (uid=0 pid=3453243 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 19:27:30 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 19:27:30 linux-example PackageKit: daemon start
+Oct 17 19:27:30 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 19:27:30 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 19:30:01 linux-example CRON[3453513]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 19:30:01 linux-example CRON[3453515]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 19:32:35 linux-example PackageKit: daemon quit
+Oct 17 19:32:35 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 19:33:01 linux-example CRON[3453674]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 19:35:01 linux-example CRON[3453950]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 19:40:01 linux-example CRON[3454209]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 19:45:01 linux-example CRON[3454480]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 19:45:01 linux-example CRON[3454481]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 19:48:01 linux-example CRON[3454662]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 19:49:27 linux-example python3[406733]: 2022-10-17T19:49:27.019396Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1303;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 19:50:01 linux-example CRON[3454947]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 19:55:01 linux-example CRON[3455250]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 20:00:01 linux-example CRON[3455593]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 20:00:01 linux-example CRON[3455594]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 20:00:01 linux-example CRON[3455596]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/scxagent --state /var/opt/microsoft/scx/log/scx-logrotate.status >/dev/null 2>&1)
+Oct 17 20:03:01 linux-example CRON[3455769]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 20:05:01 linux-example CRON[3456035]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 20:10:01 linux-example CRON[3456308]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 20:15:01 linux-example CRON[3456570]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 20:15:01 linux-example CRON[3456571]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 20:17:01 linux-example CRON[3456690]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 20:18:01 linux-example CRON[3456747]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 20:19:09 linux-example python3[406733]: 2022-10-17T20:19:09.310824Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 20:19:27 linux-example python3[406733]: 2022-10-17T20:19:27.420178Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1304;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 20:20:01 linux-example CRON[3457011]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 20:24:57 linux-example systemd[1]: Starting Daily apt download activities...
+Oct 17 20:24:57 linux-example systemd[1]: apt-daily.service: Succeeded.
+Oct 17 20:24:57 linux-example systemd[1]: Finished Daily apt download activities.
+Oct 17 20:25:01 linux-example CRON[3457336]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 20:27:33 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.46038' (uid=0 pid=3457759 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 20:27:33 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 20:27:33 linux-example PackageKit: daemon start
+Oct 17 20:27:33 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 20:27:33 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 20:30:01 linux-example CRON[3458039]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 20:30:02 linux-example CRON[3458041]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 20:32:38 linux-example PackageKit: daemon quit
+Oct 17 20:32:38 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 20:33:01 linux-example CRON[3458203]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 20:35:01 linux-example CRON[3458470]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 20:40:01 linux-example CRON[3458740]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 20:45:01 linux-example CRON[3459015]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 20:45:01 linux-example CRON[3459016]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 20:48:01 linux-example CRON[3459184]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 20:49:27 linux-example python3[406733]: 2022-10-17T20:49:27.709788Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1305;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 20:50:01 linux-example CRON[3459458]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 20:55:01 linux-example CRON[3459727]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 21:00:01 linux-example CRON[3460071]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 21:00:01 linux-example CRON[3460072]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 21:03:01 linux-example CRON[3460240]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 21:05:01 linux-example CRON[3460515]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 21:10:01 linux-example CRON[3460791]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 21:15:01 linux-example CRON[3461061]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 21:15:01 linux-example CRON[3461063]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 21:17:01 linux-example CRON[3461185]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 21:18:01 linux-example CRON[3461242]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 21:19:10 linux-example python3[406733]: 2022-10-17T21:19:10.016958Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 21:19:28 linux-example python3[406733]: 2022-10-17T21:19:28.120866Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1306;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 21:20:01 linux-example CRON[3461506]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 21:25:01 linux-example CRON[3461781]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 21:27:38 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.46101' (uid=0 pid=3462213 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 21:27:38 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 21:27:38 linux-example PackageKit: daemon start
+Oct 17 21:27:38 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 21:27:38 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 21:30:01 linux-example CRON[3462467]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 21:30:01 linux-example CRON[3462468]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 21:32:44 linux-example PackageKit: daemon quit
+Oct 17 21:32:44 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 21:33:01 linux-example CRON[3462636]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 21:35:01 linux-example CRON[3462904]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 21:37:57 linux-example systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+Oct 17 21:37:58 linux-example systemd[1]: ua-timer.service: Succeeded.
+Oct 17 21:37:58 linux-example systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+Oct 17 21:40:01 linux-example CRON[3463191]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 21:45:01 linux-example CRON[3463470]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 21:45:01 linux-example CRON[3463472]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 21:48:01 linux-example CRON[3463638]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 21:49:28 linux-example python3[406733]: 2022-10-17T21:49:28.487150Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1307;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 21:50:01 linux-example CRON[3463908]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 21:55:01 linux-example CRON[3464207]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 22:00:02 linux-example CRON[3464546]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 22:00:02 linux-example CRON[3464548]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 22:01:51 linux-example snapd[1143394]: storehelpers.go:748: cannot refresh: snap has no updates available: "core20", "lxd", "snapd"
+Oct 17 22:01:51 linux-example snapd[1143394]: autorefresh.go:540: auto-refresh: all snaps are up-to-date
+Oct 17 22:03:01 linux-example CRON[3464715]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 22:05:01 linux-example CRON[3464991]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 22:10:01 linux-example CRON[3465251]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 22:15:01 linux-example CRON[3465525]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 22:15:01 linux-example CRON[3465527]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 22:17:01 linux-example CRON[3465646]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 22:18:01 linux-example CRON[3465695]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 22:19:11 linux-example python3[406733]: 2022-10-17T22:19:11.972758Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 22:19:30 linux-example python3[406733]: 2022-10-17T22:19:30.067674Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1308;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 22:20:01 linux-example CRON[3466001]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 22:25:01 linux-example CRON[3466275]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 22:27:41 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.46164' (uid=0 pid=3466703 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 22:27:41 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 22:27:41 linux-example PackageKit: daemon start
+Oct 17 22:27:41 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 22:27:41 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 22:30:01 linux-example CRON[3466955]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 22:30:01 linux-example CRON[3466956]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 22:32:46 linux-example PackageKit: daemon quit
+Oct 17 22:32:46 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 22:33:01 linux-example CRON[3467128]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 22:35:01 linux-example CRON[3467398]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 22:40:01 linux-example CRON[3467666]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 22:45:01 linux-example CRON[3467943]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 22:45:01 linux-example CRON[3467944]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 22:48:01 linux-example CRON[3468110]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 22:49:30 linux-example python3[406733]: 2022-10-17T22:49:30.448265Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1309;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 22:50:01 linux-example CRON[3468376]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 22:55:01 linux-example CRON[3468685]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 23:00:01 linux-example CRON[3469026]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 23:00:01 linux-example CRON[3469028]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 23:03:01 linux-example CRON[3469198]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 23:05:01 linux-example CRON[3469472]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 23:10:01 linux-example CRON[3469765]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 23:15:01 linux-example CRON[3470044]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 23:15:01 linux-example CRON[3470046]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 23:17:01 linux-example CRON[3470158]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 17 23:18:01 linux-example CRON[3470216]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 23:19:12 linux-example python3[406733]: 2022-10-17T23:19:12.639711Z INFO ExtHandler ExtHandler No requested version specified, checking for all versions for agent update (family: Prod)
+Oct 17 23:19:30 linux-example python3[406733]: 2022-10-17T23:19:30.731973Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1310;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 23:20:01 linux-example CRON[3470491]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 23:25:01 linux-example CRON[3470773]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 23:27:44 linux-example dbus-daemon[791]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.46227' (uid=0 pid=3471230 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Oct 17 23:27:44 linux-example systemd[1]: Starting PackageKit Daemon...
+Oct 17 23:27:44 linux-example PackageKit: daemon start
+Oct 17 23:27:44 linux-example dbus-daemon[791]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 23:27:44 linux-example systemd[1]: Started PackageKit Daemon.
+Oct 17 23:30:01 linux-example CRON[3471512]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 23:30:01 linux-example CRON[3471514]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 23:32:49 linux-example PackageKit: daemon quit
+Oct 17 23:32:49 linux-example systemd[1]: packagekit.service: Succeeded.
+Oct 17 23:33:01 linux-example CRON[3471694]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 23:35:01 linux-example CRON[3471982]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 23:40:01 linux-example CRON[3472287]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 23:45:01 linux-example CRON[3472576]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 23:45:01 linux-example CRON[3472577]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 17 23:48:01 linux-example CRON[3472815]: (omsagent) CMD (/opt/omi/bin/OMSConsistencyInvoker >/dev/null 2>&1)
+Oct 17 23:49:31 linux-example python3[406733]: 2022-10-17T23:49:31.069486Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.8.0.11 is running as the goal state agent [DEBUG HeartbeatCounter: 1311;HeartbeatId: A7B96418-C870-4723-92EB-A32EF3944BA1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+Oct 17 23:50:01 linux-example CRON[3473083]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 17 23:55:01 linux-example CRON[3473367]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 18 00:00:01 linux-example CRON[3473722]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/omi --state /var/opt/omi/log/omi-logrotate.status >/dev/null 2>&1)
+Oct 18 00:00:01 linux-example CRON[3473724]: (root) CMD (/usr/sbin/logrotate -s /var/lib/logrotate/omsagent-status /etc/logrotate.d/omsagent* >/dev/null 2>&1)
+Oct 18 00:00:01 linux-example CRON[3473725]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.d/scxagent --state /var/opt/microsoft/scx/log/scx-logrotate.status >/dev/null 2>&1)
+Oct 18 00:00:21 linux-example systemd[1]: Starting Rotate log files...
+Oct 18 00:00:21 linux-example systemd[1]: Starting Daily man-db regeneration...
+Oct 18 00:00:21 linux-example logrotate[3473744]: error: waagent-extn.logrotate:1 duplicate log entry for /var/log/azure/Microsoft.EnterpriseCloud.Monitoring.OmsAgentForLinux/extension.log
+Oct 18 00:00:21 linux-example logrotate[3473744]: error: found error in file waagent-extn.logrotate, skipping
+Oct 18 00:00:21 linux-example systemd[1]: Reloading The Apache HTTP Server.
+Oct 18 00:00:21 linux-example systemd[1]: Reloaded The Apache HTTP Server.

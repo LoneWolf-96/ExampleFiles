@@ -1,0 +1,244 @@
+Log started: 2022-10-06  06:06:15
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94561 files and directories currently installed.)
+Preparing to unpack .../isc-dhcp-common_4.4.1-2.1ubuntu5.20.04.4_amd64.deb ...
+Unpacking isc-dhcp-common (4.4.1-2.1ubuntu5.20.04.4) over (4.4.1-2.1ubuntu5.20.04.3) ...
+Setting up isc-dhcp-common (4.4.1-2.1ubuntu5.20.04.4) ...
+Processing triggers for man-db (2.9.1-1) ...
+Log ended: 2022-10-06  06:06:17
+
+Log started: 2022-10-06  06:06:18
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94561 files and directories currently installed.)
+Preparing to unpack .../isc-dhcp-client_4.4.1-2.1ubuntu5.20.04.4_amd64.deb ...
+Unpacking isc-dhcp-client (4.4.1-2.1ubuntu5.20.04.4) over (4.4.1-2.1ubuntu5.20.04.3) ...
+Setting up isc-dhcp-client (4.4.1-2.1ubuntu5.20.04.4) ...
+Processing triggers for man-db (2.9.1-1) ...
+Log ended: 2022-10-06  06:06:20
+
+Log started: 2022-10-11  06:14:52
+Selecting previously unselected package linux-modules-5.15.0-1021-azure.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94561 files and directories currently installed.)
+Preparing to unpack .../00-linux-modules-5.15.0-1021-azure_5.15.0-1021.26~20.04.1_amd64.deb ...
+Unpacking linux-modules-5.15.0-1021-azure (5.15.0-1021.26~20.04.1) ...
+Selecting previously unselected package linux-image-5.15.0-1021-azure.
+Preparing to unpack .../01-linux-image-5.15.0-1021-azure_5.15.0-1021.26~20.04.1_amd64.deb ...
+Unpacking linux-image-5.15.0-1021-azure (5.15.0-1021.26~20.04.1) ...
+Preparing to unpack .../02-linux-azure_5.15.0.1021.26~20.04.14_amd64.deb ...
+Unpacking linux-azure (5.15.0.1021.26~20.04.14) over (5.15.0.1020.25~20.04.13) ...
+Preparing to unpack .../03-linux-image-azure_5.15.0.1021.26~20.04.14_amd64.deb ...
+Unpacking linux-image-azure (5.15.0.1021.26~20.04.14) over (5.15.0.1020.25~20.04.13) ...
+Selecting previously unselected package linux-azure-5.15-headers-5.15.0-1021.
+Preparing to unpack .../04-linux-azure-5.15-headers-5.15.0-1021_5.15.0-1021.26~20.04.1_all.deb ...
+Unpacking linux-azure-5.15-headers-5.15.0-1021 (5.15.0-1021.26~20.04.1) ...
+Selecting previously unselected package linux-headers-5.15.0-1021-azure.
+Preparing to unpack .../05-linux-headers-5.15.0-1021-azure_5.15.0-1021.26~20.04.1_amd64.deb ...
+Unpacking linux-headers-5.15.0-1021-azure (5.15.0-1021.26~20.04.1) ...
+Preparing to unpack .../06-linux-headers-azure_5.15.0.1021.26~20.04.14_amd64.deb ...
+Unpacking linux-headers-azure (5.15.0.1021.26~20.04.14) over (5.15.0.1020.25~20.04.13) ...
+Selecting previously unselected package linux-azure-5.15-tools-5.15.0-1021.
+Preparing to unpack .../07-linux-azure-5.15-tools-5.15.0-1021_5.15.0-1021.26~20.04.1_amd64.deb ...
+Unpacking linux-azure-5.15-tools-5.15.0-1021 (5.15.0-1021.26~20.04.1) ...
+Selecting previously unselected package linux-tools-5.15.0-1021-azure.
+Preparing to unpack .../08-linux-tools-5.15.0-1021-azure_5.15.0-1021.26~20.04.1_amd64.deb ...
+Unpacking linux-tools-5.15.0-1021-azure (5.15.0-1021.26~20.04.1) ...
+Preparing to unpack .../09-linux-tools-azure_5.15.0.1021.26~20.04.14_amd64.deb ...
+Unpacking linux-tools-azure (5.15.0.1021.26~20.04.14) over (5.15.0.1020.25~20.04.13) ...
+Selecting previously unselected package linux-azure-5.15-cloud-tools-5.15.0-1021.
+Preparing to unpack .../10-linux-azure-5.15-cloud-tools-5.15.0-1021_5.15.0-1021.26~20.04.1_amd64.deb ...
+Unpacking linux-azure-5.15-cloud-tools-5.15.0-1021 (5.15.0-1021.26~20.04.1) ...
+Selecting previously unselected package linux-cloud-tools-5.15.0-1021-azure.
+Preparing to unpack .../11-linux-cloud-tools-5.15.0-1021-azure_5.15.0-1021.26~20.04.1_amd64.deb ...
+Unpacking linux-cloud-tools-5.15.0-1021-azure (5.15.0-1021.26~20.04.1) ...
+Preparing to unpack .../12-linux-cloud-tools-azure_5.15.0.1021.26~20.04.14_amd64.deb ...
+Unpacking linux-cloud-tools-azure (5.15.0.1021.26~20.04.14) over (5.15.0.1020.25~20.04.13) ...
+Setting up linux-azure-5.15-tools-5.15.0-1021 (5.15.0-1021.26~20.04.1) ...
+Setting up linux-tools-5.15.0-1021-azure (5.15.0-1021.26~20.04.1) ...
+Setting up linux-modules-5.15.0-1021-azure (5.15.0-1021.26~20.04.1) ...
+Setting up linux-azure-5.15-headers-5.15.0-1021 (5.15.0-1021.26~20.04.1) ...
+Setting up linux-tools-azure (5.15.0.1021.26~20.04.14) ...
+Setting up linux-image-5.15.0-1021-azure (5.15.0-1021.26~20.04.1) ...
+I: /boot/vmlinuz.old is now a symlink to vmlinuz-5.15.0-1020-azure
+I: /boot/initrd.img.old is now a symlink to initrd.img-5.15.0-1020-azure
+I: /boot/vmlinuz is now a symlink to vmlinuz-5.15.0-1021-azure
+I: /boot/initrd.img is now a symlink to initrd.img-5.15.0-1021-azure
+Setting up linux-azure-5.15-cloud-tools-5.15.0-1021 (5.15.0-1021.26~20.04.1) ...
+Setting up linux-headers-5.15.0-1021-azure (5.15.0-1021.26~20.04.1) ...
+Setting up linux-headers-azure (5.15.0.1021.26~20.04.14) ...
+Setting up linux-image-azure (5.15.0.1021.26~20.04.14) ...
+Setting up linux-cloud-tools-5.15.0-1021-azure (5.15.0-1021.26~20.04.1) ...
+Setting up linux-cloud-tools-azure (5.15.0.1021.26~20.04.14) ...
+Setting up linux-azure (5.15.0.1021.26~20.04.14) ...
+Processing triggers for linux-image-5.15.0-1021-azure (5.15.0-1021.26~20.04.1) ...
+/etc/kernel/postinst.d/initramfs-tools:
+update-initramfs: Generating /boot/initrd.img-5.15.0-1021-azure
+/etc/kernel/postinst.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/40-force-partuuid.cfg'
+Sourcing file `/etc/default/grub.d/50-cloudimg-settings.cfg'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+GRUB_FORCE_PARTUUID is set, will attempt initrdless boot
+Found linux image: /boot/vmlinuz-5.15.0-1021-azure
+Found initrd image: /boot/initrd.img-5.15.0-1021-azure
+Found linux image: /boot/vmlinuz-5.15.0-1020-azure
+Found initrd image: /boot/initrd.img-5.15.0-1020-azure
+Found linux image: /boot/vmlinuz-5.15.0-1019-azure
+Found initrd image: /boot/initrd.img-5.15.0-1019-azure
+Found Ubuntu 20.04.5 LTS (20.04) on /dev/sda1
+Adding boot menu entry for UEFI Firmware Settings
+done
+Log ended: 2022-10-11  06:15:19
+
+Log started: 2022-10-11  06:15:20
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 119930 files and directories currently installed.)
+Preparing to unpack .../linux-tools-common_5.4.0-128.144_all.deb ...
+Unpacking linux-tools-common (5.4.0-128.144) over (5.4.0-126.142) ...
+Setting up linux-tools-common (5.4.0-128.144) ...
+Processing triggers for man-db (2.9.1-1) ...
+Log ended: 2022-10-11  06:15:23
+
+Log started: 2022-10-11  06:15:23
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 119930 files and directories currently installed.)
+Preparing to unpack .../linux-cloud-tools-common_5.4.0-128.144_all.deb ...
+Unpacking linux-cloud-tools-common (5.4.0-128.144) over (5.4.0-126.142) ...
+Setting up linux-cloud-tools-common (5.4.0-128.144) ...
+Processing triggers for man-db (2.9.1-1) ...
+Log ended: 2022-10-11  06:15:27
+
+Log started: 2022-10-11  06:15:28
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 119930 files and directories currently installed.)
+Removing linux-headers-5.15.0-1020-azure (5.15.0-1020.25~20.04.1) ...
+Log ended: 2022-10-11  06:15:30
+
+Log started: 2022-10-11  06:15:30
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 114441 files and directories currently installed.)
+Removing linux-azure-5.15-headers-5.15.0-1020 (5.15.0-1020.25~20.04.1) ...
+Log ended: 2022-10-11  06:15:33
+
+Log started: 2022-10-11  06:15:33
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 95724 files and directories currently installed.)
+Removing linux-image-5.15.0-1020-azure (5.15.0-1020.25~20.04.1) ...
+I: /boot/vmlinuz.old is now a symlink to vmlinuz-5.15.0-1019-azure
+I: /boot/initrd.img.old is now a symlink to initrd.img-5.15.0-1019-azure
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-5.15.0-1020-azure
+/etc/kernel/postrm.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/40-force-partuuid.cfg'
+Sourcing file `/etc/default/grub.d/50-cloudimg-settings.cfg'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+GRUB_FORCE_PARTUUID is set, will attempt initrdless boot
+Found linux image: /boot/vmlinuz-5.15.0-1021-azure
+Found initrd image: /boot/initrd.img-5.15.0-1021-azure
+Found linux image: /boot/vmlinuz-5.15.0-1019-azure
+Found initrd image: /boot/initrd.img-5.15.0-1019-azure
+Found Ubuntu 20.04.5 LTS (20.04) on /dev/sda1
+Adding boot menu entry for UEFI Firmware Settings
+done
+Removing linux-modules-5.15.0-1020-azure (5.15.0-1020.25~20.04.1) ...
+Log ended: 2022-10-11  06:15:39
+
+Log started: 2022-10-11  06:15:39
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94600 files and directories currently installed.)
+Removing linux-tools-5.15.0-1020-azure (5.15.0-1020.25~20.04.1) ...
+Removing linux-azure-5.15-tools-5.15.0-1020 (5.15.0-1020.25~20.04.1) ...
+Log ended: 2022-10-11  06:15:41
+
+Log started: 2022-10-11  06:15:41
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94579 files and directories currently installed.)
+Removing linux-cloud-tools-5.15.0-1020-azure (5.15.0-1020.25~20.04.1) ...
+Log ended: 2022-10-11  06:15:43
+
+Log started: 2022-10-11  06:15:44
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94571 files and directories currently installed.)
+Removing linux-azure-5.15-cloud-tools-5.15.0-1020 (5.15.0-1020.25~20.04.1) ...
+Log ended: 2022-10-11  06:15:45
+
+Log started: 2022-10-13  06:02:47
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94563 files and directories currently installed.)
+Preparing to unpack .../libgmp10_2%3a6.2.0+dfsg-4ubuntu0.1_amd64.deb ...
+Unpacking libgmp10:amd64 (2:6.2.0+dfsg-4ubuntu0.1) over (2:6.2.0+dfsg-4) ...
+Setting up libgmp10:amd64 (2:6.2.0+dfsg-4ubuntu0.1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+Log ended: 2022-10-13  06:02:49
+
+Log started: 2022-10-14  06:18:02
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94563 files and directories currently installed.)
+Preparing to unpack .../libheimbase1-heimdal_7.7.0+dfsg-1ubuntu1.1_amd64.deb ...
+Unpacking libheimbase1-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.1) over (7.7.0+dfsg-1ubuntu1) ...
+Setting up libheimbase1-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+Log ended: 2022-10-14  06:18:05
+
+Log started: 2022-10-14  06:18:06
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94563 files and directories currently installed.)
+Preparing to unpack .../libhx509-5-heimdal_7.7.0+dfsg-1ubuntu1.1_amd64.deb ...
+Unpacking libhx509-5-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.1) over (7.7.0+dfsg-1ubuntu1) ...
+Setting up libhx509-5-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+Log ended: 2022-10-14  06:18:08
+
+Log started: 2022-10-14  06:18:08
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94563 files and directories currently installed.)
+Preparing to unpack .../libwind0-heimdal_7.7.0+dfsg-1ubuntu1.1_amd64.deb ...
+Unpacking libwind0-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.1) over (7.7.0+dfsg-1ubuntu1) ...
+Setting up libwind0-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+Log ended: 2022-10-14  06:18:11
+
+Log started: 2022-10-14  06:18:11
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94563 files and directories currently installed.)
+Preparing to unpack .../libasn1-8-heimdal_7.7.0+dfsg-1ubuntu1.1_amd64.deb ...
+Unpacking libasn1-8-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.1) over (7.7.0+dfsg-1ubuntu1) ...
+Setting up libasn1-8-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+Log ended: 2022-10-14  06:18:13
+
+Log started: 2022-10-14  06:18:14
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94563 files and directories currently installed.)
+Preparing to unpack .../libheimntlm0-heimdal_7.7.0+dfsg-1ubuntu1.1_amd64.deb ...
+Unpacking libheimntlm0-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.1) over (7.7.0+dfsg-1ubuntu1) ...
+Setting up libheimntlm0-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+Log ended: 2022-10-14  06:18:16
+
+Log started: 2022-10-14  06:18:17
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94563 files and directories currently installed.)
+Preparing to unpack .../libroken18-heimdal_7.7.0+dfsg-1ubuntu1.1_amd64.deb ...
+Unpacking libroken18-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.1) over (7.7.0+dfsg-1ubuntu1) ...
+Setting up libroken18-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+Log ended: 2022-10-14  06:18:19
+
+Log started: 2022-10-14  06:18:19
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94563 files and directories currently installed.)
+Preparing to unpack .../libkrb5-26-heimdal_7.7.0+dfsg-1ubuntu1.1_amd64.deb ...
+Unpacking libkrb5-26-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.1) over (7.7.0+dfsg-1ubuntu1) ...
+Setting up libkrb5-26-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+Log ended: 2022-10-14  06:18:22
+
+Log started: 2022-10-14  06:18:22
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94563 files and directories currently installed.)
+Preparing to unpack .../libgssapi3-heimdal_7.7.0+dfsg-1ubuntu1.1_amd64.deb ...
+Unpacking libgssapi3-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.1) over (7.7.0+dfsg-1ubuntu1) ...
+Setting up libgssapi3-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+Log ended: 2022-10-14  06:18:24
+
+Log started: 2022-10-14  06:18:25
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94563 files and directories currently installed.)
+Preparing to unpack .../libhcrypto4-heimdal_7.7.0+dfsg-1ubuntu1.1_amd64.deb ...
+Unpacking libhcrypto4-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.1) over (7.7.0+dfsg-1ubuntu1) ...
+Setting up libhcrypto4-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+Log ended: 2022-10-14  06:18:27
+
+Log started: 2022-10-18  07:00:00
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94563 files and directories currently installed.)
+Preparing to unpack .../zlib1g_1%3a1.2.11.dfsg-2ubuntu1.5_amd64.deb ...
+Unpacking zlib1g:amd64 (1:1.2.11.dfsg-2ubuntu1.5) over (1:1.2.11.dfsg-2ubuntu1.3) ...
+Setting up zlib1g:amd64 (1:1.2.11.dfsg-2ubuntu1.5) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+Log ended: 2022-10-18  07:00:02
+

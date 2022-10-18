@@ -1,0 +1,100 @@
+Cloud-init v. 22.2-0ubuntu1~20.04.3 running 'init-local' at Sat, 17 Sep 2022 16:06:22 +0000. Up 16.55 seconds.
+Cloud-init v. 22.2-0ubuntu1~20.04.3 running 'init' at Sat, 17 Sep 2022 16:06:26 +0000. Up 21.00 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++++
+ci-info: +------------+------+------------------------------+---------------+--------+-------------------+
+ci-info: |   Device   |  Up  |           Address            |      Mask     | Scope  |     Hw-Address    |
+ci-info: +------------+------+------------------------------+---------------+--------+-------------------+
+ci-info: | enP52403s1 | True |              .               |       .       |   .    | 60:45:bd:0f:5c:c5 |
+ci-info: |    eth0    | True |           10.7.0.6           | 255.255.255.0 | global | 60:45:bd:0f:5c:c5 |
+ci-info: |    eth0    | True | fe80::6245:bdff:fe0f:5cc5/64 |       .       |  link  | 60:45:bd:0f:5c:c5 |
+ci-info: |     lo     | True |          127.0.0.1           |   255.0.0.0   |  host  |         .         |
+ci-info: |     lo     | True |           ::1/128            |       .       |  host  |         .         |
+ci-info: +------------+------+------------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++++
+ci-info: +-------+-----------------+----------+-----------------+-----------+-------+
+ci-info: | Route |   Destination   | Gateway  |     Genmask     | Interface | Flags |
+ci-info: +-------+-----------------+----------+-----------------+-----------+-------+
+ci-info: |   0   |     0.0.0.0     | 10.7.0.1 |     0.0.0.0     |    eth0   |   UG  |
+ci-info: |   1   |     10.7.0.0    | 0.0.0.0  |  255.255.255.0  |    eth0   |   U   |
+ci-info: |   2   |  168.63.129.16  | 10.7.0.1 | 255.255.255.255 |    eth0   |  UGH  |
+ci-info: |   3   | 169.254.169.254 | 10.7.0.1 | 255.255.255.255 |    eth0   |  UGH  |
+ci-info: +-------+-----------------+----------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |    eth0   |   U   |
+ci-info: |   3   |    local    |    ::   |    eth0   |   U   |
+ci-info: |   4   |  multicast  |    ::   |    eth0   |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub
+The key fingerprint is:
+SHA256:oaVy+YFl+otZ2zNp/FMEF0leTGqmLmy/Q9LgQZV0ggA root@linux-example
+The key's randomart image is:
++---[RSA 3072]----+
+|      E... ++o+=o|
+|          o o+oo.|
+|        =.   o=  |
+|       X .o  +.  |
+|    . B S. +..   |
+|     o o oo.o .  |
+|        +.++..   |
+|       + =*oo    |
+|      o o..+++   |
++----[SHA256]-----+
+Generating public/private dsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_dsa_key
+Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub
+The key fingerprint is:
+SHA256:Ut3+mW5FBidn+iYacGlAXLciBTewjgL18GFXh4AKWLw root@linux-example
+The key's randomart image is:
++---[DSA 1024]----+
+|   +. o o+***.o  |
+|  . o. =.+o=.+o.+|
+|    .o .+ +.o..B |
+|    E... o.o+.. o|
+|      o S .+.  + |
+|       o    ...o+|
+|             o++ |
+|            ...  |
+|             ..  |
++----[SHA256]-----+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub
+The key fingerprint is:
+SHA256:he9jLmmkEYx8MovhEBaec/D0/2BRmmnymBaDdSVJJOs root@linux-example
+The key's randomart image is:
++---[ECDSA 256]---+
+| o.. oo=oo       |
+|o.= + +.*.       |
+|.= = O *. .      |
+|. + * & .o       |
+| o o E *S .      |
+|  o o o +.       |
+|       + o+      |
+|      . +o .     |
+|       . ..      |
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub
+The key fingerprint is:
+SHA256:tX9SrRe9OBAgn7tgW1dhflT0nAbjVmKmxdoSxKvvak8 root@linux-example
+The key's randomart image is:
++--[ED25519 256]--+
+|       . .o..X ++|
+|        o ooO.B.o|
+|         o.o== +o|
+|         ..=+.o..|
+|       oSooo. ..o|
+|      . +.o.....o|
+|       . ..Eooo..|
+|         ... o.. |
+|        ..+o     |
++----[SHA256]-----+
+Cloud-init v. 22.2-0ubuntu1~20.04.3 running 'modules:config' at Sat, 17 Sep 2022 16:06:42 +0000. Up 36.48 seconds.
+Cloud-init v. 22.2-0ubuntu1~20.04.3 running 'modules:final' at Sat, 17 Sep 2022 16:06:44 +0000. Up 38.60 seconds.
+Cloud-init v. 22.2-0ubuntu1~20.04.3 finished at Sat, 17 Sep 2022 16:06:44 +0000. Datasource DataSourceAzure [seed=/dev/sr0].  Up 38.81 seconds
