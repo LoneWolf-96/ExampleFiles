@@ -1,0 +1,224 @@
+﻿SourceFile,SourceFileSha1,Reason
+C:\Windows\System32\winevt\logs\Microsoft-AppV-Client%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-AppV-Client%4Virtual Applications.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Client-License-Flexible-Platform%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-User Experience Virtualization-Agent Driver%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-User Experience Virtualization-App Agent%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-User Experience Virtualization-IPC%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-User Experience Virtualization-SQM Uploader%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-All-User-Install-Agent%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-AllJoyn%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-AppHost%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-AppID%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-ApplicabilityEngine%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Application Server-Applications%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Application Server-Applications%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-AppLocker%4EXE and DLL.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-AppLocker%4MSI and Script.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-AppLocker%4Packaged app-Deployment.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-AppLocker%4Packaged app-Execution.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-AssignedAccess%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-AssignedAccessBroker%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Audio%4CaptureMonitor.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Audio%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Audio%4PlaybackManager.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Authentication User Interface%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Backup.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-BitLocker%4BitLocker Management.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-BitLocker-DrivePreparationTool%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-BitLocker-DrivePreparationTool%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Bluetooth-BthLEPrepairing%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Bluetooth-MTPEnum%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-BranchCache%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-BranchCacheSMB%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-CertificateServicesClient-Lifecycle-User%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Cleanmgr%4Diagnostic.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Compat-Appraiser%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Containers-Wcnfs%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-CoreApplication%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-CorruptedFileRecovery-Client%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-CorruptedFileRecovery-Server%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-DAL-Provider%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-DataIntegrityScan%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-DataIntegrityScan%4CrashRecovery.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-DateTimeControlPanel%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Deduplication%4Diagnostic.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Deduplication%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Deduplication%4Scrubbing.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-DeviceGuard%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Devices-Background%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-DeviceSync%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-DeviceUpdateAgent%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Diagnostics-Networking%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-DiskDiagnostic%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-DiskDiagnosticResolver%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-DSC%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-DSC%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-DucUpdateAgent%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-DxgKrnl-Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-DxgKrnl-Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-EapHost%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-EapMethods-RasChap%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-EapMethods-RasTls%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-EapMethods-Sim%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-EapMethods-Ttls%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-EDP-Application-Learning%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-EDP-Audit-Regular%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-EDP-Audit-TCB%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-EventCollector%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Fault-Tolerant-Heap%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-FeatureConfiguration%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-FileHistory-Engine%4BackupLog.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-FMS%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Folder Redirection%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Forwarding%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-GenericRoaming%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Help%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-HomeGroup Control Panel%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-HomeGroup Listener Service%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-HomeGroup Provider Service%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Hyper-V-Hypervisor-Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Hyper-V-Hypervisor-Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Hyper-V-VID-Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-IdCtrls%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-IKE%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-International-RegionalOptionsControlPanel%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Iphlpsvc%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-IPxlatCfg%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-KdsSvc%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Kernel-ApphelpCache%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Kernel-IO%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Kernel-LiveDump%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Kernel-WDI%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-KeyboardFilter%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-MemoryDiagnostics-Results%4Debug.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Mobile-Broadband-Experience-Parser-Task%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4Autopilot.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4Diagnostics.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4ManagementService.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Mprddm%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-MUI%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-NdisImPlatform%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-NetworkLocationWizard%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-NetworkProvider%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-NetworkProvisioning%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-NlaSvc%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-NTLM%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-OcpUpdateAgent%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-OfflineFiles%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-OneBackup%4Debug.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-OOBE-Machine-DUI%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-PackageStateRoaming%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-ParentalControls%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-PerceptionRuntime%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-PerceptionSensorDataService%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-PersistentMemory-Nvdimm%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-PersistentMemory-PmemDisk%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-PersistentMemory-ScmBus%4Certification.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-PersistentMemory-ScmBus%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Policy%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-PrintBRM%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-PrintService%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-ReadyBoostDriver%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-ReFS%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Regsvr32%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-RemoteApp and Desktop Connections%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-RemoteApp and Desktop Connections%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-RemoteAssistance%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-RemoteDesktopServices-RemoteFX-Synth3dvsc%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-RemoteDesktopServices-SessionServices%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Resource-Exhaustion-Resolver%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-RetailDemo%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-RetailDemo%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SearchUI%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Security-Adminless%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Security-Audit-Configuration-Client%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Security-EnterpriseData-FileRevocationManager%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Security-LessPrivilegedAppContainer%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Security-Netlogon%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Security-UserConsentVerifier%4Audit.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SecurityMitigationsBroker%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SENSE%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SenseIR%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SettingSync-Azure%4Debug.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SettingSync-Azure%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SettingSync-OneDrive%4Debug.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SettingSync-OneDrive%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SmartCard-Audit%4Authentication.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SmartCard-TPM-VCard-Module%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SmartCard-TPM-VCard-Module%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SMBDirect%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SMBWitnessClient%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SMBWitnessClient%4Informational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Storage-ClassPnP%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Storage-Tiering%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-StorageManagement%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-StorageSettings%4Diagnostic.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-StorageSpaces-SpaceManager%4Diagnostic.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-StorageSpaces-SpaceManager%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SystemSettingsThreshold%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-TCPIP%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-TenantRestrictions%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-TerminalServices-ClientUSBDevices%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-TerminalServices-ClientUSBDevices%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-TerminalServices-Printers%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-TerminalServices-Printers%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-TerminalServices-RDPClient%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Time-Service-PTP-Provider%4PTP-Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Troubleshooting-Recommended%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Troubleshooting-Recommended%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Users\azureadmin\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\8e4e81d9adc545b8.customDestinations-ms,707C3647EEC303E0801EFDF2D4636B3D409F42B9,Deduped
+C:\Windows\System32\SRU\SRUres00002.jrs,1ADC95BEBE9EEA8C112D40CD04AB7A8D75C4F961,Deduped
+C:\Windows\System32\SRU\SRUtmp.log,1ADC95BEBE9EEA8C112D40CD04AB7A8D75C4F961,Deduped
+C:\Windows\System32\winevt\logs\HardwareEvents.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Internet Explorer.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Key Management Service.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Application-Experience%4Program-Compatibility-Assistant.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Application-Experience%4Program-Compatibility-Troubleshooter.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Application-Experience%4Program-Inventory.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Application-Experience%4Steps-Recorder.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-AppXDeploymentServer%4Restricted.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-CertificateServicesClient-Lifecycle-System%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Crypto-DPAPI%4BackUpKeySvc.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Dhcpv6-Client%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-DiskDiagnosticDataCollector%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-FileHistory-Core%4WHC.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-HotspotAuth%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Kernel-PnP%4Driver Watchdog.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Kernel-Power%4Thermal-Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Kernel-StoreMgr%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Kernel-WHEA%4Errors.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-PowerShell%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Program-Compatibility-Assistant%4CompatAfterUpgrade.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Provisioning-Diagnostics-Provider%4AutoPilot.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Provisioning-Diagnostics-Provider%4ManagementService.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-PushNotification-Platform%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-RemoteDesktopServices-RdpCoreTS%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-RestartManager%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Security-Mitigations%4UserMode.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SettingSync%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Shell-ConnectedAccountState%4ActionCenter.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Shell-Core%4ActionCenter.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Shell-Core%4LogonTasksChannel.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SmbClient%4Audit.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SMBClient%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SMBServer%4Audit.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-SMBServer%4Connectivity.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Storage-Storport%4Health.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-StorageSpaces-Driver%4Diagnostic.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-StorageSpaces-ManagementAgent%4WHC.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-TerminalServices-LocalSessionManager%4Admin.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-TerminalServices-ServerUSBDevices%4Operational.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-UserPnp%4ActionCenter.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Windows Defender%4WHC.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Windows Firewall With Advanced Security%4ConnectionSecurity.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-Windows Firewall With Advanced Security%4FirewallDiagnostics.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-WindowsBackup%4ActionCenter.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-Windows-WorkFolders%4WHC.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-WindowsAzure-Diagnostics%4Bootstrapper.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Microsoft-WindowsAzure-Diagnostics%4Runtime.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped
+C:\Windows\System32\winevt\logs\Windows Azure.evtx,C70BFFF0A559AF8CB76AD80A504DD55BD6CC484D,Deduped

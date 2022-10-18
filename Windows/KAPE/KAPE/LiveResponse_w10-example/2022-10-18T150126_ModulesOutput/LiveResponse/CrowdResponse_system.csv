@@ -1,0 +1,2 @@
+system,timestamp_utc,timestamp_local,timezone,ipv4,macv4,ipv6,macv6,netbios,domain,dns,os,osinstall,csid,agid,iswow64process,is64bitOS,isAdmin,output,version
+"CrowdResponse","2022-10-18T15:03:00Z","2022-10-18T15:03:00","Coordinated Universal Time","10.7.0.5","60-45-BD-0F-C2-66","fe80::f8ab:a107:e7ca:e119","60-45-BD-0F-C2-66","w10-example","WORKGROUP","w10-example","Windows 10 Pro","2022-09-10T20:31:04Z","NoCSID","NoAGID","FALSE","TRUE","TRUE","CrowdResponse.xml","1.0.6.0"
